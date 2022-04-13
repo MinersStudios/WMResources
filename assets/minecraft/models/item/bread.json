@@ -1,0 +1,14 @@
+{
+    "overrides":[
+        {"model":"custom/items/candy_1","predicate":{"custom_model_data":6000}},
+        {"model":"custom/items/candy_2","predicate":{"custom_model_data":6001}},
+        {"model":"custom/items/candy_3","predicate":{"custom_model_data":6002}},
+
+
+        {"model":"item/bread","predicate":{"custom_model_data":12000}}
+    ],
+    "parent":"item/generated",
+    "textures":{
+        "layer0":"item/bread"
+    }
+}

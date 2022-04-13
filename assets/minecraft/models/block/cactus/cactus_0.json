@@ -1,0 +1,41 @@
+{
+	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
+	"ambientocclusion": false,
+	"textures": {
+		"bottom": "block/cactus/cactus_bottom",
+		"particle": "block/cactus/cactus_side",
+		"side": "block/cactus/cactus_side",
+		"top": "block/cactus/cactus_top"
+	},
+	"elements": [
+		{
+			"name": "stem_top",
+			"from": [1, 0, 1],
+			"to": [15, 16, 15],
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "stem_side",
+			"from": [1, 0, 2],
+			"to": [15, 16, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#side"},
+				"south": {"uv": [1, 0, 15, 16], "texture": "#side"}
+			}
+		},
+		{
+			"name": "stem_side",
+			"from": [2, 0, 1],
+			"to": [14, 16, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 8]},
+			"faces": {
+				"east": {"uv": [1, 0, 15, 16], "texture": "#side"},
+				"west": {"uv": [1, 0, 15, 16], "texture": "#side"}
+			}
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+    "overrides":[
+        {"model":"custom/block/wood/acacia/vertical_planks","predicate":{"custom_model_data":1000}},
+        {"model":"custom/block/wood/birch/vertical_planks","predicate":{"custom_model_data":1001}},
+        {"model":"custom/block/wood/crimson/vertical_planks","predicate":{"custom_model_data":1002}},
+        {"model":"custom/block/wood/dark_oak/vertical_planks","predicate":{"custom_model_data":1003}},
+        {"model":"custom/block/wood/jungle/vertical_planks","predicate":{"custom_model_data":1004}},
+        {"model":"custom/block/wood/oak/vertical_planks","predicate":{"custom_model_data":1005}},
+        {"model":"custom/block/wood/spruce/vertical_planks","predicate":{"custom_model_data":1006}},
+        {"model":"custom/block/wood/warped/vertical_planks","predicate":{"custom_model_data":1007}},
+
+        {"model":"custom/block/wood/acacia/vertical_planks","predicate":{"custom_model_data":1008}},
+        {"model":"custom/block/wood/birch/vertical_planks","predicate":{"custom_model_data":1009}},
+        {"model":"custom/block/wood/crimson/vertical_planks","predicate":{"custom_model_data":1010}},
+        {"model":"custom/block/wood/dark_oak/vertical_planks","predicate":{"custom_model_data":1011}},
+        {"model":"custom/block/wood/jungle/vertical_planks","predicate":{"custom_model_data":1012}},
+        {"model":"custom/block/wood/oak/vertical_planks","predicate":{"custom_model_data":1013}},
+        {"model":"custom/block/wood/spruce/vertical_planks","predicate":{"custom_model_data":1014}},
+        {"model":"custom/block/wood/warped/vertical_planks","predicate":{"custom_model_data":1015}},
+
+        {"model":"custom/block/crates/crate_1","predicate":{"custom_model_data":1016}},
+
+        
+        {"model":"item/paper","predicate":{"custom_model_data":12000}}
+    ],
+    "parent":"item/handheld_rod",
+    "textures":{
+        "layer0":"item/paper"
+    }
+}
