@@ -15,7 +15,7 @@
         {"ascent": 6, "height": 8, "chars": ["\uA015"],"file":"custom/ui/icons/speech.png","type":"bitmap"},
         {"ascent": 6, "height": 8, "chars": ["\uA022"],"file":"custom/ui/icons/discord.png","type":"bitmap"},
 
-        {"ascent": -16, "height": 9, "chars": ["\uA008\uA010\uA009"], "file":"custom/ui/water.png", "type":"bitmap"},
+        {"ascent": 8, "height": 9, "chars": ["\uA008\uA010\uA009"], "file":"custom/ui/water.png", "type":"bitmap"},
         {"ascent": 8, "height": 9, "chars": ["\uA016\uA017"], "file":"custom/ui/icons/armor.png", "type":"bitmap"},
         {"ascent": 8, "height": 9, "chars": ["\uA018\uA020\uA019\uA021"], "file":"custom/ui/icons/hunger.png", "type":"bitmap"},
         {"ascent": 8, "height": 8, "chars": ["\uD83E\uDDE2\uD83D\uDC5F\u2020\uD83D\uDEE1"], "file":"custom/ui/icons/extra.png", "type":"bitmap"}

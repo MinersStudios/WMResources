@@ -1,9 +1,9 @@
 {
     "overrides":[
-        {"model":"custom/crucible","predicate":{"custom_model_data":1000}},
+        {"model":"custom/items/crucible","predicate":{"custom_model_data":12000}},
 
 
-        {"model":"item/netherite_sword","predicate":{"custom_model_data":12000}}
+        {"model":"item/netherite_sword","predicate":{"custom_model_data":13000}}
     ],
     "parent":"item/handheld",
     "textures": {

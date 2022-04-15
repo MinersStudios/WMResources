@@ -2,7 +2,7 @@
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "crucible/crucible"
+		"0": "custom/items/crucible/crucible"
 	},
 	"elements": [
 		{
@@ -263,15 +263,28 @@
 		{
 			"name": "crucible",
 			"origin": [0, 0, 0],
-			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+			"color": 0,
+			"children": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
 				{
 					"name": "claw",
 					"origin": [0.5, 7.5, -2],
+					"color": 0,
 					"children": [10, 11, 12]
 				},
 				{
 					"name": "claw",
 					"origin": [0.5, 7.5, 2],
+					"color": 0,
 					"children": [13, 14, 15]
 				}
 			]

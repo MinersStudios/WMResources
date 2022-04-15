@@ -1,8 +1,8 @@
 {
     "overrides":[
-        {"model":"custom/items/candy_1","predicate":{"custom_model_data":6000}},
-        {"model":"custom/items/candy_2","predicate":{"custom_model_data":6001}},
-        {"model":"custom/items/candy_3","predicate":{"custom_model_data":6002}},
+        {"model":"custom/halloween/candys/candy_1","predicate":{"custom_model_data":1000}},
+        {"model":"custom/halloween/candys/candy_2","predicate":{"custom_model_data":1001}},
+        {"model":"custom/halloween/candys/candy_3","predicate":{"custom_model_data":1002}},
 
 
         {"model":"item/bread","predicate":{"custom_model_data":12000}}
