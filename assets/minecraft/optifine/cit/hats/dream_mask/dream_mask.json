@@ -1,0 +1,70 @@
+{
+	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "custom/hats/dream_mask",
+		"particle": "custom/hats/dream_mask"
+	},
+	"gui_light":"front",
+	"elements": [
+		{
+			"from": [4, 2, 4],
+			"to": [12, 10, 12],
+			"faces": {
+				"north": {"uv": [10, 4, 12, 8], "texture": "#0"},
+				"east": {"uv": [8, 4, 10, 8], "texture": "#0"},
+				"south": {"uv": [14, 4, 16, 8], "texture": "#0"},
+				"west": {"uv": [12, 4, 14, 8], "texture": "#0"},
+				"up": {"uv": [10, 0, 12, 4], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [3, 3.5, 5, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 2, 4],
+			"to": [12, 10, 4],
+			"faces": {
+				"north": {"uv": [3, 3.5, 5, 7.5], "texture": "#0"},
+				"east": {"uv": [3, 3.5, 5, 7.5], "texture": "#0"},
+				"south": {"uv": [10, 4, 12, 8], "texture": "#0"},
+				"west": {"uv": [3, 3.5, 5, 7.5], "texture": "#0"},
+				"up": {"uv": [3, 3.5, 5, 7.5], "texture": "#0"},
+				"down": {"uv": [3, 3.5, 5, 7.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [36, 0, 0],
+			"translation": [0, -0.5, 2.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [36, 0, 0],
+			"translation": [0, -0.5, 2.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"translation": [3.75, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [3.75, 0, 0]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -6.75, 0]
+		},
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 2.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"head": {
+			"translation": [0, 3.75, 0],
+			"scale": [1.82, 1.82, 1.82]
+		},
+		"fixed": {
+			"translation": [0, 2.5, 3.5],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

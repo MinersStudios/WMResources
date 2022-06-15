@@ -1,0 +1,66 @@
+{
+	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
+	"textures": {
+		"0": "custom/hats/beret/beret_magenta",
+		"particle": "custom/hats/beret/beret_magenta"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 3, 13],
+			"faces": {
+				"north": {"uv": [0, 11, 10, 14], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 11, 10, 14], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 11, 10, 14], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 11, 10, 14], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0, 0, 10, 10], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [4, 13, 5, 14], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7, 3, 8],
+			"to": [9, 5, 8],
+			"faces": {
+				"north": {"uv": [10, 0, 12, 2], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [12, 0, 10, 2], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-23, 0, 0],
+			"translation": [0, 0.75, -2.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-23, 0, 0],
+			"translation": [0, 0.75, -2.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-31, 0, 0],
+			"translation": [4.75, 6.5, -3.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-31, 0, 0],
+			"translation": [4.75, 6.5, -3.25]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 5.25, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 9],
+			"translation": [-2, 16.5, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -13.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}

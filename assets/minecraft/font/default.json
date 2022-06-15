@@ -6,14 +6,14 @@
         {"ascent": 32, "height": 64, "chars": ["\uA004", "\uA005"], "file":"custom/ui/logo.png", "type":"bitmap"},
 
         {"ascent": 8, "height": 64, "chars":["\uA006"], "file":"custom/ui/update_msg.png", "type":"bitmap"},
-        {"ascent": 128, "height": 256, "chars":["\uA007"], "file":"custom/ui/help.png", "type":"bitmap"},
+        {"ascent": 8, "height": 256, "chars":["\uA007"], "file":"custom/ui/help.png", "type":"bitmap"},
         
         {"ascent": 7, "height": 7, "chars": ["\uA011"],"file":"custom/ui/icons/error.png","type":"bitmap"},
         {"ascent": 7, "height": 7, "chars": ["\uA012"],"file":"custom/ui/icons/error_green.png","type":"bitmap"},
         {"ascent": 7, "height": 7, "chars": ["\uA013"],"file":"custom/ui/icons/error_yellow.png","type":"bitmap"},
         {"ascent": 7, "height": 7, "chars": ["\uA014"],"file":"custom/ui/icons/discord.png","type":"bitmap"},
         {"ascent": 6, "height": 8, "chars": ["\uA015"],"file":"custom/ui/icons/speech.png","type":"bitmap"},
-        {"ascent": 6, "height": 8, "chars": ["\uA022"],"file":"custom/ui/icons/discord.png","type":"bitmap"},
+        {"ascent": 6, "height": 7, "chars": ["\uA022"],"file":"custom/ui/blanks/paintable.png","type":"bitmap"},
 
         {"ascent": 8, "height": 9, "chars": ["\uA008\uA010\uA009"], "file":"custom/ui/water.png", "type":"bitmap"},
         {"ascent": 8, "height": 9, "chars": ["\uA016\uA017"], "file":"custom/ui/icons/armor.png", "type":"bitmap"},
