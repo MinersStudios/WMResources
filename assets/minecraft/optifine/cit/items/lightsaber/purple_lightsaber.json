@@ -1,10 +1,10 @@
 {
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"0": "custom/weapons/lightsaber/lightsaber",
-		"1": "custom/weapons/lightsaber/lightsaber_purple",
-		"2": "custom/weapons/lightsaber/blue",
-		"particle": "custom/weapons/lightsaber/lightsaber"
+		"0": "./textures/lightsaber",
+		"1": "./textures/lightsaber_purple",
+		"2": "./textures/blue",
+		"particle": "./textures/lightsaber"
 	},
 	"elements": [
 		{

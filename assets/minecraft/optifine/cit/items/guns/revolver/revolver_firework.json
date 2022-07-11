@@ -2,9 +2,9 @@
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "custom/guns/revolver",
-		"2": "item/flintlock_firework",
-		"particle": "item/flintlock_firework"
+		"1": "./revolver",
+		"2": "./firework",
+		"particle": "./firework"
 	},
 	"elements": [
 		{

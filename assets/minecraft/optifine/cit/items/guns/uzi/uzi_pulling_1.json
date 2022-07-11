@@ -2,8 +2,8 @@
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom/guns/uzi",
-		"particle": "custom/guns/uzi"
+		"0": "./uzi",
+		"particle": "./uzi"
 	},
 	"elements": [
 		{

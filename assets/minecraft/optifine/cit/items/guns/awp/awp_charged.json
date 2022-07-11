@@ -2,8 +2,8 @@
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [64, 48],
 	"textures": {
-		"0": "custom/guns/awp",
-		"particle": "custom/guns/awp"
+		"0": "./awp",
+		"particle": "./awp"
 	},
 	"elements": [
 		{

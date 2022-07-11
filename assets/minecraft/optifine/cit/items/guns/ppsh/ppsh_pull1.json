@@ -2,8 +2,8 @@
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/guns/PPSH",
-		"particle": "custom/guns/PPSH"
+		"0": "./ppsh",
+		"particle": "./ppsh"
 	},
 	"elements": [
 		{

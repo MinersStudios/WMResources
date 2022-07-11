@@ -1,8 +1,8 @@
 {
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"0": "custom/hats/racoon_hat",
-		"particle": "custom/hats/racoon_hat"
+		"0": "./racoon_hat",
+		"particle": "./racoon_hat"
 	},
 	"elements": [
 		{
@@ -51,7 +51,8 @@
 			"translation": [13.5, 0.5, -13]
 		},
 		"ground": {
-			"translation": [0, 4.5, 0]
+			"translation": [0, 4.5, 0],
+			"scale": [0.31, 0.31, 0.31]
 		},
 		"gui": {
 			"rotation": [30, -136, 0],

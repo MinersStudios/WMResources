@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/musket",
-		"particle": "item/flintlock",
-		"1_0": "item/flintlock"
+		"0": "./musket",
+		"particle": "./flintlock",
+		"1_0": "./flintlock"
 	},
 	"elements": [
 		{

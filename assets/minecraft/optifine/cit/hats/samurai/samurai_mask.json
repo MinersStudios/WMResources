@@ -1,8 +1,8 @@
 {
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"0": "custom/hats/samurai",
-		"particle": "custom/hats/samurai"
+		"0": "./samurai",
+		"particle": "./samurai"
 	},
 	"elements": [
 		{
@@ -171,7 +171,8 @@
 			"scale": [0.78, 0.78, 0.78]
 		},
 		"ground": {
-			"translation": [0.5, 2.75, 0.5]
+			"translation": [0.5, 2.75, 0.5],
+			"scale": [0.41, 0.41, 0.41]
 		},
 		"gui": {
 			"rotation": [32, -42, 0],

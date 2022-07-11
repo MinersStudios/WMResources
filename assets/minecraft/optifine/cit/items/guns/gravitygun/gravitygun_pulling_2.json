@@ -1,13 +1,13 @@
 {
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"0": "gravitygun/charged_gravitygun_crystal",
-		"1": "gravitygun/charged_gravitygun_muzzle",
-		"2": "gravitygun/charged_gravitygun_body",
-		"3": "gravitygun/charged_gravitygun_support",
-		"4": "gravitygun/charged_gravitygun_handles",
-		"5": "gravitygun/charged_gravitygun_claws",
-		"particle": "gravitygun/charged_gravitygun_crystal"
+		"0": "./textures/charged_gravitygun_crystal",
+		"1": "./textures/charged_gravitygun_muzzle",
+		"2": "./textures/charged_gravitygun_body",
+		"3": "./textures/charged_gravitygun_support",
+		"4": "./textures/charged_gravitygun_handles",
+		"5": "./textures/charged_gravitygun_claws",
+		"particle": "./textures/charged_gravitygun_crystal"
 	},
 	"elements": [
 		{

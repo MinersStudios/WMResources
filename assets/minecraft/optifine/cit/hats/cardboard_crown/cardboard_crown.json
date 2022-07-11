@@ -1,13 +1,14 @@
 {
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
+	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom/hats/cardboard_crown",
-		"particle": "custom/hats/cardboard_crown"
+		"0": "./cardboard_crown",
+		"particle": "./cardboard_crown"
 	},
 	"elements": [
 		{
-			"from": [3, 0, 4],
-			"to": [12, 7, 13],
+			"from": [3, 0, 3],
+			"to": [13, 8, 13],
 			"faces": {
 				"north": {"uv": [0, 5, 5, 9], "texture": "#0"},
 				"east": {"uv": [5, 5, 10, 9], "texture": "#0"},
@@ -16,36 +17,49 @@
 				"up": {"uv": [0, 0, 5, 5], "texture": "#0"},
 				"down": {"uv": [0, 9, 5, 13.5], "texture": "#0"}
 			}
+		},
+		{
+			"from": [12, 8, 12],
+			"to": [4, 0, 4],
+			"faces": {
+				"north": {"uv": [4.5, 9, 0.5, 5], "texture": "#0"},
+				"east": {"uv": [9.5, 9, 5.5, 5], "texture": "#0"},
+				"south": {"uv": [4.5, 9, 0.5, 5], "texture": "#0"},
+				"west": {"uv": [9.5, 9, 5.5, 5], "texture": "#0"}
+			}
 		}
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [51, 90, 0],
+			"rotation": [51, 136, 0],
 			"translation": [-0.25, 4.75, 1.5],
-			"scale": [0.79, 0.79, 0.79]
+			"scale": [0.61, 0.61, 0.61]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [51, 90, 0],
-			"translation": [0, 4.75, 1.5],
-			"scale": [0.79, 0.79, 0.79]
+			"rotation": [51, 136, 0],
+			"translation": [-0.25, 4.75, 1.5],
+			"scale": [0.61, 0.61, 0.61]
 		},
 		"firstperson_righthand": {
-			"translation": [6, 6.5, 0]
+			"translation": [1.75, 5, 0],
+			"scale": [0.58, 0.58, 0.58]
 		},
 		"firstperson_lefthand": {
-			"translation": [6, 6.5, 0]
+			"translation": [1.75, 5, 0],
+			"scale": [0.58, 0.58, 0.58]
 		},
 		"ground": {
-			"translation": [0.75, 5, -0.5]
+			"translation": [0, 3.5, 0],
+			"scale": [0.37, 0.37, 0.37]
 		},
 		"gui": {
 			"rotation": [26, 45, 0],
-			"translation": [0, 4.25, 0]
+			"translation": [0, 3.5, 0]
 		},
 		"head": {
 			"rotation": [5, 90, 0],
-			"translation": [-1, 15.5, 0.25],
-			"scale": [1.7, 1.7, 1.7]
+			"translation": [0, 14.75, 0.5],
+			"scale": [1.57, 1.57, 1.57]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],

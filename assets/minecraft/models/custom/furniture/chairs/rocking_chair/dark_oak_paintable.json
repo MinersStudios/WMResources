@@ -295,9 +295,9 @@
 			"translation": [0, 12.5, -0.75]
 		},
 		"fixed": {
-			"rotation": [-82, 0, 0],
-			"translation": [0, 0, -15.75],
-			"scale": [2, 2, 2]
+			"rotation": [-97, -180, 0],
+			"translation": [0, 1, -14.5],
+			"scale": [2.16, 2.16, 2.16]
 		}
 	}
 }

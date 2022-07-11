@@ -1,15 +1,15 @@
 {
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"0": "thf/rifle_armed_01",
-		"1": "thf/rifle_muzzle_clamps",
-		"2": "thf/rifle_arming_02",
-		"3": "thf/rifle_scope",
-		"4": "thf/rifle_stock",
-		"5": "thf/rifle_charger",
-		"6": "thf/rifle_trigger",
-		"7": "item/flintlock_firework",
-		"particle": "thf/rifle_armed_01"
+		"0": "./textures/rifle_armed_01",
+		"1": "./textures/rifle_muzzle_clamps",
+		"2": "./textures/rifle_arming_02",
+		"3": "./textures/rifle_scope",
+		"4": "./textures/rifle_stock",
+		"5": "./textures/rifle_charger",
+		"6": "./textures/rifle_trigger",
+		"7": "./firework",
+		"particle": "./textures/rifle_armed_01"
 	},
 	"elements": [
 		{
