@@ -6,7 +6,7 @@
   <a href="https://whomine.ga/discord">
     <img src="https://discordapp.com/api/guilds/928575868643733535/widget.png?style=shield" alt="Discord">
   </a>
-  <img src="https://img.shields.io/github/languages/code-size/minersstudios/WhoTextures.svg" alt="Code-Size">
+  <img src="https://img.shields.io/github/languages/code-size/minersstudios/msTextures.svg" alt="Code-Size">
 </p>
 
 <p align="center">
