@@ -8,9 +8,6 @@
         {"model":"custom/block/wood/oak/vertical_planks","predicate":{"custom_model_data":1005}},
         {"model":"custom/block/wood/spruce/vertical_planks","predicate":{"custom_model_data":1006}},
         {"model":"custom/block/wood/warped/vertical_planks","predicate":{"custom_model_data":1007}},
-
-        {"model":"custom/block/crates/crate_1","predicate":{"custom_model_data":1016}},
-
         
         {"model":"item/paper","predicate":{"custom_model_data":12000}}
     ],

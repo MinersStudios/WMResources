@@ -1,7 +1,7 @@
 {
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"1": "custom/tools/travel_case/brown_travel_case"
+		"1": "./textures/brown_travel_case"
 	},
 	"elements": [
 		{
@@ -88,7 +88,8 @@
 			"translation": [5.75, -4, -0.75]
 		},
 		"ground": {
-			"translation": [0, 6.5, 0]
+			"translation": [0, 6.5, 0],
+			"scale": [0.22, 0.22, 0.22]
 		},
 		"gui": {
 			"rotation": [30, -45, 0],
@@ -101,14 +102,18 @@
 			"scale": [1.6, 1.6, 1.6]
 		},
 		"fixed": {
-			"translation": [0, 0, -4.75],
+			"translation": [0, 3.75, -4.75],
 			"scale": [2, 2, 2]
 		}
 	},
-	"groups": [0, 1, 2,
+	"groups": [
+		0,
+		1,
+		2,
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [3, 4, 5]
 		}
 	]

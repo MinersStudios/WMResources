@@ -1,8 +1,8 @@
 {
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"0": "custom/tools/backpack/back_pack",
-		"particle": "custom/tools/backpack/back_pack"
+		"0": "./textures/white_backpack",
+		"particle": "./textures/white_backpack"
 	},
 	"elements": [
 		{
@@ -73,7 +73,7 @@
 		},
 		"thirdperson_lefthand": {
 			"rotation": [67, 0, 0],
-			"translation": [-6.25, -7, 11.5]
+			"translation": [-5.5, -7, 11.5]
 		},
 		"firstperson_righthand": {
 			"rotation": [-18, -180, 0],
@@ -84,7 +84,8 @@
 			"scale": [2.59, 2.59, 2.59]
 		},
 		"ground": {
-			"translation": [0, 5.5, 0]
+			"translation": [0, 5.5, 1.5],
+			"scale": [0.31, 0.31, 0.31]
 		},
 		"gui": {
 			"rotation": [30, -45, 0],
@@ -101,10 +102,14 @@
 			"scale": [2, 2, 2]
 		}
 	},
-	"groups": [0, 1, 2,
+	"groups": [
+		0,
+		1,
+		2,
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [3, 4, 5]
 		}
 	]
