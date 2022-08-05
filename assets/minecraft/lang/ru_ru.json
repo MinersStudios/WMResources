@@ -6,6 +6,8 @@
 
     "effect.minecraft.mining_fatigue":"§9/discord",
 
+    "mount.onboard":"§7Нажмите§r\uA029 §7Чтобы встать",
+
     "enchantment.minecraft.sharpness": "🗡 Острота",
     "enchantment.minecraft.smite": "🗡 Небесная кара",
     "enchantment.minecraft.bane_of_arthropods": "🗡 Бич членистоногих",
@@ -22,6 +24,7 @@
     "enchantment.minecraft.depth_strider": "👟 Подводная ходьба",
     "enchantment.minecraft.frost_walker": "👟 Ледоход",
     "enchantment.minecraft.soul_speed": "👟 Скорость души",
+    "enchantment.minecraft.swift_sneak": "👟 Проворство",
     "enchantment.minecraft.efficiency": "⛏ Эффективность",
     "enchantment.minecraft.silk_touch": "⛏ Шёлковое касание",
     "enchantment.minecraft.unbreaking": "⭐ Прочность",
@@ -109,7 +112,5 @@
     "item.minecraft.beetroot_soup": "Борщ §f\uA018\uA018\uA018",
     "item.minecraft.sweet_berries": "Лесные ягоды §f\uA018",
     "item.minecraft.honey_bottle": "Бутылочка мёда §f\uA018\uA018\uA018",
-    "item.minecraft.glow_berries": "Светящиеся ягоды §f\uA018",
-    "enchantment.level.128": "∞",   
-    "block.minecraft.petrified_oak_slab": "Грязь"
+    "item.minecraft.glow_berries": "Светящиеся ягоды §f\uA018"
 }

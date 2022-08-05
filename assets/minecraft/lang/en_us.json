@@ -6,6 +6,8 @@
 
    "effect.minecraft.mining_fatigue":"§9/discord",
 
+   "mount.onboard":"§7Press§r\uA029 §7To Exit",
+
    "enchantment.minecraft.sharpness": "🗡 Sharpness",
    "enchantment.minecraft.smite": "🗡 Smite",
    "enchantment.minecraft.bane_of_arthropods": "🗡 Bane of Arthropods",
@@ -22,6 +24,7 @@
    "enchantment.minecraft.depth_strider": "👟 Depth Strider",
    "enchantment.minecraft.frost_walker": "👟 Frost Walker",
    "enchantment.minecraft.soul_speed": "👟 Soul Speed",
+   "enchantment.minecraft.swift_sneak": "👟 Swift Sneak",
    "enchantment.minecraft.efficiency": "⛏ Efficiency",
    "enchantment.minecraft.silk_touch": "⛏ Silk Touch",
    "enchantment.minecraft.unbreaking": "⭐ Unbreaking",
@@ -109,7 +112,5 @@
    "item.minecraft.beetroot_soup": "Borsch §f\uA018\uA018\uA018",
    "item.minecraft.sweet_berries": "Sweet Berries §f\uA018",
    "item.minecraft.honey_bottle": "Honey Bottle §f\uA018\uA018\uA018",
-   "item.minecraft.glow_berries": "Glow Berries §f\uA018",
-   "enchantment.level.128": "∞",   
-   "block.minecraft.petrified_oak_slab": "Mud"
+   "item.minecraft.glow_berries": "Glow Berries §f\uA018"
 }

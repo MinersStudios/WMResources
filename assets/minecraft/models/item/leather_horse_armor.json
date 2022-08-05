@@ -230,6 +230,34 @@
         {"model":"custom/halloween/skeleton_hand/skeleton_hand_gravel","predicate":{"custom_model_data":1191}},
         {"model":"custom/halloween/skeleton_hand/skeleton_hand_stone","predicate":{"custom_model_data":1192}},
 
+
+
+        {"model":"custom/furniture/chairs/small_chair/mangrove","predicate":{"custom_model_data":1193}},
+
+        {"model":"custom/furniture/chairs/big_chair/mangrove","predicate":{"custom_model_data":1194}},
+
+        {"model":"custom/furniture/chairs/small_armchair/mangrove","predicate":{"custom_model_data":1195}},
+
+        {"model":"custom/furniture/chairs/big_armchair/mangrove","predicate":{"custom_model_data":1196}},
+
+        {"model":"custom/furniture/chairs/rocking_chair/mangrove","predicate":{"custom_model_data":1197}},
+        {"model":"custom/furniture/chairs/rocking_chair/mangrove_paintable","predicate":{"custom_model_data":1198}},
+
+        {"model":"custom/furniture/tables/big/mangrove","predicate":{"custom_model_data":1199}},
+        {"model":"custom/furniture/tables/big/mangrove_paintable","predicate":{"custom_model_data":1200}},
+
+        {"model":"custom/furniture/tables/small/mangrove","predicate":{"custom_model_data":1201}},
+        {"model":"custom/furniture/tables/small/mangrove_paintable","predicate":{"custom_model_data":1202}},
+
+        {"model":"custom/furniture/nightstand/mangrove/1","predicate":{"custom_model_data":1203}},
+        {"model":"custom/furniture/nightstand/mangrove/2_left","predicate":{"custom_model_data":1204}},
+        {"model":"custom/furniture/nightstand/mangrove/2_middle","predicate":{"custom_model_data":1205}},
+        {"model":"custom/furniture/nightstand/mangrove/2_right","predicate":{"custom_model_data":1206}},
+        {"model":"custom/furniture/nightstand/mangrove/3_left","predicate":{"custom_model_data":1207}},
+        {"model":"custom/furniture/nightstand/mangrove/3_middle","predicate":{"custom_model_data":1208}},
+        {"model":"custom/furniture/nightstand/mangrove/3_right","predicate":{"custom_model_data":1209}},
+
+        
         
         {"model":"item/leather_horse_armor","predicate":{"custom_model_data":12000}}
     ],
