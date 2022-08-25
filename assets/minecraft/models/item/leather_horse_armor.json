@@ -257,7 +257,7 @@
         {"model":"custom/furniture/nightstand/mangrove/3_middle","predicate":{"custom_model_data":1208}},
         {"model":"custom/furniture/nightstand/mangrove/3_right","predicate":{"custom_model_data":1209}},
 
-        
+        {"model":"custom/decorations/poop","predicate":{"custom_model_data":1210}},
         
         {"model":"item/leather_horse_armor","predicate":{"custom_model_data":12000}}
     ],
