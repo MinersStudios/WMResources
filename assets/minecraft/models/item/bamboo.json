@@ -1,0 +1,11 @@
+{
+    "parent":"item/generated",
+    "textures":{
+        "layer0":"item/bamboo"
+    },
+    "overrides":[
+        {"model":"custom/items/bamboo","predicate":{"custom_model_data":1}},
+
+        {"model":"item/bamboo","predicate":{"custom_model_data":12000}}
+    ]
+}

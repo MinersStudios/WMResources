@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "custom/items/totem_of_undying/yung_veasle"
+	}
+}

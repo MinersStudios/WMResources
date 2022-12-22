@@ -1,9 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"parent": "item/generated",
 	"textures": {
-		"layer1": "custom/items/wrench",
-		"layer0": "block/inv"
+		"layer0": "custom/items/wrench"
 	},
 	"display": {
 		"thirdperson_righthand": {

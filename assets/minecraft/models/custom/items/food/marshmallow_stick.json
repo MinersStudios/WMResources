@@ -1,0 +1,87 @@
+{
+	"textures": {
+		"0": "custom/items/food/marshmallow_stick",
+		"particle": "custom/items/food/marshmallow_stick"
+	},
+	"elements": [
+		{
+			"from": [7, 17, 6],
+			"to": [7, 18, 7],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.5], "texture": "#0"},
+				"east": {"uv": [1, 2, 1.5, 2.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0.5], "texture": "#0"},
+				"west": {"uv": [1, 2, 1.5, 2.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 0], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 1, 0], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 15, 7],
+			"to": [9, 18, 9],
+			"faces": {
+				"north": {"uv": [1, 1, 2, 2.5], "texture": "#0"},
+				"east": {"uv": [2, 1, 1, 2.5], "texture": "#0"},
+				"south": {"uv": [1, 1, 2, 2.5], "texture": "#0"},
+				"west": {"uv": [2, 1, 1, 2.5], "texture": "#0"},
+				"up": {"uv": [1, 0, 2, 1], "texture": "#0"},
+				"down": {"uv": [1, 2.5, 2, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 20, 8.5],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 10], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.5, 10], "texture": "#0"},
+				"south": {"uv": [0, 0, 0.5, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 0.5, 10], "texture": "#0"},
+				"up": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"},
+				"down": {"uv": [0, 9.5, 0.5, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -22, 0],
+			"translation": [-0.25, 7, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-27, -23, 23],
+			"translation": [-2.5, 4.5, -2.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-78, -73, -49],
+			"translation": [4.25, 2, 2.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-123, 76, 30],
+			"translation": [4.25, 2, 2.5]
+		},
+		"ground": {
+			"scale": [0.26, 0.26, 0.26]
+		},
+		"gui": {
+			"rotation": [-17.75, 55.25, 66.25],
+			"translation": [1, -1.25, 0]
+		},
+		"head": {
+			"rotation": [-3, 4, 64],
+			"translation": [12, -11.25, -7.75],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -1, 0.75],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

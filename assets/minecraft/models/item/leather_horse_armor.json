@@ -1,5 +1,10 @@
 {
+    "parent":"item/generated",
+    "textures":{
+        "layer0":"item/leather_horse_armor"
+    },
     "overrides":[
+        {"model":"custom/cosmetics/hats/leather_hat","predicate":{"custom_model_data":999}},
         {"model":"custom/furniture/chairs/small_chair/acacia","predicate":{"custom_model_data":1000}},
         {"model":"custom/furniture/chairs/small_chair/birch","predicate":{"custom_model_data":1001}},
         {"model":"custom/furniture/chairs/small_chair/crimson","predicate":{"custom_model_data":1002}},
@@ -258,11 +263,59 @@
         {"model":"custom/furniture/nightstand/mangrove/3_right","predicate":{"custom_model_data":1209}},
 
         {"model":"custom/decorations/poop","predicate":{"custom_model_data":1210}},
-        
+
+        {"model":"custom/cosmetics/hats/3d_glasses","predicate":{"custom_model_data":1211}},
+        {"model":"custom/cosmetics/hats/bee/bee","predicate":{"custom_model_data":1212}},
+        {"model":"custom/cosmetics/hats/bee/nectar_bee","predicate":{"custom_model_data":1213}},
+        {"model":"custom/cosmetics/hats/bee/angry_bee","predicate":{"custom_model_data":1214}},
+        {"model":"custom/cosmetics/hats/bee/angry_nectar_bee","predicate":{"custom_model_data":1215}},
+        {"model":"custom/cosmetics/hats/phantom","predicate":{"custom_model_data":1216}},
+        {"model":"custom/cosmetics/hats/beret","predicate":{"custom_model_data":1217}},
+        {"model":"custom/cosmetics/hats/cap","predicate":{"custom_model_data":1218}},
+        {"model":"custom/cosmetics/hats/cardboard_crown","predicate":{"custom_model_data":1219}},
+        {"model":"custom/cosmetics/hats/chef_hat","predicate":{"custom_model_data":1220}},
+        {"model":"custom/cosmetics/hats/povar_hat","predicate":{"custom_model_data":1221}},
+        {"model":"custom/cosmetics/hats/enchanter_hat","predicate":{"custom_model_data":1222}},
+        {"model":"custom/cosmetics/hats/goat_head","predicate":{"custom_model_data":1223}},
+        {"model":"custom/cosmetics/hats/medicine_mask","predicate":{"custom_model_data":1224}},
+        {"model":"custom/cosmetics/hats/neader_mask/neader_mask","predicate":{"custom_model_data":1225}},
+        {"model":"custom/cosmetics/hats/neader_mask/neader_mask_o","predicate":{"custom_model_data":1226}},
+        {"model":"custom/cosmetics/hats/neader_mask/neader_mask_leaves","predicate":{"custom_model_data":1227}},
+        {"model":"custom/cosmetics/hats/neader_mask/neader_mask_leaves_o","predicate":{"custom_model_data":1228}},
+        {"model":"custom/cosmetics/hats/prothesis/golden_prothesis_left","predicate":{"custom_model_data":1229}},
+        {"model":"custom/cosmetics/hats/prothesis/golden_prothesis_right","predicate":{"custom_model_data":1230}},
+        {"model":"custom/cosmetics/hats/prothesis/silver_prothesis_left","predicate":{"custom_model_data":1231}},
+        {"model":"custom/cosmetics/hats/prothesis/silver_prothesis_right","predicate":{"custom_model_data":1232}},
+        {"model":"custom/cosmetics/hats/raccoon_hat","predicate":{"custom_model_data":1233}},
+        {"model":"custom/cosmetics/hats/samurai/samurai","predicate":{"custom_model_data":1234}},
+        {"model":"custom/cosmetics/hats/samurai/samurai_mask","predicate":{"custom_model_data":1235}},
+        {"model":"custom/cosmetics/hats/sculk","predicate":{"custom_model_data":1236}},
+        {"model":"custom/cosmetics/hats/sun_hat","predicate":{"custom_model_data":1237}},
+        {"model":"custom/cosmetics/hats/waiter_cap","predicate":{"custom_model_data":1238}},
+        {"model":"custom/cosmetics/hats/western_hat","predicate":{"custom_model_data":1239}},
+        {"model":"custom/cosmetics/hats/wolf_head","predicate":{"custom_model_data":1240}},
+        {"model":"custom/cosmetics/hats/villagers/armorer_hat","predicate":{"custom_model_data":1241}},
+        {"model":"custom/cosmetics/hats/villagers/butcher_hat","predicate":{"custom_model_data":1242}},
+        {"model":"custom/cosmetics/hats/villagers/cartographer_hat","predicate":{"custom_model_data":1243}},
+        {"model":"custom/cosmetics/hats/villagers/desert_hat","predicate":{"custom_model_data":1244}},
+        {"model":"custom/cosmetics/hats/villagers/farmer_hat","predicate":{"custom_model_data":1245}},
+        {"model":"custom/cosmetics/hats/villagers/fisherman_hat","predicate":{"custom_model_data":1246}},
+        {"model":"custom/cosmetics/hats/villagers/fletcher_hat","predicate":{"custom_model_data":1247}},
+        {"model":"custom/cosmetics/hats/villagers/librarian_hat","predicate":{"custom_model_data":1248}},
+        {"model":"custom/cosmetics/hats/villagers/savanna_hat","predicate":{"custom_model_data":1249}},
+        {"model":"custom/cosmetics/hats/villagers/shepherd_hat","predicate":{"custom_model_data":1250}},
+        {"model":"custom/cosmetics/hats/villagers/snow_hat","predicate":{"custom_model_data":1251}},
+        {"model":"custom/cosmetics/hats/villagers/swamp_hat","predicate":{"custom_model_data":1252}},
+        {"model":"custom/cosmetics/hats/villagers/witch_hat","predicate":{"custom_model_data":1253}},
+
+        {"model":"custom/christmas/snowflake_ball","predicate":{"custom_model_data":1254}},
+        {"model":"custom/christmas/snowman_ball","predicate":{"custom_model_data":1255}},
+        {"model":"custom/christmas/star_ball","predicate":{"custom_model_data":1256}},
+        {"model":"custom/christmas/tall_ball","predicate":{"custom_model_data":1257}},
+        {"model":"custom/christmas/santa_hat","predicate":{"custom_model_data":1258}},
+        {"model":"custom/christmas/tree_star","predicate":{"custom_model_data":1259}},
+
+
         {"model":"item/leather_horse_armor","predicate":{"custom_model_data":12000}}
-    ],
-    "parent":"item/generated",
-    "textures":{
-        "layer0":"item/leather_horse_armor"
-    }
+    ]
 }

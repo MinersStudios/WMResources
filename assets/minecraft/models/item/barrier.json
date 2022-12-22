@@ -1,9 +1,0 @@
-{
-    "overrides":[
-        {"model":"custom/ui/none","predicate":{"custom_model_data":0}}
-    ],
-    "parent":"item/generated",
-    "textures":{
-        "layer0":"item/paper"
-    }
-}

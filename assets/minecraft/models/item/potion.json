@@ -1,0 +1,20 @@
+{
+    "parent":"item/generated",
+    "textures":{
+        "layer0":"item/potion_overlay",
+        "layer1":"item/potion"
+    },
+    "overrides":[
+        {"model":"custom/items/alcohol/beer_brown","predicate":{"custom_model_data":1}},
+        {"model":"custom/items/alcohol/beer_green","predicate":{"custom_model_data":2}},
+        {"model":"custom/items/alcohol/cognac","predicate":{"custom_model_data":3}},
+        {"model":"custom/items/alcohol/glass_goblet","predicate":{"custom_model_data":4}},
+        {"model":"custom/items/alcohol/golden_goblet","predicate":{"custom_model_data":5}},
+        {"model":"custom/items/alcohol/netherite_goblet","predicate":{"custom_model_data":6}},
+        {"model":"custom/items/alcohol/silver_goblet","predicate":{"custom_model_data":7}},
+        {"model":"custom/items/alcohol/vodka","predicate":{"custom_model_data":8}},
+        {"model":"custom/items/alcohol/wine","predicate":{"custom_model_data":9}},
+
+        {"model":"item/potion","predicate":{"custom_model_data":12000}}
+    ]
+}

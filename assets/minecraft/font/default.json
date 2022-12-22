@@ -23,14 +23,21 @@
         {"ascent": 6, "height": 7, "chars": ["\uA024"], "file":"custom/ui/blanks/mer.png", "type":"bitmap"},
         {"ascent": 6, "height": 7, "chars": ["\uA025"], "file":"custom/ui/blanks/vmer.png", "type":"bitmap"},
         {"ascent": 6, "height": 7, "chars": ["\uA026"], "file":"custom/ui/blanks/police.png", "type":"bitmap"},
+        {"ascent": 6, "height": 7, "chars": ["\uA033"], "file":"custom/ui/blanks/wrenchable.png", "type":"bitmap"},
 
-        {"ascent": 19, "height": 256, "chars": ["\uA027"], "file":"custom/ui/inventory/crafts.png", "type":"bitmap"},
-        {"ascent": 19, "height": 256, "chars": ["\uA028"], "file":"custom/ui/inventory/craft.png", "type":"bitmap"},
+        {"ascent": 19, "height": 256, "chars": ["\uA027"], "file":"custom/ui/crafts/crafts.png", "type":"bitmap"},
+        {"ascent": 19, "height": 256, "chars": ["\uA028"], "file":"custom/ui/crafts/craft.png", "type":"bitmap"},
 
         {"ascent": 9, "height": 11, "chars": ["\uA029"], "file":"custom/ui/shift_button.png", "type":"bitmap"},
 
+        {"ascent": 19, "height": 256, "chars": ["\uA030"], "file":"custom/ui/renames/renames.png", "type":"bitmap"},
+        {"ascent": 19, "height": 256, "chars": ["\uA031"], "file":"custom/ui/renames/rename.png", "type":"bitmap"},
+
+        {"ascent": 19, "height": 256, "chars": ["\uA032"], "file":"custom/ui/crafts/crafts_categories.png", "type":"bitmap"},
+
         {"ascent":-32768, "height":28, "chars":["\uB001"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
         {"ascent":-32768, "height":-10, "chars":["\uB002"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+        {"ascent":-32768, "height":-20, "chars":["\uB003"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
 
         {"ascent": 8, "height": 8, "chars": ["\uD83E\uDDE2\uD83D\uDC5F\u2020\uD83D\uDEE1"], "file":"custom/ui/icons/extra.png", "type":"bitmap"}
     ]

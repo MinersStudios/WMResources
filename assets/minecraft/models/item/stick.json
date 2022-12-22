@@ -1,0 +1,14 @@
+{
+    "parent":"item/generated",
+    "textures":{
+        "layer0":"item/stick"
+    },
+    "overrides":[
+        {"model":"custom/items/i-stick","predicate":{"custom_model_data":1}},
+        {"model":"custom/items/t-stick","predicate":{"custom_model_data":2}},
+        {"model":"custom/items/c-stick","predicate":{"custom_model_data":3}},
+        {"model":"custom/items/walker","predicate":{"custom_model_data":4}},
+
+        {"model":"item/stick","predicate":{"custom_model_data":12000}}
+    ]
+}

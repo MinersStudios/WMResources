@@ -1,5 +1,4 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "custom/decorations/wheelbarrow",
 		"particle": "custom/decorations/wheelbarrow"
@@ -252,7 +251,7 @@
 			"scale": [1.16, 1.16, 1.16]
 		},
 		"fixed": {
-			"rotation": [-90, 0, 0],
+			"rotation": [-90, 180, 0],
 			"translation": [0, 0, -15.75],
 			"scale": [2, 2, 2]
 		}

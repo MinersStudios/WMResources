@@ -1,5 +1,4 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "custom/decorations/iron_trashcan",
 		"particle": "custom/decorations/iron_trashcan"
@@ -100,7 +99,7 @@
 			"scale": [1.14, 1.14, 1.14]
 		},
 		"fixed": {
-			"rotation": [-90, 0, 0],
+			"rotation": [-90, -90, 0],
 			"translation": [0, 0, -15.75],
 			"scale": [2, 2, 2]
 		}
