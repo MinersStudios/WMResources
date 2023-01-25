@@ -1,8 +1,7 @@
 {
-    "menu.disconnect":"ꀇ",
+    "menu.disconnect":"\uB006Сломать челюсть?\uB006§1\uB004\uB005\uB011\uB004\uB005\uB012\uA007§1\uB004\uB005\uB002\uB004\uB005\uB007\uA008§1\uB004\uB005\uB002\uB004\uB005\uB007\uA009§1\uB004\uB005\uB002\uB004\uB005\uB007\uA010",
     "menu.game":"ꀄ",
     "menu.returnToGame":"Вернутся к реальности",
-    "menu.shareToLan": "Пиши - /help",
 
     "effect.minecraft.mining_fatigue":"§9/discord",
 
@@ -77,7 +76,7 @@
     "item.minecraft.golden_carrot": "Золотая морковь §fꀘꀘꀘ",
     "item.minecraft.pufferfish": "Фуга §fꀡ",
     "item.minecraft.spider_eye": "Глаз паука §fꀙ",
-    "item.minecraft.apple": "Ялоко §fꀘꀘ",
+    "item.minecraft.apple": "Яблоко §fꀘꀘ",
     "item.minecraft.mushroom_stew": "Тушёные грибы §fꀘꀘꀠ",
     "item.minecraft.bread": "Хлеб §fꀘꀘꀠ",
     "item.minecraft.porkchop": "Сырая свинина §fꀘꀠ",

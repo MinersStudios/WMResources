@@ -1,0 +1,62 @@
+{
+	"texture_size": [29, 38],
+	"textures": {
+		"0": "custom/items/cards/bicycle/pikes/a",
+		"1": "custom/items/cards/bicycle/blue_back",
+		"particle": "custom/items/cards/bicycle/blue_back"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 0],
+			"to": [11, 8, 0.15],
+			"faces": {
+				"north": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 0.55172, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [15.44828, 0, 16, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0.42105], "texture": "#0"},
+				"down": {"uv": [0, 15.57895, 16, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [27, -19, 0],
+			"translation": [-3.5, 1, 7.5],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [27, -19, 0],
+			"translation": [-3.5, 1, 7.5],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"firstperson_righthand": {
+			"rotation": [-9, -22, 0],
+			"translation": [6.75, 7, -0.5],
+			"scale": [1.83, 1.83, 1.83]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-9, -22, 0],
+			"translation": [6.75, 7, -0.5],
+			"scale": [1.83, 1.83, 1.83]
+		},
+		"ground": {
+			"translation": [0, 6.75, 5.75],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"translation": [0, 8, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"rotation": [29, -14, -42],
+			"translation": [-6.75, 5.5, 6]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 8.5, -16.75],
+			"scale": [2.11, 2.11, 2.11]
+		}
+	}
+}

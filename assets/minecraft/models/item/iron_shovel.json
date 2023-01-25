@@ -4,8 +4,6 @@
         "layer0":"item/iron_shovel"
     },
     "overrides":[
-        {"model":"custom/items/wrench","predicate":{"custom_model_data":1}},
-
-        {"model":"item/iron_shovel","predicate":{"custom_model_data":12000}}
+        {"model":"custom/items/wrench","predicate":{"custom_model_data":1}}
     ]
 }

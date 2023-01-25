@@ -1,4 +1,8 @@
 {
+    "parent":"item/generated",
+    "textures":{
+        "layer0":"item/paper"
+    },
     "overrides":[
         {"model":"custom/ui/none","predicate":{"custom_model_data":1}},
         {"model":"custom/ui/crafts/crafts_next_button","predicate":{"custom_model_data":5001}},
@@ -37,12 +41,6 @@
         {"model":"custom/block/wood/mangrove/carved_planks","predicate":{"custom_model_data":13026}},
 
         {"model":"custom/block/dumbass/hacpal_block","predicate":{"custom_model_data":13027}},
-        {"model":"custom/block/dumbass/svinster_block","predicate":{"custom_model_data":13028}},
-
-        {"model":"item/paper","predicate":{"custom_model_data":15000}}
-    ],
-    "parent":"item/generated",
-    "textures":{
-        "layer0":"item/paper"
-    }
+        {"model":"custom/block/dumbass/svinster_block","predicate":{"custom_model_data":13028}}
+    ]
 }

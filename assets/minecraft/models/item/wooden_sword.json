@@ -4,25 +4,23 @@
         "layer0":"item/wooden_sword"
     },
     "overrides":[
-        {"model":"custom/items/steel_arms/breche_katana","predicate":{"custom_model_data":1}},
-        {"model":"custom/items/steel_arms/broadsword","predicate":{"custom_model_data":2}},
-        {"model":"custom/items/steel_arms/doublebladedsword","predicate":{"custom_model_data":3}},
-        {"model":"custom/items/steel_arms/frostscythe","predicate":{"custom_model_data":4}},
-        {"model":"custom/items/steel_arms/glaive","predicate":{"custom_model_data":5}},
-        {"model":"custom/items/steel_arms/jailors_scythe","predicate":{"custom_model_data":6}},
-        {"model":"custom/items/steel_arms/masters_katana","predicate":{"custom_model_data":7}},
-        {"model":"custom/items/steel_arms/pirate_hook","predicate":{"custom_model_data":8}},
-        {"model":"custom/items/steel_arms/lightsaber/blue_lightsaber","predicate":{"custom_model_data":9}},
-        {"model":"custom/items/steel_arms/lightsaber/blue_lightsaber_dual","predicate":{"custom_model_data":10}},
-        {"model":"custom/items/steel_arms/lightsaber/green_lightsaber","predicate":{"custom_model_data":11}},
-        {"model":"custom/items/steel_arms/lightsaber/green_lightsaber_dual","predicate":{"custom_model_data":12}},
-        {"model":"custom/items/steel_arms/lightsaber/purple_lightsaber","predicate":{"custom_model_data":13}},
-        {"model":"custom/items/steel_arms/lightsaber/purple_lightsaber_dual","predicate":{"custom_model_data":14}},
-        {"model":"custom/items/steel_arms/lightsaber/red_lightsaber","predicate":{"custom_model_data":15}},
-        {"model":"custom/items/steel_arms/lightsaber/red_lightsaber_dual","predicate":{"custom_model_data":16}},
-        {"model":"custom/items/steel_arms/lightsaber/yellow_lightsaber","predicate":{"custom_model_data":17}},
-        {"model":"custom/items/steel_arms/lightsaber/yellow_lightsaber_dual","predicate":{"custom_model_data":18}},
-        
-        {"model":"item/wooden_sword","predicate":{"custom_model_data":13000}}
+        {"predicate":{"custom_model_data":1}, "model":"custom/items/steel_arms/breche_katana"},
+        {"predicate":{"custom_model_data":2}, "model":"custom/items/steel_arms/broadsword"},
+        {"predicate":{"custom_model_data":3}, "model":"custom/items/steel_arms/doublebladedsword"},
+        {"predicate":{"custom_model_data":4}, "model":"custom/items/steel_arms/frostscythe"},
+        {"predicate":{"custom_model_data":5}, "model":"custom/items/steel_arms/glaive"},
+        {"predicate":{"custom_model_data":6}, "model":"custom/items/steel_arms/jailors_scythe"},
+        {"predicate":{"custom_model_data":7}, "model":"custom/items/steel_arms/masters_katana"},
+        {"predicate":{"custom_model_data":8}, "model":"custom/items/steel_arms/pirate_hook"},
+        {"predicate":{"custom_model_data":9}, "model":"custom/items/steel_arms/lightsaber/blue_lightsaber"},
+        {"predicate":{"custom_model_data":10}, "model":"custom/items/steel_arms/lightsaber/blue_lightsaber_dual"},
+        {"predicate":{"custom_model_data":11}, "model":"custom/items/steel_arms/lightsaber/green_lightsaber"},
+        {"predicate":{"custom_model_data":12}, "model":"custom/items/steel_arms/lightsaber/green_lightsaber_dual"},
+        {"predicate":{"custom_model_data":13}, "model":"custom/items/steel_arms/lightsaber/purple_lightsaber"},
+        {"predicate":{"custom_model_data":14}, "model":"custom/items/steel_arms/lightsaber/purple_lightsaber_dual"},
+        {"predicate":{"custom_model_data":15}, "model":"custom/items/steel_arms/lightsaber/red_lightsaber"},
+        {"predicate":{"custom_model_data":16}, "model":"custom/items/steel_arms/lightsaber/red_lightsaber_dual"},
+        {"predicate":{"custom_model_data":17}, "model":"custom/items/steel_arms/lightsaber/yellow_lightsaber"},
+        {"predicate":{"custom_model_data":18}, "model":"custom/items/steel_arms/lightsaber/yellow_lightsaber_dual"}
     ]
 }

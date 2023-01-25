@@ -4,16 +4,14 @@
         "layer0":"item/glass_bottle"
     },
     "overrides":[
-        {"model":"custom/items/alcohol/beer_brown_empty","predicate":{"custom_model_data":1}},
-        {"model":"custom/items/alcohol/beer_green_empty","predicate":{"custom_model_data":2}},
-        {"model":"custom/items/alcohol/cognac_empty","predicate":{"custom_model_data":3}},
-        {"model":"custom/items/alcohol/glass_goblet_empty","predicate":{"custom_model_data":4}},
-        {"model":"custom/items/alcohol/golden_goblet_empty","predicate":{"custom_model_data":5}},
-        {"model":"custom/items/alcohol/netherite_goblet_empty","predicate":{"custom_model_data":6}},
-        {"model":"custom/items/alcohol/silver_goblet_empty","predicate":{"custom_model_data":7}},
-        {"model":"custom/items/alcohol/vodka_empty","predicate":{"custom_model_data":8}},
-        {"model":"custom/items/alcohol/wine_empty","predicate":{"custom_model_data":9}},
-
-        {"model":"item/glass_bottle","predicate":{"custom_model_data":12000}}
+        {"predicate":{"custom_model_data":1}, "model":"custom/items/alcohol/beer_brown_empty"},
+        {"predicate":{"custom_model_data":2}, "model":"custom/items/alcohol/beer_green_empty"},
+        {"predicate":{"custom_model_data":3}, "model":"custom/items/alcohol/cognac_empty"},
+        {"predicate":{"custom_model_data":4}, "model":"custom/items/alcohol/glass_goblet_empty"},
+        {"predicate":{"custom_model_data":5}, "model":"custom/items/alcohol/golden_goblet_empty"},
+        {"predicate":{"custom_model_data":6}, "model":"custom/items/alcohol/netherite_goblet_empty"},
+        {"predicate":{"custom_model_data":7}, "model":"custom/items/alcohol/silver_goblet_empty"},
+        {"predicate":{"custom_model_data":8}, "model":"custom/items/alcohol/vodka_empty"},
+        {"predicate":{"custom_model_data":9}, "model":"custom/items/alcohol/wine_empty"}
     ]
 }

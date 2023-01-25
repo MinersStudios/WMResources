@@ -1,5 +1,5 @@
 {
-   "menu.disconnect":"\uA007",
+   "menu.disconnect":"\uB006Сломать челюсть?\uB006§1\uB004\uB005\uB011\uB004\uB005\uB012\uA007§1\uB004\uB005\uB002\uB004\uB005\uB007\uA008§1\uB004\uB005\uB002\uB004\uB005\uB007\uA009§1\uB004\uB005\uB002\uB004\uB005\uB007\uA010",
    "menu.game":"\uA004",
    "menu.returnToGame":"Come Back To Reality",
    "menu.shareToLan": "Type - /help",

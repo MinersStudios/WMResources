@@ -1,0 +1,8 @@
+{
+	"parent": "custom/items/cards/playing_card",
+	"textures": {
+		"0": "custom/items/cards/bicycle/clovers/5",
+		"1": "custom/items/cards/bicycle/blue_back",
+		"particle": "custom/items/cards/bicycle/bicycle/blue_back"
+	}
+}

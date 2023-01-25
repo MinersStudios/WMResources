@@ -4,12 +4,10 @@
         "layer0":"item/stone_axe"
     },
     "overrides":[
-        {"model":"custom/items/steel_arms/firebrand","predicate":{"custom_model_data":1}},
-        {"model":"custom/items/steel_arms/golem_gauntlet","predicate":{"custom_model_data":2}},
-        {"model":"custom/items/steel_arms/hammer","predicate":{"custom_model_data":3}},
-        {"model":"custom/items/steel_arms/hammer_of_gravity","predicate":{"custom_model_data":4}},
-        {"model":"custom/items/steel_arms/over_brand","predicate":{"custom_model_data":5}},
-
-        {"model":"item/stone_axe","predicate":{"custom_model_data":13000}}
+        {"predicate":{"custom_model_data":1}, "model":"custom/items/steel_arms/firebrand"},
+        {"predicate":{"custom_model_data":2}, "model":"custom/items/steel_arms/golem_gauntlet"},
+        {"predicate":{"custom_model_data":3}, "model":"custom/items/steel_arms/hammer"},
+        {"predicate":{"custom_model_data":4}, "model":"custom/items/steel_arms/hammer_of_gravity"},
+        {"predicate":{"custom_model_data":5}, "model":"custom/items/steel_arms/over_brand"}
     ]
 }

@@ -6,7 +6,7 @@
         {"ascent": 32, "height": 64, "chars": ["\uA004", "\uA005"], "file":"custom/ui/logo.png", "type":"bitmap"},
 
         {"ascent": 8, "height": 64, "chars":["\uA006"], "file":"custom/ui/update_msg.png", "type":"bitmap"},
-        {"ascent": 8, "height": 71, "chars":["\uA007"], "file":"custom/ui/help.png", "type":"bitmap"},
+        {"ascent": -12, "height": 50, "chars":["\uA007", "\uA008", "\uA009", "\uA010"], "file":"custom/ui/help.png", "type":"bitmap"},
 
         {"ascent": 7, "height": 7, "chars": ["\uA011"], "file":"custom/ui/icons/error.png", "type":"bitmap"},
         {"ascent": 7, "height": 7, "chars": ["\uA012"], "file":"custom/ui/icons/error_green.png", "type":"bitmap"},
@@ -35,9 +35,16 @@
 
         {"ascent": 19, "height": 256, "chars": ["\uA032"], "file":"custom/ui/crafts/crafts_categories.png", "type":"bitmap"},
 
-        {"ascent":-32768, "height":28, "chars":["\uB001"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
-        {"ascent":-32768, "height":-10, "chars":["\uB002"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
-        {"ascent":-32768, "height":-20, "chars":["\uB003"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+        {"ascent": -32768, "height": 28, "chars":["\uB001"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+        {"ascent": -32768, "height": -10, "chars":["\uB002"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+        {"ascent": -32768, "height": -20, "chars":["\uB003"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+
+        {"ascent": -32768, "height": -66, "chars":["\uB004"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+        {"ascent": -32768, "height": -34, "chars":["\uB005"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+        {"ascent": -32768, "height": 53, "chars":["\uB006"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+        {"ascent": -32768, "height": -7, "chars":["\uB007"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+        {"ascent": -32768, "height": -8, "chars":["\uB011"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
+        {"ascent": -32768, "height": -6, "chars":["\uB012"], "file":"custom/ui/pixel_split.png", "type":"bitmap"},
 
         {"ascent": 8, "height": 8, "chars": ["\uD83E\uDDE2\uD83D\uDC5F\u2020\uD83D\uDEE1"], "file":"custom/ui/icons/extra.png", "type":"bitmap"}
     ]
