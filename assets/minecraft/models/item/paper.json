@@ -10,6 +10,10 @@
 
         {"model":"custom/ui/red_cross","predicate":{"custom_model_data":5003}},
 
+        {"model":"custom/items/plumbum_ingot","predicate":{"custom_model_data":12000}},
+        {"model":"custom/items/raw_plumbum","predicate":{"custom_model_data":12001}},
+        {"model":"custom/items/anti_radiation_textile","predicate":{"custom_model_data":12002}},
+
         {"model":"custom/block/wood/acacia/vertical_planks","predicate":{"custom_model_data":13000}},
         {"model":"custom/block/wood/birch/vertical_planks","predicate":{"custom_model_data":13001}},
         {"model":"custom/block/wood/crimson/vertical_planks","predicate":{"custom_model_data":13002}},
@@ -41,6 +45,9 @@
         {"model":"custom/block/wood/mangrove/carved_planks","predicate":{"custom_model_data":13026}},
 
         {"model":"custom/block/dumbass/hacpal_block","predicate":{"custom_model_data":13027}},
-        {"model":"custom/block/dumbass/svinster_block","predicate":{"custom_model_data":13028}}
+        {"model":"custom/block/dumbass/svinster_block","predicate":{"custom_model_data":13028}},
+
+        {"model":"custom/block/raw_plumbum_block","predicate":{"custom_model_data":13029}},
+        {"model":"custom/block/plumbum_block","predicate":{"custom_model_data":13030}}
     ]
 }

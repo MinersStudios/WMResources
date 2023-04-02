@@ -30,11 +30,6 @@
         },
         {
             "type": "directory",
-            "source": "variated",
-            "prefix": "variated/"
-        },
-        {
-            "type": "directory",
             "source": "entity",
             "prefix": "entity/"
         }

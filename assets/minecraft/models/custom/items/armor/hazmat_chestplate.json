@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0":"custom/ui/pixel_split",
+		"layer1": "custom/items/armor/hazmat_chestplate"
+	}
+}

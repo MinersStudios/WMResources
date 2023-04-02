@@ -60,6 +60,10 @@
         "instrument=bit,note=3,powered=false": {"model": "custom/block/dumbass/hacpal_block"},
         "instrument=bit,note=3,powered=true": {"model": "block/note_block"},
         "instrument=bit,note=4,powered=false": {"model": "custom/block/dumbass/svinster_block"},
-        "instrument=bit,note=4,powered=true": {"model": "block/note_block"}
+        "instrument=bit,note=4,powered=true": {"model": "block/note_block"},
+        "instrument=bit,note=5,powered=false": {"model": "custom/block/raw_plumbum_block"},
+        "instrument=bit,note=5,powered=true": {"model": "block/note_block"},
+        "instrument=bit,note=6,powered=false": {"model": "custom/block/plumbum_block"},
+        "instrument=bit,note=6,powered=true": {"model": "block/note_block"}
     }
 }

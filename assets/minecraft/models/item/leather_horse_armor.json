@@ -372,6 +372,13 @@
         {"predicate":{"custom_model_data":1365}, "model":"custom/items/cards/bicycle/red_back/tiles/q"},
         {"predicate":{"custom_model_data":1366}, "model":"custom/items/cards/bicycle/red_back/tiles/k"},
         {"predicate":{"custom_model_data":1367}, "model":"custom/items/cards/bicycle/red_back/black_joker"},
-        {"predicate":{"custom_model_data":1368}, "model":"custom/items/cards/bicycle/red_back/red_joker"}
+        {"predicate":{"custom_model_data":1368}, "model":"custom/items/cards/bicycle/red_back/red_joker"},
+        {"predicate":{"custom_model_data":1369}, "model":"custom/cosmetics/hats/gas_mask"},
+        {"predicate":{"custom_model_data":1370}, "model":"custom/decorations/plush/whocintosh_mini"},
+        {"predicate":{"custom_model_data":1371}, "model":"custom/furniture/whocintosh"},
+        {"predicate":{"custom_model_data":1372}, "model":"custom/items/dosimeter/off"},
+        {"predicate":{"custom_model_data":1373}, "model":"custom/items/dosimeter/green"},
+        {"predicate":{"custom_model_data":1374}, "model":"custom/items/dosimeter/yellow"},
+        {"predicate":{"custom_model_data":1375}, "model":"custom/items/dosimeter/red"}
     ]
 }
