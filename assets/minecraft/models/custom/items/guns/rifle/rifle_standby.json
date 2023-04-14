@@ -252,42 +252,6 @@
 			}
 		}
 	],
-	"overrides": [
-		{
-			"predicate": {
-				"pulling": 1
-			},
-			"model": "item/rifle_arming_00"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 0.1
-			},
-			"model": "item/rifle_arming_01"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 0.4
-			},
-			"model": "item/rifle_arming_02"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 0.8
-			},
-			"model": "item/rifle_arming_03"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 0.99
-			},
-			"model": "item/rifle_armed"
-		}
-	],
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 6.25, -2.25],

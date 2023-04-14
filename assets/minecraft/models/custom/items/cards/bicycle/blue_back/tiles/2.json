@@ -3,6 +3,6 @@
 	"textures": {
 		"0": "custom/items/cards/bicycle/tiles/2",
 		"1": "custom/items/cards/bicycle/blue_back",
-		"particle": "custom/items/cards/bicycle/bicycle/blue_back"
+		"particle": "custom/items/cards/bicycle/blue_back"
 	}
 }
