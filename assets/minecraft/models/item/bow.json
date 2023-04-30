@@ -25,6 +25,11 @@
         {"predicate": {"custom_model_data": 3}, "model":"custom/items/guns/uzi/uzi"},
         {"predicate": {"custom_model_data": 3, "pulling": 1}, "model":"custom/items/guns/uzi/uzi_pulling_0"},
         {"predicate": {"custom_model_data": 3, "pulling": 1, "pull": 0.65}, "model":"custom/items/guns/uzi/uzi_pulling_1"},
-        {"predicate": {"custom_model_data": 3, "pulling": 1, "pull": 0.9}, "model":"custom/items/guns/uzi/uzi_pulling_2"}
+        {"predicate": {"custom_model_data": 3, "pulling": 1, "pull": 0.9}, "model":"custom/items/guns/uzi/uzi_pulling_2"},
+
+        {"predicate": {"custom_model_data": 4}, "model":"custom/items/guns/strenzhlavker_mr45/strenzhlavker_mr45"},
+        {"predicate": {"custom_model_data": 4, "pulling": 1}, "model":"custom/items/guns/strenzhlavker_mr45/strenzhlavker_mr45_pulling_0"},
+        {"predicate": {"custom_model_data": 4, "pulling": 1, "pull": 0.65}, "model":"custom/items/guns/strenzhlavker_mr45/strenzhlavker_mr45_pulling_1"},
+        {"predicate": {"custom_model_data": 4, "pulling": 1, "pull": 0.9}, "model":"custom/items/guns/strenzhlavker_mr45/strenzhlavker_mr45_pulling_2"}
     ]
 }
