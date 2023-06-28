@@ -1,6 +1,8 @@
 <br>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MinersStudios/.github/main/assets/logos/logo_white.png" alt="MinersStudios">
+  <a href="https://minersstudios.github.io">
+     <img src="https://raw.githubusercontent.com/MinersStudios/.github/main/assets/logos/logo_white.png" alt="MinersStudios">
+  </a>
 </p>
 <br>
 <p align="center">
