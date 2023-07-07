@@ -37,6 +37,8 @@
         {"ascent": 19, "height": 256, "chars": ["\uA034"], "file": "custom/ui/discord/discord_link.png", "type": "bitmap"},
         {"ascent": -51, "height":14, "chars":["笆癿皑簋皎爨笕奥筋制"], "file": "custom/ui/discord/discord_numbers.png", "type": "bitmap"},
 
+        {"ascent": 19, "height": 256, "chars": ["\uA035"], "file": "custom/ui/skins/menu.png", "type": "bitmap"},
+
         {"ascent": -32768, "height": 28, "chars":["\uB001"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
         {"ascent": -32768, "height": -10, "chars":["\uB002"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
         {"ascent": -32768, "height": -20, "chars":["\uB003"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
@@ -48,6 +50,7 @@
         {"ascent": -32768, "height": -8, "chars":["\uB011"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
         {"ascent": -32768, "height": -6, "chars":["\uB012"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
         {"ascent": -32768, "height": -111, "chars":["\uB014"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
+
 
         {"type":"space","advances":{"\uB013":-65}},
 
