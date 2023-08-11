@@ -2,8 +2,8 @@
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/furniture/tables/oak_table",
-		"particle": "custom/furniture/tables/oak_table"
+		"0": "custom/furniture/tables/oak",
+		"particle": "custom/furniture/tables/oak"
 	},
 	"elements": [
 		{

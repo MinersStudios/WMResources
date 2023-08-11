@@ -2,8 +2,8 @@
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/furniture/tables/birch_table",
-		"particle": "custom/furniture/tables/birch_table"
+		"0": "custom/furniture/tables/birch",
+		"particle": "custom/furniture/tables/birch"
 	},
 	"elements": [
 		{

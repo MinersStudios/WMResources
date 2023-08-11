@@ -1,0 +1,9 @@
+{
+	"parent": "custom/furniture/chairs/big_armchair/big_armchair",
+	"texture_size": [16, 32],
+	"textures": {
+		"0": "custom/furniture/chairs/padding",
+		"1": "custom/furniture/chairs/cherry",
+		"particle": "custom/furniture/chairs/padding"
+	}
+}

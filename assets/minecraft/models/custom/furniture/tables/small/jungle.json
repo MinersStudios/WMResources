@@ -2,8 +2,8 @@
 	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/furniture/tables/jungle_table",
-		"particle": "custom/furniture/tables/jungle_table"
+		"0": "custom/furniture/tables/jungle",
+		"particle": "custom/furniture/tables/jungle"
 	},
 	"elements": [
 		{

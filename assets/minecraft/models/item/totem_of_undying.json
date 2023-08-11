@@ -43,6 +43,7 @@
         {"predicate":{"custom_model_data":37}, "model":"custom/items/totem_of_undying/vladhuis"},
         {"predicate":{"custom_model_data":38}, "model":"custom/items/totem_of_undying/xyxcat"},
         {"predicate":{"custom_model_data":39}, "model":"custom/items/totem_of_undying/yumio_spum"},
-        {"predicate":{"custom_model_data":40}, "model":"custom/items/totem_of_undying/yung_veasle"}
+        {"predicate":{"custom_model_data":40}, "model":"custom/items/totem_of_undying/yung_veasle"},
+        {"predicate":{"custom_model_data":41}, "model":"custom/items/totem_of_undying/milashka_225"}
     ]
 }

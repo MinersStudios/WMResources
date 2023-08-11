@@ -64,6 +64,12 @@
         "instrument=bit,note=5,powered=false": {"model": "custom/block/raw_plumbum_block"},
         "instrument=bit,note=5,powered=true": {"model": "block/note_block"},
         "instrument=bit,note=6,powered=false": {"model": "custom/block/plumbum_block"},
-        "instrument=bit,note=6,powered=true": {"model": "block/note_block"}
+        "instrument=bit,note=6,powered=true": {"model": "block/note_block"},
+        "instrument=bit,note=7,powered=false": {"model": "custom/block/wood/cherry/vertical_planks"},
+        "instrument=bit,note=7,powered=true": {"model": "block/note_block"},
+        "instrument=bit,note=8,powered=false": {"model": "custom/block/wood/cherry/framed_planks"},
+        "instrument=bit,note=8,powered=true": {"model": "block/note_block"},
+        "instrument=bit,note=9,powered=false": {"model": "custom/block/wood/cherry/carved_planks"},
+        "instrument=bit,note=9,powered=true": {"model": "block/note_block"}
     }
 }

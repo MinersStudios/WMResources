@@ -379,6 +379,23 @@
         {"predicate":{"custom_model_data":1372}, "model":"custom/items/dosimeter/off"},
         {"predicate":{"custom_model_data":1373}, "model":"custom/items/dosimeter/green"},
         {"predicate":{"custom_model_data":1374}, "model":"custom/items/dosimeter/yellow"},
-        {"predicate":{"custom_model_data":1375}, "model":"custom/items/dosimeter/red"}
+        {"predicate":{"custom_model_data":1375}, "model":"custom/items/dosimeter/red"},
+        {"predicate":{"custom_model_data":1376}, "model":"custom/furniture/chairs/small_chair/cherry"},
+        {"predicate":{"custom_model_data":1377}, "model":"custom/furniture/chairs/big_chair/cherry"},
+        {"predicate":{"custom_model_data":1378}, "model":"custom/furniture/chairs/small_armchair/cherry"},
+        {"predicate":{"custom_model_data":1379}, "model":"custom/furniture/chairs/big_armchair/cherry"},
+        {"predicate":{"custom_model_data":1380}, "model":"custom/furniture/chairs/rocking_chair/cherry"},
+        {"predicate":{"custom_model_data":1381}, "model":"custom/furniture/chairs/rocking_chair/cherry_paintable"},
+        {"predicate":{"custom_model_data":1382}, "model":"custom/furniture/tables/big/cherry"},
+        {"predicate":{"custom_model_data":1383}, "model":"custom/furniture/tables/big/cherry_paintable"},
+        {"predicate":{"custom_model_data":1384}, "model":"custom/furniture/tables/small/cherry"},
+        {"predicate":{"custom_model_data":1385}, "model":"custom/furniture/tables/small/cherry_paintable"},
+        {"predicate":{"custom_model_data":1386}, "model":"custom/furniture/nightstand/cherry/1"},
+        {"predicate":{"custom_model_data":1387}, "model":"custom/furniture/nightstand/cherry/2_left"},
+        {"predicate":{"custom_model_data":1388}, "model":"custom/furniture/nightstand/cherry/2_middle"},
+        {"predicate":{"custom_model_data":1389}, "model":"custom/furniture/nightstand/cherry/2_right"},
+        {"predicate":{"custom_model_data":1390}, "model":"custom/furniture/nightstand/cherry/3_left"},
+        {"predicate":{"custom_model_data":1391}, "model":"custom/furniture/nightstand/cherry/3_middle"},
+        {"predicate":{"custom_model_data":1392}, "model":"custom/furniture/nightstand/cherry/3_right"}
     ]
 }
