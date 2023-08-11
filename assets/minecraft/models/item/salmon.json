@@ -4,6 +4,6 @@
         "layer0":"item/salmon"
     },
     "overrides":[
-        {"predicate":{"custom_model_data":1}, "model":"custom/items/food/salmon_can"}
+        {"predicate":{"custom_model_data":1}, "model":"custom/items/food/cans/salmon"}
     ]
 }

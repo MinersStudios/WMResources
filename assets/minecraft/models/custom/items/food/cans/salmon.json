@@ -1,0 +1,7 @@
+{
+	"parent": "custom/items/food/cans/root",
+	"textures": {
+		"0": "custom/items/food/cans/salmon",
+		"particle": "custom/items/food/cans/salmon"
+	}
+}

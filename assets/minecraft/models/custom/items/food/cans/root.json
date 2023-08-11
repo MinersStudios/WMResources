@@ -1,8 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"0": "custom/items/food/salmon_can",
-		"particle": "custom/items/food/salmon_can"
+		"0": "custom/items/food/cans/cod",
+		"particle": "custom/items/food/cans/cod"
 	},
 	"elements": [
 		{
@@ -84,5 +83,14 @@
 			"translation": [0, 0, -6],
 			"scale": [0.77, 0.77, 0.77]
 		}
-	}
+	},
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1, 2]
+		}
+	]
 }

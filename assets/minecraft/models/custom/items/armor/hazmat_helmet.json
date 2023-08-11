@@ -1,7 +1,6 @@
 {
-	"parent": "item/generated",
+	"parent": "custom/items/armor/root",
 	"textures": {
-		"layer0":"custom/ui/pixel_split",
 		"layer1": "custom/items/armor/hazmat_helmet"
 	}
 }

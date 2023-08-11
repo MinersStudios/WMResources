@@ -4,6 +4,6 @@
         "layer0":"item/cooked_cod"
     },
     "overrides":[
-        {"predicate":{"custom_model_data":1}, "model":"custom/items/food/cod_can"}
+        {"predicate":{"custom_model_data":1}, "model":"custom/items/food/cans/cod"}
     ]
 }
