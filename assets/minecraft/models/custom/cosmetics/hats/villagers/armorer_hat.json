@@ -1,8 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "entity/villager/profession/armorer",
-		"particle": "entity/villager/profession/armorer"
+		"particle": "#0"
 	},
 	"elements": [
 		{

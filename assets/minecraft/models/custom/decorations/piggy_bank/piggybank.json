@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"parent": "block/block",
 	"textures": {
 		"0": "custom/decorations/piggy_bank/pb",
-		"particle": "custom/decorations/piggy_bank/pb"
+		"particle": "#0"
 	},
 	"elements": [
 		{

@@ -1,9 +1,6 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
-	"texture_size": [128, 16],
 	"textures": {
-		"0": "custom/ui/crafts/crafts_button",
-		"particle": "custom/ui/crafts/crafts_button"
+		"0": "custom/ui/crafts/crafts_button"
 	},
 	"elements": [
 		{

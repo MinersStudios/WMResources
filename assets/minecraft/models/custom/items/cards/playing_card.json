@@ -1,9 +1,8 @@
 {
 	"texture_size": [29, 38],
 	"textures": {
-		"0": "custom/items/cards/bicycle/pikes/a",
-		"1": "custom/items/cards/bicycle/blue_back",
-		"particle": "custom/items/cards/bicycle/blue_back"
+		"0": "custom/none",
+		"1": "custom/none"
 	},
 	"elements": [
 		{

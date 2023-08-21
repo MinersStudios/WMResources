@@ -1,7 +1,6 @@
 {
 	"parent": "custom/furniture/nightstand/root/3_middle",
 	"textures": {
-		"0": "custom/furniture/nightstand/acacia",
-		"particle": "custom/furniture/nightstand/acacia"
+		"0": "custom/furniture/nightstand/acacia"
 	}
 }

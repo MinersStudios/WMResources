@@ -1,8 +1,7 @@
 {
 	"textures": {
-		"0": "custom/items/alcohol/goblet/glass",
-		"1": "custom/items/alcohol/goblet/potion",
-		"particle": "custom/items/alcohol/goblet/glass"
+		"0": "custom/none",
+		"1": "custom/none"
 	},
 	"elements": [
 		{

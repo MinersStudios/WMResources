@@ -1,6 +1,7 @@
 {
 	"textures": {
-		"0": "custom/items/guns/musket"
+		"0": "custom/items/guns/musket",
+		"particle": "#0"
 	},
 	"elements": [
 		{

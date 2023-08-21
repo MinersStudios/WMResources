@@ -1,9 +1,6 @@
 {
-	"parent": "custom/furniture/chairs/small_armchair/small_armchair",
-	"texture_size": [16, 32],
+	"parent": "custom/furniture/chairs/small_armchair/root",
 	"textures": {
-		"0": "custom/furniture/chairs/padding",
-		"1": "custom/furniture/chairs/spruce",
-		"particle": "custom/furniture/chairs/padding"
+		"1": "custom/furniture/chairs/spruce"
 	}
 }

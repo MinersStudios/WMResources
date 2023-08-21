@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/decorations/iron_trashcan",
-		"particle": "custom/decorations/iron_trashcan"
+		"particle": "#0"
 	},
 	"elements": [
 		{

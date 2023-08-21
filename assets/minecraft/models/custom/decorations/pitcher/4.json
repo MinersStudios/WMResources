@@ -1,8 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "custom/decor/pitcher/4"
+		"1": "custom/decor/pitcher/4",
+		"particle": "#1"
 	},
 	"elements": [
 		{

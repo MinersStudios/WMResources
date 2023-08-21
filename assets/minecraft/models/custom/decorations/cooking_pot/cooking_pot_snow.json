@@ -1,10 +1,9 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"parent": "block/cube_column",
 	"textures": {
 		"0": "custom/decorations/cooking_pot",
 		"1": "block/powder_snow",
-		"particle": "custom/decorations/cooking_pot"
+		"particle": "#0"
 	},
 	"elements": [
 		{

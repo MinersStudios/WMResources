@@ -2,7 +2,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/items/guns/strenzhlavker_mr45",
-		"particle": "custom/items/guns/strenzhlavker_mr45"
+		"particle": "#0"
 	},
 	"elements": [
 		{

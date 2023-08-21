@@ -1,8 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "entity/villager/profession/butcher",
-		"particle": "entity/villager/profession/butcher"
+		"particle": "#0"
 	},
 	"elements": [
 		{

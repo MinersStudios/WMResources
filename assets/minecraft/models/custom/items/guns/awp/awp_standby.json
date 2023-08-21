@@ -2,7 +2,7 @@
 	"texture_size": [64, 48],
 	"textures": {
 		"0": "custom/items/guns/awp",
-		"particle": "custom/items/guns/awp"
+		"particle": "#0"
 	},
 	"elements": [
 		{

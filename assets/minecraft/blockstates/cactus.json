@@ -1,6 +1,6 @@
 {
-    "variants":{
-        "":[
+    "variants": {
+        "": [
             {"model": "block/cactus/cactus_0", "weight": 20},
             {"model": "block/cactus/cactus_1", "weight": 5},
             {"model": "block/cactus/cactus_1", "weight": 5, "y": 90},

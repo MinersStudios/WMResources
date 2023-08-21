@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [16, 32],
 	"textures": {
 		"0": "entity/witch",
-		"particle": "entity/witch"
+		"particle": "#0"
 	},
 	"elements": [
 		{

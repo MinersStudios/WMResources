@@ -1,7 +1,8 @@
 {
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "custom/cosmetics/hats/gas_mask"
+		"1": "custom/cosmetics/hats/gas_mask",
+		"particle": "#0"
 	},
 	"elements": [
 		{

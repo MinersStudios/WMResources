@@ -1,8 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "entity/villager/type/desert",
-		"particle": "entity/villager/type/desert"
+		"particle": "#0"
 	},
 	"elements": [
 		{

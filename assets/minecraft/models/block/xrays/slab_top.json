@@ -1,1 +1,3 @@
-{"parent":"minecraft:block/slab_top"}
+{
+    "parent": "block/slab_top"
+}

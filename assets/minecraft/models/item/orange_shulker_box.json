@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:item/template_shulker_box",
+  "parent": "item/template_shulker_box",
   "textures": {
-    "particle": "minecraft:block/shulker_box"
+    "particle": "block/shulker_box"
   },
   "overrides":[
     {"predicate":{"custom_model_data":1}, "model":"custom/items/backpack/orange"},

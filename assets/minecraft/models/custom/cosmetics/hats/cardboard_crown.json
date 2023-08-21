@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/cosmetics/hats/cardboard_crown",
-		"particle": "custom/cosmetics/hats/cardboard_crown"
+		"particle": "#0"
 	},
 	"elements": [
 		{

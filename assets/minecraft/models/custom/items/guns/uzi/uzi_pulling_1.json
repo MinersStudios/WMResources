@@ -2,7 +2,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/items/guns/uzi",
-		"particle": "custom/items/guns/uzi"
+		"particle": "#0"
 	},
 	"elements": [
 		{

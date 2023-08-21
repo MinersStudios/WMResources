@@ -1,8 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "custom/christmas/ball",
-		"particle": "custom/christmas/ball"
+		"particle": "#0"
 	},
 	"elements": [
 		{

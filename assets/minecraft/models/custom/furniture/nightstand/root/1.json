@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom/furniture/nightstand/oak",
-		"particle": "custom/furniture/nightstand/oak"
+		"0": "custom/none",
+		"particle": "#0"
 	},
 	"elements": [
 		{

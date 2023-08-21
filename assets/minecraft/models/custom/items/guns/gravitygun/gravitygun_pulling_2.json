@@ -6,7 +6,7 @@
 		"3": "custom/items/guns/gravitygun/charged_gravitygun_support",
 		"4": "custom/items/guns/gravitygun/charged_gravitygun_handles",
 		"5": "custom/items/guns/gravitygun/charged_gravitygun_claws",
-		"particle": "custom/items/guns/gravitygun/charged_gravitygun_crystal"
+		"particle": "#0"
 	},
 	"elements": [
 		{

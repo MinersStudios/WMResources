@@ -1,5 +1,5 @@
 {
-    "variants":{
+    "variants": {
         "instrument=banjo,note=0,powered=false": {"model": "custom/block/wood/acacia/vertical_planks"},
         "instrument=banjo,note=0,powered=true": {"model": "block/note_block"},
         "instrument=banjo,note=1,powered=false": {"model": "custom/block/wood/birch/vertical_planks"},
@@ -18,7 +18,6 @@
         "instrument=banjo,note=7,powered=true": {"model": "block/note_block"},
         "instrument=banjo,note=8,powered=false": {"model": "custom/block/wood/mangrove/vertical_planks"},
         "instrument=banjo,note=8,powered=true": {"model": "block/note_block"},
-
         "instrument=banjo,note=9,powered=false": {"model": "custom/block/wood/acacia/framed_planks"},
         "instrument=banjo,note=9,powered=true": {"model": "block/note_block"},
         "instrument=banjo,note=10,powered=false": {"model": "custom/block/wood/birch/framed_planks"},
@@ -37,7 +36,6 @@
         "instrument=banjo,note=16,powered=true": {"model": "block/note_block"},
         "instrument=banjo,note=17,powered=false": {"model": "custom/block/wood/mangrove/framed_planks"},
         "instrument=banjo,note=17,powered=true": {"model": "block/note_block"},
-
         "instrument=banjo,note=18,powered=false": {"model": "custom/block/wood/acacia/carved_planks"},
         "instrument=banjo,note=18,powered=true": {"model": "block/note_block"},
         "instrument=banjo,note=19,powered=false": {"model": "custom/block/wood/birch/carved_planks"},
@@ -56,7 +54,6 @@
         "instrument=bit,note=1,powered=true": {"model": "block/note_block"},
         "instrument=bit,note=2,powered=false": {"model": "custom/block/wood/mangrove/carved_planks"},
         "instrument=bit,note=2,powered=true": {"model": "block/note_block"},
-
         "instrument=bit,note=3,powered=false": {"model": "custom/block/dumbass/hacpal_block"},
         "instrument=bit,note=3,powered=true": {"model": "block/note_block"},
         "instrument=bit,note=4,powered=false": {"model": "custom/block/dumbass/svinster_block"},

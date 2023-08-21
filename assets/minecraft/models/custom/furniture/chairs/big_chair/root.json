@@ -1,10 +1,9 @@
 {
-	"parent": "block/cube_column",
 	"texture_size": [16, 32],
 	"textures": {
 		"0": "custom/furniture/chairs/padding",
-		"1": "custom/furniture/chairs/oak",
-		"particle": "custom/furniture/chairs/padding"
+		"1": "custom/none",
+		"particle": "#0"
 	},
 	"elements": [
 		{

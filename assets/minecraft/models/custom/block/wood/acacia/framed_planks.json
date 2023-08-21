@@ -1,6 +1,6 @@
 {
-    "parent":"block/cube_all",
-    "textures":{
-        "all":"custom/block/wood/acacia/framed_planks"
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "custom/block/wood/acacia/framed_planks"
     }
 }

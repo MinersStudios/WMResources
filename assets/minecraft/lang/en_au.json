@@ -1,13 +1,10 @@
 {
-   "menu.disconnect":"\uB004\uA008\uB013",
-   "menu.game":"\uA004",
-   "menu.returnToGame":"Come Back To Reality",
+   "menu.disconnect": "\uB004\uA008\uB013",
+   "menu.game": "\uA004",
+   "menu.returnToGame": "Come Back To Reality",
    "menu.shareToLan": "Type - /help",
-
-   "effect.minecraft.mining_fatigue":"§9/discord",
-
-   "mount.onboard":"§7Press§r\uA029 §7To Exit",
-
+   "effect.minecraft.mining_fatigue": "§9/discord",
+   "mount.onboard": "§7Press§r\uA029 §7To Exit",
    "enchantment.minecraft.sharpness": "🗡 Sharpness",
    "enchantment.minecraft.smite": "🗡 Smite",
    "enchantment.minecraft.bane_of_arthropods": "🗡 Bane of Arthropods",
@@ -47,7 +44,6 @@
    "enchantment.minecraft.multishot": "† Multishot",
    "enchantment.minecraft.quick_charge": "† Quick Charge",
    "enchantment.minecraft.piercing": "† Piercing",
-   
    "item.minecraft.turtle_helmet": "Turtle Helmet §f\uA016\uA017",
    "item.minecraft.netherite_helmet": "Netherite Helmet §f\uA016\uA017",
    "item.minecraft.netherite_chestplate": "Netherite Chestplate §f\uA016\uA016\uA016\uA016",
@@ -73,7 +69,6 @@
    "item.minecraft.leather_chestplate": "Leather Tunic §f\uA016\uA017",
    "item.minecraft.leather_leggings": "Leather Pants §f\uA016",
    "item.minecraft.leather_boots": "Leather Boots §f\uA017",
-   
    "item.minecraft.golden_carrot": "Golden Carrot §f\uA018\uA018\uA018",
    "item.minecraft.pufferfish": "Pufferfish §f\uA021",
    "item.minecraft.spider_eye": "Spider Eye §f\uA019",

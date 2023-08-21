@@ -7,7 +7,7 @@
 		"4": "custom/items/guns/rifle/rifle_stock",
 		"5": "custom/items/guns/rifle/rifle_charger",
 		"6": "custom/items/guns/rifle/rifle_trigger",
-		"particle": "custom/items/guns/rifle/rifle_armed_01"
+		"particle": "#0"
 	},
 	"elements": [
 		{

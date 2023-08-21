@@ -1,12 +1,9 @@
 {
-    "menu.disconnect":"\uB004\uA008\uB013",
-    "menu.game":"ꀄ",
-    "menu.returnToGame":"Вернутся к реальности",
-
-    "effect.minecraft.mining_fatigue":"§9/discord",
-
-    "mount.onboard":"§7Нажмите§rꀩ §7Чтобы встать",
-
+    "menu.disconnect": "\uB004\uA008\uB013",
+    "menu.game": "ꀄ",
+    "menu.returnToGame": "Вернутся к реальности",
+    "effect.minecraft.mining_fatigue": "§9/discord",
+    "mount.onboard": "§7Нажмите§rꀩ §7Чтобы встать",
     "enchantment.minecraft.sharpness": "🗡 Острота",
     "enchantment.minecraft.smite": "🗡 Небесная кара",
     "enchantment.minecraft.bane_of_arthropods": "🗡 Бич членистоногих",
@@ -46,7 +43,6 @@
     "enchantment.minecraft.multishot": "† Тройной выстрел",
     "enchantment.minecraft.quick_charge": "† Быстрая перезарядка",
     "enchantment.minecraft.piercing": "† Пронзающая стрела",
-    
     "item.minecraft.turtle_helmet": "Черепаший панцирь §fꀖꀗ",
     "item.minecraft.netherite_helmet": "Незеритовый шлем §fꀖꀗ",
     "item.minecraft.netherite_chestplate": "Незеритовый нагрудник §fꀖꀖꀖꀖ",
@@ -72,7 +68,6 @@
     "item.minecraft.leather_chestplate": "Кожак §fꀖꀗ",
     "item.minecraft.leather_leggings": "Кожаные штаны §fꀖ",
     "item.minecraft.leather_boots": "Кожаные ботинки §fꀗ",
-    
     "item.minecraft.golden_carrot": "Золотая морковь §fꀘꀘꀘ",
     "item.minecraft.pufferfish": "Фуга §fꀡ",
     "item.minecraft.spider_eye": "Глаз паука §fꀙ",

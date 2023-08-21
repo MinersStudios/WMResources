@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
-	"parent": "block/cube_column",
 	"texture_size": [32, 16],
 	"textures": {
-		"1": "custom/decorations/small_lamp"
+		"1": "custom/decorations/small_lamp",
+		"particle": "#1"
 	},
 	"elements": [
 		{

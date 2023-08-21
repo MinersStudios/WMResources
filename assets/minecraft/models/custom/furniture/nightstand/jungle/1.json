@@ -1,7 +1,6 @@
 {
 	"parent": "custom/furniture/nightstand/root/1",
 	"textures": {
-		"0": "custom/furniture/nightstand/jungle",
-		"particle": "custom/furniture/nightstand/jungle"
+		"0": "custom/furniture/nightstand/jungle"
 	}
 }

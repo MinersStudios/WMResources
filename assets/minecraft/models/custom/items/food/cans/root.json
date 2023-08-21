@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"0": "custom/items/food/cans/cod",
-		"particle": "custom/items/food/cans/cod"
+		"0": "custom/none",
+		"particle": "#0"
 	},
 	"elements": [
 		{

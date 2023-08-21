@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/items/steel_arms/pirate_hook",
-		"particle": "custom/items/steel_arms/pirate_hook"
+		"particle": "#0"
 	},
 	"elements": [
 		{

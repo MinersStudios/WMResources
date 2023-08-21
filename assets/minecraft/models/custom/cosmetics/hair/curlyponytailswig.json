@@ -1,8 +1,6 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"0": "custom/cosmetics/hair/curlyponytailswig",
-		"particle": "custom/cosmetics/hair/curlyponytailswig"
+		"0": "custom/cosmetics/hair/curlyponytailswig"
 	},
 	"elements": [
 		{

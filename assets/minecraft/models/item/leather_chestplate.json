@@ -1,10 +1,10 @@
 {
-    "parent":"item/generated",
-    "textures":{
-        "layer0":"item/leather_chestplate",
-        "layer1":"item/leather_chestplate_overlay"
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_chestplate",
+        "layer1": "item/leather_chestplate_overlay"
     },
-    "overrides":[
-        {"predicate":{"custom_model_data":1}, "model":"custom/items/armor/hazmat_chestplate"}
+    "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "custom/items/armor/hazmat_chestplate"}
     ]
 }

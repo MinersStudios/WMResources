@@ -1,8 +1,7 @@
 {
 	"textures": {
 		"0": "custom/items/cigarettes/smoke",
-		"1": "custom/items/cigarettes/cigarette",
-		"particle": "custom/items/cigarettes/smoke"
+		"1": "custom/items/cigarettes/cigarette"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
-	"parent":"block/cube_column",
-	"textures":{
-		"side":"custom/block/wood/oak/carved_side",
-		"end":"custom/block/wood/oak/carved_top",
-		"particle":"custom/block/wood/oak/carved_side"
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "custom/block/wood/oak/carved_side",
+		"end": "custom/block/wood/oak/carved_top",
+		"particle": "custom/block/wood/oak/carved_side"
 	}
 }

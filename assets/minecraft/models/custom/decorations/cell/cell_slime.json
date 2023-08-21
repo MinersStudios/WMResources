@@ -1,11 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
-	"parent": "block/cube_column",
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/decorations/cell",
 		"1": "entity/slime/slime",
-		"particle": "custom/decorations/cell"
+		"particle": "#0"
 	},
 	"elements": [
 		{

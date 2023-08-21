@@ -2,7 +2,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/items/steel_arms/broadsword",
-		"particle": "custom/items/steel_arms/broadsword"
+		"particle": "#0"
 	},
 	"elements": [
 		{

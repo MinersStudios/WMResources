@@ -1,12 +1,11 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"parent": "block/block",
 	"textures": {
 		"0": "custom/decorations/piggy_bank/emerald_pb",
 		"1": "custom/decorations/piggy_bank/emerald_pb_back",
 		"2": "custom/decorations/piggy_bank/emerald_pb_side",
 		"3": "custom/decorations/piggy_bank/emerald_pb_top",
-		"particle": "custom/decorations/piggy_bank/emerald_pb"
+		"particle": "#0"
 	},
 	"elements": [
 		{

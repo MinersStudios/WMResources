@@ -1,8 +1,6 @@
 {
 	"parent": "custom/items/alcohol/goblet/root",
 	"textures": {
-		"0": "custom/items/alcohol/goblet/glass",
-		"1": "custom/ui/none",
-		"particle": "custom/items/alcohol/goblet/glass"
+		"0": "custom/items/alcohol/goblet/glass"
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "custom/items/guns/revolver"
+		"1": "custom/items/guns/revolver",
+		"particle": "#1"
 	},
 	"elements": [
 		{

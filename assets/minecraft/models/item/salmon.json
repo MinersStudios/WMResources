@@ -1,9 +1,9 @@
 {
-    "parent":"item/generated",
-    "textures":{
-        "layer0":"item/salmon"
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/salmon"
     },
-    "overrides":[
-        {"predicate":{"custom_model_data":1}, "model":"custom/items/food/cans/salmon"}
+    "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "custom/items/food/cans/salmon"}
     ]
 }

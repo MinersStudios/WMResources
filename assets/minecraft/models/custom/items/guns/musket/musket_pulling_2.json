@@ -1,8 +1,8 @@
 {
 	"textures": {
 		"0": "custom/items/guns/musket",
-		"particle": "custom/items/guns/flintlock",
-		"1_0": "custom/items/guns/flintlock"
+		"1": "custom/items/guns/flintlock",
+		"particle": "#1"
 	},
 	"elements": [
 		{
@@ -122,12 +122,12 @@
 			"to": [8.4, 7, -5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 1]},
 			"faces": {
-				"north": {"uv": [1, 5.5, 1.498, 5.999], "texture": "#1_0"},
-				"east": {"uv": [0.5, 5, 1.5, 6], "texture": "#1_0"},
-				"south": {"uv": [0.5, 5, 1.5, 6], "texture": "#1_0"},
-				"west": {"uv": [0.5, 5, 1.5, 6], "texture": "#1_0"},
-				"up": {"uv": [0.5, 5, 1.5, 6], "texture": "#1_0"},
-				"down": {"uv": [0.5, 5, 1.5, 6], "texture": "#1_0"}
+				"north": {"uv": [1, 5.5, 1.498, 5.999], "texture": "#1"},
+				"east": {"uv": [0.5, 5, 1.5, 6], "texture": "#1"},
+				"south": {"uv": [0.5, 5, 1.5, 6], "texture": "#1"},
+				"west": {"uv": [0.5, 5, 1.5, 6], "texture": "#1"},
+				"up": {"uv": [0.5, 5, 1.5, 6], "texture": "#1"},
+				"down": {"uv": [0.5, 5, 1.5, 6], "texture": "#1"}
 			}
 		}
 	],

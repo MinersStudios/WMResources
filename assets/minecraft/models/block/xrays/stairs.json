@@ -1,1 +1,3 @@
-{"parent":"minecraft:block/stairs"}
+{
+    "parent": "block/stairs"
+}

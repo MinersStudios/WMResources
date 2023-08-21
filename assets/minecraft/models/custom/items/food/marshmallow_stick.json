@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/items/food/marshmallow_stick",
-		"particle": "custom/items/food/marshmallow_stick"
+		"particle": "#0"
 	},
 	"elements": [
 		{

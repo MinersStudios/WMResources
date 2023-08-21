@@ -1,10 +1,9 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [64, 32],
 	"textures": {
 		"0": "custom/decorations/deer_head",
 		"1": "entity/hoglin/hoglin",
-		"particle": "custom/decorations/deer_head"
+		"particle": "#1"
 	},
 	"elements": [
 		{

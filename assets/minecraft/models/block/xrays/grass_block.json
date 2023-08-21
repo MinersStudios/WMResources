@@ -1,1 +1,3 @@
-{"parent":"minecraft:block/grass_block"}
+{
+    "parent": "block/grass_block"
+}

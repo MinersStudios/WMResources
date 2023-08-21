@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [64, 32],
 	"textures": {
 		"0": "custom/decorations/plush/racoon",
-		"particle": "custom/decorations/plush/racoon"
+		"particle": "#0"
 	},
 	"elements": [
 		{

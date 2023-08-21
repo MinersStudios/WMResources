@@ -1,7 +1,6 @@
 {
 	"parent": "custom/furniture/nightstand/root/2_left",
 	"textures": {
-		"0": "custom/furniture/nightstand/oak",
-		"particle": "custom/furniture/nightstand/oak"
+		"0": "custom/furniture/nightstand/oak"
 	}
 }

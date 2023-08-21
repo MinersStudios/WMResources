@@ -1,9 +1,6 @@
 {
-	"parent": "custom/furniture/chairs/small_chair/small_chair",
-	"texture_size": [16, 32],
+	"parent": "custom/furniture/chairs/small_chair/root",
 	"textures": {
-		"0": "custom/furniture/chairs/padding",
-		"1": "custom/furniture/chairs/warped",
-		"particle": "custom/furniture/chairs/padding"
+		"1": "custom/furniture/chairs/warped"
 	}
 }

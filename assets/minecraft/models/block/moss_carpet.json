@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
-	"parent": "minecraft:block/cube_all",
+	"parent": "block/cube_all",
 	"textures": {
 		"1": "block/moss_block_1",
-		"particle": "block/moss_block_1",
+		"particle": "#1",
 		"all": "block/moss_block"
 	},
 	"elements": [

@@ -1,10 +1,6 @@
 {
-  "parent": "block/orientable_with_bottom",
-  "textures": {
-    "top": "block/bee_nest_top",
-    "bottom": "block/bee_nest_bottom",
-    "side": "block/bee_nest_side",
-    "front": "block/bee_nest/bee_nest_front_filled_4",
-    "particle": "block/bee_nest_side"
-  }
+    "parent": "block/bee_nest",
+    "textures": {
+        "front": "block/bee_nest/bee_nest_front_filled_4"
+    }
 }

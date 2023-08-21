@@ -1,1 +1,3 @@
-{"parent":"minecraft:block/cube_mirrored"}
+{
+    "parent": "block/cube_mirrored"
+}

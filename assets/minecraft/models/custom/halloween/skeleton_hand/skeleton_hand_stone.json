@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "custom/halloween/bone_hand",
 		"1": "block/stone",
-		"particle": "custom/halloween/bone_hand"
+		"particle": "#0"
 	},
 	"elements": [
 		{

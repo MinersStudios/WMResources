@@ -2,7 +2,6 @@
 	"parent": "custom/items/cards/playing_card",
 	"textures": {
 		"0": "custom/items/cards/bicycle/hearts/k",
-		"1": "custom/items/cards/bicycle/blue_back",
-		"particle": "custom/items/cards/bicycle/blue_back"
+		"1": "custom/items/cards/bicycle/blue_back"
 	}
 }

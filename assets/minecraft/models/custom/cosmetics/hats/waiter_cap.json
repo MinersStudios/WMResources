@@ -1,8 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "custom/cosmetics/hats/waiter_cap",
-		"particle": "custom/cosmetics/hats/waiter_cap"
+		"particle": "#0"
 	},
 	"elements": [
 		{

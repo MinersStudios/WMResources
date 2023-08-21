@@ -1,7 +1,6 @@
 {
 	"textures": {
-		"0": "custom/items/walker",
-		"particle": "custom/items/walker"
+		"0": "custom/items/walker"
 	},
 	"elements": [
 		{

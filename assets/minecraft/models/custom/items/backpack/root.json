@@ -1,7 +1,6 @@
 {
 	"textures": {
-		"0": "custom/items/backpack/white",
-		"particle": "custom/items/backpack/white"
+		"0": "custom/items/backpack/white"
 	},
 	"elements": [
 		{

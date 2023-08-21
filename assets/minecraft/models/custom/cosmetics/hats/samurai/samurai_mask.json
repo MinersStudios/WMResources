@@ -1,8 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "custom/cosmetics/hats/samurai",
-		"particle": "custom/cosmetics/hats/samurai"
+		"particle": "#0"
 	},
 	"elements": [
 		{

@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/items/steel_arms/golem_gauntlet",
-		"particle": "custom/items/steel_arms/golem_gauntlet"
+		"particle": "#0"
 	},
 	"elements": [
 		{

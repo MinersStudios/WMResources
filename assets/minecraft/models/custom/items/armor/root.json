@@ -1,7 +1,7 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0":"custom/ui/none",
-		"layer1": "custom/ui/none"
+		"layer0":"custom/none",
+		"layer1": "custom/none"
 	}
 }

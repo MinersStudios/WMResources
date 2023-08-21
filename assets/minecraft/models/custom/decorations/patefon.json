@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
-	"parent": "block/block",
 	"texture_size": [16, 32],
 	"textures": {
-		"0": "custom/decorations/patefon"
+		"0": "custom/decorations/patefon",
+		"particle": "#0"
 	},
 	"elements": [
 		{

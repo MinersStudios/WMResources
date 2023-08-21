@@ -1,8 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
 		"0": "custom/decorations/fire_hydrant",
-		"particle": "custom/decorations/fire_hydrant"
+		"particle": "#0"
 	},
 	"elements": [
 		{

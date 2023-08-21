@@ -1,9 +1,9 @@
 {
 	"texture_size": [16, 32],
 	"textures": {
-		"0": "custom/furniture/chairs/rocking_chair/oak",
+		"0": "custom/none",
 		"1": "custom/furniture/chairs/rocking_chair/padding",
-		"particle": "custom/furniture/chairs/rocking_chair/oak"
+		"particle": "#0"
 	},
 	"elements": [
 		{

@@ -2,7 +2,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/items/steel_arms/hammer_of_gravity",
-		"particle": "custom/items/steel_arms/hammer_of_gravity"
+		"particle": "#0"
 	},
 	"elements": [
 		{

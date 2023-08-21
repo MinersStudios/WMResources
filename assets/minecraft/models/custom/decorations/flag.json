@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/decorations/flag",
-		"particle": "custom/decorations/flag"
+		"particle": "#0"
 	},
 	"elements": [
 		{

@@ -1,8 +1,6 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"textures": {
-		"0": "custom/cosmetics/hair/beard",
-		"particle": "custom/cosmetics/hair/beard"
+		"0": "custom/cosmetics/hair/beard"
 	},
 	"elements": [
 		{

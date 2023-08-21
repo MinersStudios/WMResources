@@ -3,7 +3,7 @@
 		"0": "custom/items/steel_arms/lightsaber/lightsaber",
 		"1": "custom/items/steel_arms/lightsaber/lightsaber_yellow",
 		"2": "custom/items/steel_arms/lightsaber/red",
-		"particle": "custom/items/steel_arms/lightsaber/lightsaber"
+		"particle": "#0"
 	},
 	"elements": [
 		{

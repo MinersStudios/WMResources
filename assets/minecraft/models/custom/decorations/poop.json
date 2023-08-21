@@ -1,9 +1,8 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [16, 32],
 	"textures": {
 		"0": "custom/decorations/poop",
-		"particle": "custom/decorations/poop"
+		"particle": "#0"
 	},
 	"elements": [
 		{

@@ -1,7 +1,7 @@
 {
 	"texture_size": [38, 56],
 	"textures": {
-		"1": "custom/items/cards/bicycle/box_blue_1"
+		"1": "custom/none"
 	},
 	"elements": [
 		{

@@ -3,7 +3,7 @@
 	"textures": {
 		"1": "custom/items/guns/revolver",
 		"2": "custom/items/guns/firework",
-		"particle": "custom/items/guns/firework"
+		"particle": "#2"
 	},
 	"elements": [
 		{

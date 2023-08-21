@@ -1,12 +1,9 @@
 {
-    "menu.disconnect":"\uB004\uA008\uB013",
-    "menu.game":"\uA004",
-    "menu.returnToGame":"Вернутись до реальності",
-
-    "effect.minecraft.mining_fatigue":"§9/discord",
-
-    "mount.onboard":"§7Нажміть§rꀩ §7Аби встати",
-
+    "menu.disconnect": "\uB004\uA008\uB013",
+    "menu.game": "\uA004",
+    "menu.returnToGame": "Вернутись до реальності",
+    "effect.minecraft.mining_fatigue": "§9/discord",
+    "mount.onboard": "§7Нажміть§rꀩ §7Аби встати",
     "enchantment.minecraft.sharpness": "🗡 Гострота",
     "enchantment.minecraft.smite": "🗡 Небесна кара",
     "enchantment.minecraft.bane_of_arthropods": "🗡 Загибель членистоногих",
@@ -46,7 +43,6 @@
     "enchantment.minecraft.multishot": "† Мультипостріл",
     "enchantment.minecraft.quick_charge": "† Швидке заряджання",
     "enchantment.minecraft.piercing": "† Пронизування",
-    
     "item.minecraft.turtle_helmet": "Панцир черепахи §fꀖꀗ",
     "item.minecraft.netherite_helmet": "Незеритовий шолом §fꀖꀗ",
     "item.minecraft.netherite_chestplate": "Незеритовий нагрудник §fꀖꀖꀖꀖ",
@@ -72,7 +68,6 @@
     "item.minecraft.leather_chestplate": "Шкіряна туніка §fꀖꀗ",
     "item.minecraft.leather_leggings": "Шкіряні штани §fꀖ",
     "item.minecraft.leather_boots": "Шкіряні чоботи §fꀗ",
-    
     "item.minecraft.golden_carrot": "Золота морква §fꀘꀘꀘ",
     "item.minecraft.pufferfish": "Скелезуб §fꀡ",
     "item.minecraft.spider_eye": "Павуче око §fꀙ",

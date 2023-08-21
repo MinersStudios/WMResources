@@ -1,9 +1,7 @@
 {
-	"credit": "Made by Poloskun_ http://www.youtube.com/c/Enchig",
 	"texture_size": [32, 16],
 	"textures": {
-		"0": "custom/cosmetics/hair/mohawkwig",
-		"particle": "custom/cosmetics/hair/mohawkwig"
+		"0": "custom/cosmetics/hair/mohawkwig"
 	},
 	"elements": [
 		{

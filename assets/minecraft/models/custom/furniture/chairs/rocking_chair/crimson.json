@@ -1,9 +1,7 @@
 {
-	"parent": "custom/furniture/chairs/rocking_chair/rocking_chair",
-	"texture_size": [16, 32],
+	"parent": "custom/furniture/chairs/rocking_chair/root",
 	"textures": {
 		"0": "custom/furniture/chairs/rocking_chair/crimson",
-		"1": "custom/ui/none",
-		"particle": "custom/furniture/chairs/rocking_chair/crimson"
+		"1": "custom/none"
 	}
 }
