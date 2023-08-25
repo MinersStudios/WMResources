@@ -4,7 +4,6 @@ import time
 import zipfile
 import shutil
 
-start_time = time.time()
 total_files_processed = 0
 json_files_compressed = 0
 
@@ -31,6 +30,8 @@ def process_file(path, destination_archive):
 
 
 def main():
+    start_time = time.time()
+
     pack_mcmeta_filename = "pack.mcmeta"
     white_list_filename = "white_list.txt"
     black_list_filename = "lite_black_list.txt"
