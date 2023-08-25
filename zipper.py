@@ -8,10 +8,6 @@ total_files_processed = 0
 json_files_compressed = 0
 
 
-def compress_json(file_data):
-    return json.dumps(file_data, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
-
-
 def process_file(path, destination_archive):
     global total_files_processed, json_files_compressed
 
@@ -24,7 +20,10 @@ def process_file(path, destination_archive):
         with open(path, "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
 
-        destination_archive.writestr(path, compress_json(data))
+        destination_archive.writestr(
+            path,
+            json.dumps(data, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
+        )
     else:
         destination_archive.write(path)
 
