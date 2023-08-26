@@ -80,7 +80,7 @@
     <p>After running the script, you'll find two archive files in the same directory as the script :</p>
     <ul>
         <li><code>FULL_WMTextures-v(VERSION).zip</code> : Full version archive which includes all resource pack files specified in <i>"white_list.txt"</i></li>
-        <li><code>LITE_WMTextures-v(VERSION).zip</code> : A lite version archive that Includes all resource pack files specified in <i>"white_list.txt"</i> except those specified in <i>"lite_black_list.txt"</i></li>
+        <li><code>LITE_WMTextures-v(VERSION).zip</code> : Lite version archive that includes all resource pack files specified in <i>"white_list.txt"</i> except those specified in <i>"lite_black_list.txt"</i></li>
     </ul>
     <br>
     <p>
