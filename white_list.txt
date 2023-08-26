@@ -1,3 +1,4 @@
 assets\
 pack.png
 pack.mcmeta
+LICENSE.md
