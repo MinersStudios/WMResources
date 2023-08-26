@@ -38,8 +38,8 @@
   <h1>Versions of the resource pack</h1>
   <p>
     <ul align="left">
-      <li><b><code> Full </code></b> : Includes all resource pack files that are specified in <code><i>white_list.txt</i></code></li>
-      <li><b><code> Lite </code></b> : Includes all resource pack files specified in <code><i>white_list.txt</i></code> except those specified in <code><i>lite_black_list.txt</i></code>.
+      <li><b><code> Full </code></b> : Includes all resource pack files that are specified in <i>white_list.txt</i></li>
+      <li><b><code> Lite </code></b> : Includes all resource pack files specified in <i>"white_list.txt"</i> except those specified in <i>"lite_black_list.txt"</i>.
                             This version does not include any decorative additions that do not affect custom <b>blocks / items / decoration</b>, such as : <br>
                             <i>different icons, animated items, modified block models</i>
       </li>
@@ -79,8 +79,8 @@
     <h2>Output</h2>
     <p>After running the script, you'll find two archive files in the same directory as the script :</p>
     <ul>
-        <li><code>FULL_WMTextures-v(VERSION).zip</code> : Full version archive which includes all resource pack files specified in <code><i>white_list.txt</i></code></li>
-        <li><code>LITE_WMTextures-v(VERSION).zip</code> : A lite version archive that Includes all resource pack files specified in <code><i>white_list.txt</i></code> except those specified in <code><i>lite_black_list.txt</i></code></li>
+        <li><code>FULL_WMTextures-v(VERSION).zip</code> : Full version archive which includes all resource pack files specified in <i>"white_list.txt"</i></li>
+        <li><code>LITE_WMTextures-v(VERSION).zip</code> : A lite version archive that Includes all resource pack files specified in <i>"white_list.txt"</i> except those specified in <i>"lite_black_list.txt"</i></li>
     </ul>
     <br>
     <p>
