@@ -14,7 +14,7 @@
         <img alt="Contributors" src="https://img.shields.io/github/contributors/MinersStudios/MSTextures?style=for-the-badge&color=d5c3f0&labelColor=302D41" />
       </a>
       <a href="#">
-        <img alt="GitHub code size in bytes" src="https://staging.shields.io/github/languages/code-size/MinersStudios/MSTextures?style=for-the-badge&color=a6da95&labelColor=302D41" />
+        <img alt="GitHub code size in bytes" src="https://img.shields.io/github/downloads/MinersStudios/MSTextures/total?style=for-the-badge&color=a6da95&labelColor=302D41" />
       </a>
       <br>
       <a href="https://whomine.net/discord">
