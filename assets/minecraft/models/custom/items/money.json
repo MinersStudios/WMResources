@@ -3,7 +3,6 @@
 	"textures": {
 		"layer0": "custom/items/money"
 	},
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 1, 0.75],

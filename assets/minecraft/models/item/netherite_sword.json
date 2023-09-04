@@ -23,7 +23,8 @@
         {"predicate": {"custom_model_data": 17}, "model": "custom/items/steel_arms/lightsaber/yellow_lightsaber"},
         {"predicate": {"custom_model_data": 18}, "model": "custom/items/steel_arms/lightsaber/yellow_lightsaber_dual"},
         {"predicate": {"custom_model_data": 19}, "model": "custom/items/steel_arms/knife"},
-
-        {"predicate": {"custom_model_data": 20}, "model": "custom/items/crucible"}
+        {"predicate": {"custom_model_data": 20}, "model": "custom/items/crucible"},
+        {"predicate": {"custom_model_data": 21}, "model": "custom/items/steel_arms/followers_sword"},
+        {"predicate": {"custom_model_data": 22}, "model": "custom/items/steel_arms/sculk_cleaver"}
     ]
 }
