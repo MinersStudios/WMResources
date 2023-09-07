@@ -1,6 +1,6 @@
 {
     "parent": "block/bee_nest",
     "textures": {
-        "front": "block/bee_nest/bee_nest_front_filled_2"
+        "front": "block/bee_nest/filled_1"
     }
 }

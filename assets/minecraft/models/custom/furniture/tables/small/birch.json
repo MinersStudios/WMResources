@@ -1,5 +1,4 @@
 {
-	"texture_size": [64, 64],
 	"textures": {
 		"0": "custom/furniture/tables/birch",
 		"particle": "custom/furniture/tables/birch"

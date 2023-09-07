@@ -1,5 +1,4 @@
 {
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/items/steel_arms/masters_katana",
 		"particle": "#0"

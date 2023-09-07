@@ -1,8 +1,7 @@
 {
-	"texture_size": [64, 64],
 	"textures": {
 		"0": "custom/furniture/tables/oak",
-		"particle": "custom/furniture/tables/oak"
+		"particle": "#0"
 	},
 	"elements": [
 		{

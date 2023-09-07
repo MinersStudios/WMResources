@@ -2,7 +2,6 @@
 	"parent": "block/cube_column",
 	"textures": {
 		"side": "custom/block/wood/birch/carved_side",
-		"end": "custom/block/wood/birch/carved_top",
-		"particle": "custom/block/wood/birch/carved_side"
+		"end": "custom/block/wood/birch/carved_top"
 	}
 }

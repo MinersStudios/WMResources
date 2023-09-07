@@ -1,6 +1,6 @@
 {
     "parent": "block/beehive",
     "textures": {
-        "front": "block/beehive/beehive_front_filled_2"
+        "front": "block/beehive/filled_1"
     }
 }

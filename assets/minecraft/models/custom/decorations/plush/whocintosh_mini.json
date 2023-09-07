@@ -1,5 +1,4 @@
 {
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/decorations/plush/whocintosh_mini",
 		"particle": "#0"

@@ -1,9 +1,8 @@
 {
 	"ambientocclusion": false,
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/halloween/pumpkin_bundle",
-		"particle": "custom/halloween/pumpkin_bundle"
+		"particle": "#0"
 	},
 	"elements": [
 		{
