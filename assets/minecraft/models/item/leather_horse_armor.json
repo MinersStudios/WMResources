@@ -396,6 +396,9 @@
         {"predicate": {"custom_model_data": 1389}, "model": "custom/furniture/nightstand/cherry/2_right"},
         {"predicate": {"custom_model_data": 1390}, "model": "custom/furniture/nightstand/cherry/3_left"},
         {"predicate": {"custom_model_data": 1391}, "model": "custom/furniture/nightstand/cherry/3_middle"},
-        {"predicate": {"custom_model_data": 1392}, "model": "custom/furniture/nightstand/cherry/3_right"}
+        {"predicate": {"custom_model_data": 1392}, "model": "custom/furniture/nightstand/cherry/3_right"},
+        {"predicate": {"custom_model_data": 1393}, "model": "custom/decorations/plush/sonic/sonic"},
+        {"predicate": {"custom_model_data": 1394}, "model": "custom/decorations/plush/sonic/sonic_cyclops"},
+        {"predicate": {"custom_model_data": 1395}, "model": "custom/decorations/plush/sonic/sonic_glitch"}
     ]
 }
