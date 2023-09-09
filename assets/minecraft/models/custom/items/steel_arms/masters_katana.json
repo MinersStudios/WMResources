@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/items/steel_arms/masters_katana",
-		"particle": "#0"
+		"particle": "custom/items/steel_arms/masters_katana"
 	},
 	"elements": [
 		{
@@ -203,7 +203,6 @@
 				"north": {"uv": [0, 9, 0.4995, 9.4985], "texture": "#0"},
 				"east": {"uv": [0, 9, 0.4995, 9.4985], "texture": "#0"},
 				"south": {"uv": [0.4995, 9, 0, 9.4985], "texture": "#0"},
-				"west": {"uv": [0, 9, 0.4995, 9.4995], "texture": "#0"},
 				"up": {"uv": [0.4995, 9, 0, 9.4995], "texture": "#0"},
 				"down": {"uv": [0.4995, 9, 0, 9.4995], "texture": "#0"}
 			}
@@ -225,9 +224,7 @@
 			"to": [12, 7, 1],
 			"faces": {
 				"north": {"uv": [2, 6.5, 2.4995, 7.9985], "texture": "#0"},
-				"east": {"uv": [2, 6.5, 2.4995, 7.999], "texture": "#0"},
 				"south": {"uv": [2.4995, 6.5, 2, 7.999], "texture": "#0"},
-				"west": {"uv": [2, 6.5, 2.4995, 7.9995], "texture": "#0"},
 				"up": {"uv": [2.4995, 6.5, 2, 6.9995], "texture": "#0"},
 				"down": {"uv": [2.4995, 7.5, 2, 7.9995], "texture": "#0"}
 			}

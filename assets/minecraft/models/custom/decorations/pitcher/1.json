@@ -1,7 +1,7 @@
 {
 	"texture_size": [16, 32],
 	"textures": {
-		"0": "custom/decor/pitcher/1",
+		"0": "custom/decorations/pitcher/1",
 		"particle": "#0"
 	},
 	"elements": [
@@ -47,10 +47,6 @@
 			"to": [6, 9, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [0, 4, 8, 7.5], "texture": "#0"},
-				"east": {"uv": [8, 4, 0, 7.5], "texture": "#0"},
-				"south": {"uv": [0, 4, 8, 7.5], "texture": "#0"},
-				"west": {"uv": [8, 4, 0, 7.5], "texture": "#0"},
 				"up": {"uv": [10, 5.5, 14, 6.5], "rotation": 90, "texture": "#0"},
 				"down": {"uv": [10, 5.5, 14, 6.5], "rotation": 90, "texture": "#0"}
 			}
@@ -60,10 +56,6 @@
 			"to": [12, 9, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [0, 4, 8, 7.5], "texture": "#0"},
-				"east": {"uv": [8, 4, 0, 7.5], "texture": "#0"},
-				"south": {"uv": [0, 4, 8, 7.5], "texture": "#0"},
-				"west": {"uv": [8, 4, 0, 7.5], "texture": "#0"},
 				"up": {"uv": [10, 6.5, 14, 5.5], "rotation": 90, "texture": "#0"},
 				"down": {"uv": [10, 6.5, 14, 5.5], "rotation": 90, "texture": "#0"}
 			}
@@ -71,18 +63,18 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [55, 0, 0],
-			"translation": [0, 2.25, 1.75],
-			"scale": [0.46, 0.46, 0.46]
+			"rotation": [33, 45, 0],
+			"translation": [0, 2, 0.75],
+			"scale": [0.39, 0.39, 0.39]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [20, 0, 0],
-			"translation": [0.5, -2.5, -1],
-			"scale": [0.82, 0.82, 0.82]
+			"rotation": [50, 0, 0],
+			"translation": [0, -0.25, 0.25],
+			"scale": [0.65, 0.65, 0.65]
 		},
 		"firstperson_righthand": {
-			"rotation": [-10, 1, 0],
-			"translation": [1.25, 1.75, 0],
+			"rotation": [0, -54, 0],
+			"translation": [0, 3.75, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
@@ -91,25 +83,27 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {
-			"translation": [0, 3.25, 0],
-			"scale": [0.62, 0.62, 0.62]
+			"translation": [0, 2, 0],
+			"scale": [0.28, 0.28, 0.28]
 		},
 		"gui": {
-			"rotation": [29, 134, 0],
+			"rotation": [29, 135, 0],
 			"translation": [0, 1.25, 0],
-			"scale": [0.84, 0.84, 0.84]
+			"scale": [0.82, 0.82, 0.82]
 		},
 		"head": {
-			"translation": [0, -15.25, 0],
-			"scale": [2.22, 2.22, 2.22]
+			"translation": [0, 16.25, 0],
+			"scale": [1.23, 1.23, 1.23]
 		},
 		"fixed": {
-			"translation": [0, 2.25, 0]
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -15.75],
+			"scale": [2, 2, 2]
 		}
 	},
 	"groups": [
 		{
-			"name": "group",
+			"name": "pitcher",
 			"origin": [8, 0, 8],
 			"color": 0,
 			"children": [0, 1, 2, 3, 4]

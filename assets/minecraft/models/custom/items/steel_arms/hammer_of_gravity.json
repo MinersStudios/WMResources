@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/items/steel_arms/hammer_of_gravity",
-		"particle": "#0"
+		"particle": "custom/items/steel_arms/hammer_of_gravity"
 	},
 	"elements": [
 		{
@@ -10,11 +10,7 @@
 			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [6.496, 7, 5.4995, 7.9955], "texture": "#0"},
-				"east": {"uv": [6, 7, 6.4975, 7.9955], "texture": "#0"},
-				"south": {"uv": [5.4995, 7, 6.496, 7.9955], "texture": "#0"},
-				"west": {"uv": [5.4995, 7, 5.9975, 7.9955], "texture": "#0"},
-				"up": {"uv": [5.4995, 7, 6.496, 7.498], "texture": "#0"},
-				"down": {"uv": [5.4995, 7.5, 6.496, 7.9955], "texture": "#0"}
+				"south": {"uv": [5.4995, 7, 6.496, 7.9955], "texture": "#0"}
 			}
 		},
 		{
