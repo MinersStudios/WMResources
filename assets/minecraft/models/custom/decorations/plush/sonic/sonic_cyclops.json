@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"0": "custom/decorations/plush/sonic/sonic_сyclops",
-		"particle": "#0"
+		"0": "custom/decorations/plush/sonic/sonic_cyclops",
+		"particle": "custom/decorations/plush/sonic/sonic_cyclops"
 	},
 	"elements": [
 		{
