@@ -3,27 +3,46 @@ import os
 import time
 import zipfile
 import shutil
+from PIL import Image
 
 total_files_processed = 0
 json_files_compressed = 0
+png_files_compressed = 0
+
+
+def compress_json(json_path, destination_archive):
+    print(f"Compressing JSON: {json_path}")
+
+    destination_archive.writestr(
+        json_path,
+        json.dumps(
+            json.load(
+                open(json_path, "r", encoding="utf-8")
+            ),
+            separators=(",", ":"),
+            ensure_ascii=False
+        ).encode("utf-8")
+    )
+
+
+def compress_png(png_path, destination_archive):
+    print(f"Compressing PNG: {png_path}")
+
+    Image.open(png_path).save("temp.png", optimize=True)
+    destination_archive.write("temp.png", png_path)
 
 
 def process_file(path, destination_archive):
-    global total_files_processed, json_files_compressed
+    global total_files_processed, json_files_compressed, png_files_compressed
 
     total_files_processed += 1
 
-    if path.endswith(".json") or path.endswith(".mcmeta"):
+    if path.endswith((".json", ".mcmeta")):
         json_files_compressed += 1
-        print("Compressing JSON : " + path)
-
-        with open(path, "r", encoding="utf-8") as json_file:
-            data = json.load(json_file)
-
-        destination_archive.writestr(
-            path,
-            json.dumps(data, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
-        )
+        compress_json(path, destination_archive)
+    elif path.endswith(".png"):
+        png_files_compressed += 1
+        compress_png(path, destination_archive)
     else:
         destination_archive.write(path)
 
@@ -41,16 +60,15 @@ def main():
 
     for required_file in [pack_mcmeta_filename, white_list_filename, black_list_filename]:
         if not os.path.exists(required_file):
-            print("Missing file : " + required_file)
+            print(f"Missing file: {required_file}")
             exit(1)
 
     # Get pack version
 
-    with open(pack_mcmeta_filename, "r") as file:
-        pack_mcmeta = file.read()
+    pack_mcmeta = open(pack_mcmeta_filename, "r").read()
 
     if '"version": "' not in pack_mcmeta:
-        print("Missing \"version\" in " + pack_mcmeta_filename)
+        print(f"Missing \"version\" in {pack_mcmeta_filename}")
         exit(1)
 
     pack_version = pack_mcmeta.split('"version": "')[1].split('"')[0]
@@ -59,11 +77,8 @@ def main():
 
     # Get white and black lists
 
-    with open(white_list_filename, "r") as file:
-        white_list = file.read().splitlines()
-
-    with open(black_list_filename, "r") as file:
-        black_list = file.read().splitlines()
+    white_list = open(white_list_filename, "r").read().splitlines()
+    black_list = open(black_list_filename, "r").read().splitlines()
 
     # Remove old archives
 
@@ -93,17 +108,24 @@ def main():
                 if not any([file.filename.startswith(black_list_path) for black_list_path in black_list]):
                     zip_file_lite.writestr(file, zip_file_full.read(file))
 
+    # Remove temp png file
+
+    if os.path.exists("temp.png"):
+        os.remove("temp.png")
+
     # Print summary
 
+    end_time = round(time.time() - start_time, 2)
     console_width = shutil.get_terminal_size().columns
     decorative_line = "• ------------------------------ •".center(console_width)
 
     print(decorative_line)
     print("Process completed successfully".center(console_width))
     print(decorative_line)
-    print(f"Time taken: {round(time.time() - start_time, 2)} seconds".center(console_width))
+    print(f"Time taken: {end_time} seconds".center(console_width))
     print(f"Total files processed : {total_files_processed}".center(console_width))
     print(f"JSON files compressed : {json_files_compressed}".center(console_width))
+    print(f"PNG files compressed : {png_files_compressed}".center(console_width))
     print("Size of the archives :".center(console_width))
     print(f"- Full : {round(os.path.getsize(full_archive_name) / 1024, 2)} KB".center(console_width))
     print(f"- Lite : {round(os.path.getsize(lite_archive_name) / 1024, 2)} KB".center(console_width))

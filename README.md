@@ -68,6 +68,10 @@
     <h2>Usage</h2>
     <ol>
         <li>Make sure all the required files are present in the script's directory</li>
+        <li>
+            Make sure you have <i>Pillow</i> installed on your system
+            <pre><code>pip install Pillow</code></pre>
+        </li>
         <li>Open a terminal or command prompt</li>
         <li>Navigate to the script's directory using the <code>cd</code> command</li>
         <li>
@@ -84,7 +88,7 @@
     </ul>
     <br>
     <p>
-      <i>For any questions or issues related to the script, feel free to open an issue on the repository.
+      <i>For any questions or issues related to the script, feel free to open an issue on the repository.</i>
     </p>
   </div>
     
