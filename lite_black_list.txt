@@ -19,9 +19,13 @@ assets/minecraft/optifine/cem/armor_stand.jem
 assets/minecraft/textures/block
 assets/minecraft/textures/entity
 assets/minecraft/textures/gui/container
-assets/minecraft/textures/gui/icons.png
-assets/minecraft/textures/gui/icons_christmas.png
-assets/minecraft/textures/gui/icons_halloween.png
+assets/minecraft/textures/gui/sprites
+assets/minecraft/textures/gui/footer_separator.png
+assets/minecraft/textures/gui/header_separator.png
+assets/minecraft/textures/gui/light_dirt_background.png
 assets/minecraft/textures/gui/options_background.png
 assets/minecraft/textures/item
 assets/minecraft/textures/particle
+assets/minecraft/shaders/core/position_tex_color_normal.fsh
+assets/minecraft/shaders/core/position_tex_color_normal.json
+assets/minecraft/shaders/core/position_tex_color_normal.vsh
