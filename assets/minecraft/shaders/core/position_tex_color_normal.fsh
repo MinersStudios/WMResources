@@ -2,6 +2,9 @@
 
 #moj_import <fog.glsl>
 
+#define FOG_START 200
+#define FOG_END 300
+
 uniform sampler2D Sampler0;
 
 uniform vec4 ColorModulator;
@@ -14,17 +17,20 @@ in vec4 normal;
 out vec4 fragColor;
 
 void main() {
-	float fogStart = 200.0;
-	float fogEnd = 300.0;
-	float fogValue = 0.0;
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
 
-    if (color.a < 0.1) discard;
-	if (vertexDistance > fogStart) {
-        fogValue = vertexDistance < fogEnd
-                ? smoothstep(fogStart, fogEnd, vertexDistance)
-                : 1.0;
-    }
+    if (color.a < .1) discard;
 
-    fragColor = color * vec4(1.0, 1.0, 1.0, 1.0 - fogValue) * vec4(1.0, 1.0, 1.0, 0.75);
+    fragColor = color
+                * vec4(
+                        1, 1, 1,
+                        1 - (
+                                vertexDistance > FOG_START
+                                ? vertexDistance < FOG_END
+                                ? smoothstep(FOG_START, FOG_END, vertexDistance)
+                                : 1
+                                : 0
+                        )
+                )
+                * vec4(1, 1, 1, .75);
 }

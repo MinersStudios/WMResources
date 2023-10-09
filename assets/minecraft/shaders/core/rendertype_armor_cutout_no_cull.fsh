@@ -20,11 +20,11 @@ in vec2 overlayCoord;
 out vec4 fragColor;
 
 void main() {
-    vec4 o = texture(Sampler0, overlayCoord);
+    vec4 color = texture(Sampler0, overlayCoord);
     vec4 baseTexture = texture(Sampler0, texCoord0);
-    vec4 blendedColor = mix(baseTexture * vertexColor, o * diffuseColor, o.w * overlayValue) * ColorModulator;
+    vec4 blendedColor = mix(baseTexture * vertexColor, color * diffuseColor, color.w * overlayValue) * ColorModulator;
 
-    if (blendedColor.w < 0.1) discard;
+    if (blendedColor.w < .1) discard;
 
     fragColor = linear_fog(blendedColor, vertexDistance, FogStart, FogEnd, FogColor);
 }
