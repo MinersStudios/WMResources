@@ -2,9 +2,6 @@
 
 #moj_import <fog.glsl>
 
-#define FOG_START 200
-#define FOG_END 300
-
 uniform sampler2D Sampler0;
 
 uniform vec4 ColorModulator;
@@ -22,6 +19,6 @@ void main() {
     if (color.a < .1) discard;
 
     fragColor = color
-                * vec4(1, 1, 1, 1 - linear_fog_fade(vertexDistance, FOG_START, FOG_END))
+                * vec4(1, 1, 1, 1 - linear_fog_fade(vertexDistance, 200, 300))
                 * vec4(1, 1, 1, .75);
 }
