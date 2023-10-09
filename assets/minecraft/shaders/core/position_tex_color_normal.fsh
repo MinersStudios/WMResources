@@ -22,15 +22,6 @@ void main() {
     if (color.a < .1) discard;
 
     fragColor = color
-                * vec4(
-                        1, 1, 1,
-                        1 - (
-                                vertexDistance > FOG_START
-                                ? vertexDistance < FOG_END
-                                ? smoothstep(FOG_START, FOG_END, vertexDistance)
-                                : 1
-                                : 0
-                        )
-                )
+                * vec4(1, 1, 1, 1 - linear_fog_fade(vertexDistance, FOG_START, FOG_END))
                 * vec4(1, 1, 1, .75);
 }

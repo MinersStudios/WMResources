@@ -3,7 +3,7 @@
 #moj_import <light.glsl>
 #moj_import <fog.glsl>
 
-#define N (1 / 2)
+#define N (1.0 / 2.0)
 #define HAZMAT_COLOR vec3(239, 193, 66) / 255
 #define ABSOLUTE_BLACK_COLOR vec3(0)
 
