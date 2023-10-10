@@ -28,13 +28,19 @@ float linear_fog_fade(
         float fogStart,
         float fogEnd
 ) {
-    return fogStart < fogEnd
-            ? vertexDistance <= fogStart ? 0
-                    : vertexDistance >= fogEnd ? 1
-                    : smoothstep(fogStart, fogEnd, vertexDistance)
-            : vertexDistance <= fogStart ? 1
-                    : vertexDistance >= fogEnd ? 0
-                    : smoothstep(fogEnd, fogStart, vertexDistance);
+    return vertexDistance <= fogStart ? 1
+            : vertexDistance >= fogEnd ? 0
+            : smoothstep(fogEnd, fogStart, vertexDistance);
+}
+
+float linear_fog_grow(
+        float vertexDistance,
+        float fogStart,
+        float fogEnd
+) {
+    return vertexDistance <= fogStart ? 0
+            : vertexDistance >= fogEnd ? 1
+            : smoothstep(fogStart, fogEnd, vertexDistance);
 }
 
 float fog_distance(

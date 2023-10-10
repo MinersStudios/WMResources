@@ -19,6 +19,6 @@ void main() {
     if (color.a < .1) discard;
 
     fragColor = color
-                * vec4(1, 1, 1, 1 - linear_fog_fade(vertexDistance, 200, 300))
+                * vec4(1, 1, 1, 1 - linear_fog_grow(vertexDistance, 200, 300))
                 * vec4(1, 1, 1, .75);
 }
