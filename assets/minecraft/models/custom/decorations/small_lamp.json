@@ -2,7 +2,7 @@
 	"texture_size": [32, 16],
 	"textures": {
 		"1": "custom/decorations/small_lamp",
-		"particle": "#1"
+		"particle": "custom/decorations/small_lamp"
 	},
 	"elements": [
 		{
@@ -91,13 +91,7 @@
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"head": {
-			"translation": [0, -15.25, 0],
-			"scale": [2.2, 2.2, 2.2]
-		},
-		"fixed": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -15.75],
-			"scale": [2, 2, 2]
+			"translation": [0, 14.25, 0]
 		}
 	},
 	"groups": [

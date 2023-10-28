@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/decorations/wheelbarrow",
-		"particle": "#0"
+		"particle": "custom/decorations/wheelbarrow"
 	},
 	"elements": [
 		{
@@ -227,7 +227,7 @@
 			"scale": [0.26, 0.26, 0.26]
 		},
 		"gui": {
-			"rotation": [29, -45, 0],
+			"rotation": [30, 45, 0],
 			"translation": [-0.25, -0.5, 0],
 			"scale": [0.42, 0.42, 0.42]
 		},
@@ -237,9 +237,8 @@
 			"scale": [1.16, 1.16, 1.16]
 		},
 		"fixed": {
-			"rotation": [-90, 180, 0],
-			"translation": [0, 0, -15.75],
-			"scale": [2, 2, 2]
+			"rotation": [0, 90, 0],
+			"scale": [0.43, 0.43, 0.43]
 		}
 	},
 	"groups": [

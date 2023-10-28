@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/decorations/fire_hydrant",
-		"particle": "#0"
+		"particle": "custom/decorations/fire_hydrant"
 	},
 	"elements": [
 		{
@@ -110,18 +110,13 @@
 			"scale": [0.26, 0.26, 0.26]
 		},
 		"gui": {
-			"rotation": [29, 135, 0],
+			"rotation": [29, -135, 0],
 			"translation": [0, 0.25, 0],
 			"scale": [0.76, 0.76, 0.76]
 		},
 		"head": {
 			"translation": [0, 15.75, 0],
 			"scale": [1.18, 1.18, 1.18]
-		},
-		"fixed": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -15.75],
-			"scale": [2, 2, 2]
 		}
 	}
 }

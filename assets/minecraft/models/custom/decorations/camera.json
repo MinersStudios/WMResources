@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/decorations/camera",
-		"particle": "#0"
+		"particle": "custom/decorations/camera"
 	},
 	"elements": [
 		{
@@ -139,18 +139,16 @@
 			"scale": [0.26, 0.26, 0.26]
 		},
 		"gui": {
-			"rotation": [30, 134, 0],
+			"rotation": [30, -135, 0],
 			"translation": [0, -2.5, 0],
 			"scale": [0.55, 0.55, 0.55]
 		},
 		"head": {
-			"translation": [0, -30.25, 0],
-			"scale": [1.91, 1.91, 1.91]
+			"translation": [0, 10.5, 0],
+			"scale": [1.25, 1.25, 1.25]
 		},
 		"fixed": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -14],
-			"scale": [2, 2, 2]
+			"translation": [0, -5.25, 0]
 		}
 	},
 	"groups": [

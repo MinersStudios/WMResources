@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/furniture/whocintosh",
-		"particle": "#0"
+		"particle": "custom/furniture/whocintosh"
 	},
 	"elements": [
 		{
@@ -122,9 +122,9 @@
 			"scale": [0.38, 0.38, 0.38]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [66, 45, 0],
-			"translation": [-0.25, 3.25, 2.5],
-			"scale": [0.38, 0.38, 0.38]
+			"rotation": [70, 0, 0],
+			"translation": [-5.5, 2.25, -1.5],
+			"scale": [0.77, 0.77, 0.77]
 		},
 		"firstperson_righthand": {
 			"rotation": [-171.36, 51.53, 169.16],
@@ -132,9 +132,8 @@
 			"scale": [0.76641, 0.8582, 0.7]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-171.36, 51.53, 169.16],
-			"translation": [4, 3.75, -4.75],
-			"scale": [0.76641, 0.8582, 0.7]
+			"translation": [-9.25, 0, 0],
+			"scale": [0.43, 0.43, 0.43]
 		},
 		"ground": {
 			"translation": [0, 1.75, 0],
@@ -142,16 +141,14 @@
 		},
 		"gui": {
 			"rotation": [-152, -42, -180],
-			"translation": [0, 0.25, 0],
+			"translation": [0, 0.5, 0],
 			"scale": [0.67, 0.67, 0.67]
 		},
 		"head": {
 			"translation": [0, 14.25, -1.5]
 		},
 		"fixed": {
-			"rotation": [-90, 180, 0],
-			"translation": [0, 2, -12],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [0, 0, -1.25]
 		}
 	}
 }

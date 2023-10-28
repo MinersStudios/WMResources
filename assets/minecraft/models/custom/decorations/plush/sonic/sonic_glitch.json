@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/decorations/plush/sonic/sonic_glitch",
-		"particle": "#0"
+		"particle": "custom/decorations/plush/sonic/sonic_glitch"
 	},
 	"elements": [
 		{
@@ -417,7 +417,6 @@
 			"scale": [0.56, 0.56, 0.56]
 		},
 		"firstperson_lefthand": {
-			"translation": [80, 80, 80],
 			"scale": [0, 0, 0]
 		},
 		"ground": {
@@ -427,17 +426,13 @@
 		"gui": {
 			"rotation": [-157, -45, -180],
 			"translation": [0.5, -0.3, 0],
-			"scale": [0.77, 0.77, 0.77]
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"head": {
-			"rotation": [0, -180, 0],
-			"translation": [0, -16, 0],
-			"scale": [2.1, 2.1, 2.1]
+			"translation": [0, 13.5, 0]
 		},
 		"fixed": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -14.5],
-			"scale": [2, 2, 2]
+			"translation": [0, 0, -2.5]
 		}
 	},
 	"groups": [

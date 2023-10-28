@@ -2,7 +2,7 @@
 	"textures": {
 		"0": "custom/decorations/cell",
 		"1": "entity/bee/bee_angry",
-		"particle": "#0"
+		"particle": "custom/decorations/cell"
 	},
 	"elements": [
 		{
@@ -241,11 +241,6 @@
 		"head": {
 			"translation": [0, 14.65, 0],
 			"scale": [1.01, 1.01, 1.01]
-		},
-		"fixed": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -14.8],
-			"scale": [2, 2, 2]
 		}
 	},
 	"groups": [

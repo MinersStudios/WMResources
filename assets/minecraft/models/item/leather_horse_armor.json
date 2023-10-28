@@ -399,6 +399,12 @@
         {"predicate": {"custom_model_data": 1392}, "model": "custom/furniture/nightstand/cherry/3_right"},
         {"predicate": {"custom_model_data": 1393}, "model": "custom/decorations/plush/sonic/sonic"},
         {"predicate": {"custom_model_data": 1394}, "model": "custom/decorations/plush/sonic/sonic_cyclops"},
-        {"predicate": {"custom_model_data": 1395}, "model": "custom/decorations/plush/sonic/sonic_glitch"}
+        {"predicate": {"custom_model_data": 1395}, "model": "custom/decorations/plush/sonic/sonic_glitch"},
+        {"predicate": {"custom_model_data": 1396}, "model": "custom/christmas/snowflake_ball_wall"},
+        {"predicate": {"custom_model_data": 1397}, "model": "custom/christmas/snowman_ball_wall"},
+        {"predicate": {"custom_model_data": 1398}, "model": "custom/christmas/star_ball_wall"},
+        {"predicate": {"custom_model_data": 1399}, "model": "custom/christmas/tall_ball_wall"},
+        {"predicate": {"custom_model_data": 1400}, "model": "custom/christmas/santa_hat_wall"},
+        {"predicate": {"custom_model_data": 1401}, "model": "custom/christmas/tree_star_wall"}
     ]
 }

@@ -1,5 +1,5 @@
 {
-	"parent": "custom/halloween/skeleton_hand/root_particle",
+	"parent": "custom/halloween/skeleton_hand/root",
 	"textures": {
 		"1": "block/stone"
 	}

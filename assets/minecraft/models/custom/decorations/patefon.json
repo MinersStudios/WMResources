@@ -2,7 +2,7 @@
 	"texture_size": [16, 32],
 	"textures": {
 		"0": "custom/decorations/patefon",
-		"particle": "#0"
+		"particle": "custom/decorations/patefon"
 	},
 	"elements": [
 		{
@@ -60,11 +60,6 @@
 		"head": {
 			"translation": [0, 14.75, 0],
 			"scale": [1.1, 1.1, 1.1]
-		},
-		"fixed": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, 0.25, -16.15],
-			"scale": [2.07, 2.07, 2.07]
 		}
 	}
 }

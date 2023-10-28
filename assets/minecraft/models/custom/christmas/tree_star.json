@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/christmas/tree_star",
-		"particle": "#0"
+		"particle": "custom/christmas/tree_star"
 	},
 	"elements": [
 		{
@@ -102,8 +102,9 @@
 			"translation": [-5.5, -3.25, -3]
 		},
 		"firstperson_righthand": {
-			"translation": [3.75, 2, 0],
-			"scale": [0.35, 0.35, 0.35]
+			"rotation": [0, -47, 0],
+			"translation": [2.75, 2, 0],
+			"scale": [0.48, 0.48, 0.48]
 		},
 		"firstperson_lefthand": {
 			"rotation": [28, 0, 0],
@@ -116,16 +117,15 @@
 		},
 		"gui": {
 			"rotation": [32, 40, 0],
-			"translation": [0, -3.25, 0],
-			"scale": [0.86, 0.86, 0.86]
+			"translation": [0, -2.5, 0],
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"head": {
-			"translation": [0.15, -27.25, 0],
-			"scale": [1.98, 1.98, 1.98]
+			"translation": [0, 14.25, 0],
+			"scale": [1.52, 1.52, 1.52]
 		},
 		"fixed": {
-			"translation": [0, -6.5, 0],
-			"scale": [1.78, 1.78, 1.78]
+			"translation": [0, -5, 0]
 		}
 	},
 	"groups": [

@@ -2,7 +2,7 @@
 	"ambientocclusion": false,
 	"textures": {
 		"0": "custom/decorations/big_lamp",
-		"particle": "#0"
+		"particle": "custom/decorations/big_lamp"
 	},
 	"elements": [
 		{
@@ -162,13 +162,12 @@
 			"scale": [0.37, 0.37, 0.37]
 		},
 		"head": {
-			"translation": [0, -21.25, 0],
-			"scale": [1.55, 1.55, 1.55]
+			"translation": [0, -27.5, 0],
+			"scale": [1.66, 1.66, 1.66]
 		},
 		"fixed": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -27.75],
-			"scale": [2, 2, 2]
+			"translation": [0, -2.25, 0],
+			"scale": [0.51, 0.51, 0.51]
 		}
 	},
 	"groups": [
