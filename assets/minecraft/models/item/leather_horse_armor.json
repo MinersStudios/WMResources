@@ -404,7 +404,6 @@
         {"predicate": {"custom_model_data": 1397}, "model": "custom/christmas/snowman_ball_wall"},
         {"predicate": {"custom_model_data": 1398}, "model": "custom/christmas/star_ball_wall"},
         {"predicate": {"custom_model_data": 1399}, "model": "custom/christmas/tall_ball_wall"},
-        {"predicate": {"custom_model_data": 1400}, "model": "custom/christmas/santa_hat_wall"},
-        {"predicate": {"custom_model_data": 1401}, "model": "custom/christmas/tree_star_wall"}
+        {"predicate": {"custom_model_data": 1400}, "model": "custom/christmas/ball_wall"}
     ]
 }
