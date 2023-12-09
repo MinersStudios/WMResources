@@ -51,9 +51,8 @@
         {"ascent": -32768, "height": -6, "chars": ["\uE054"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
         {"ascent": -32768, "height": -111, "chars": ["\uE055"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
 
-
         {"advances": {"\uE063": -65}, "type": "space"},
 
-        {"ascent": 8, "height": 8, "chars": ["\uE056\uE057\uE058\uE059\uE060\uE061\uE062"], "file": "custom/ui/icons/extra.png", "type": "bitmap"}
+        {"ascent": 8, "height": 8, "chars": ["\uD83E\uDDE2\uD83D\uDC5F\u2020\uD83D\uDEE1"], "file": "custom/ui/icons/extra.png", "type": "bitmap"}
     ]
 }
