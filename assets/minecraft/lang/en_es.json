@@ -1,8 +1,7 @@
 {
-   "menu.disconnect": "\uE049\uE008\uB013",
+   "menu.disconnect": "\uE049\uE008\uE063",
    "menu.game": "\uE004",
    "menu.returnToGame": "Come Back To Reality",
-   "menu.shareToLan": "Type - /help",
    "effect.minecraft.mining_fatigue": "§9/discord",
    "mount.onboard": "§7Press§r\uE029 §7To Exit",
    "enchantment.minecraft.sharpness": "🗡 Sharpness",

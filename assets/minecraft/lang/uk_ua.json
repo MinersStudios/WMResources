@@ -1,9 +1,9 @@
 {
-    "menu.disconnect": "\uE049\uE008\uB013",
+    "menu.disconnect": "\uE049\uE008\uE063",
     "menu.game": "\uE004",
     "menu.returnToGame": "Вернутись до реальності",
     "effect.minecraft.mining_fatigue": "§9/discord",
-    "mount.onboard": "§7Нажміть§rꀩ §7Аби встати",
+    "mount.onboard": "§7Нажміть§r\uE029 §7Аби встати",
     "enchantment.minecraft.sharpness": "🗡 Гострота",
     "enchantment.minecraft.smite": "🗡 Небесна кара",
     "enchantment.minecraft.bane_of_arthropods": "🗡 Загибель членистоногих",

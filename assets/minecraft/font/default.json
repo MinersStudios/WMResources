@@ -52,7 +52,7 @@
         {"ascent": -32768, "height": -111, "chars": ["\uE055"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
 
 
-        {"advances": {"\uB013": -65}, "type": "space"},
+        {"advances": {"\uE063": -65}, "type": "space"},
 
         {"ascent": 8, "height": 8, "chars": ["\uE056\uE057\uE058\uE059\uE060\uE061\uE062"], "file": "custom/ui/icons/extra.png", "type": "bitmap"}
     ]
