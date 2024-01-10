@@ -1,0 +1,6 @@
+{
+	"parent": "custom/furniture/nightstand/root/2_middle",
+	"textures": {
+		"0": "custom/furniture/nightstand/birch"
+	}
+}

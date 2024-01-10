@@ -1,0 +1,6 @@
+{
+    "parent": "block/bee_nest",
+    "textures": {
+        "front": "block/bee_nest/filled_2"
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "custom/decorations/pitcher/3",
+	"textures": {
+		"0": "custom/decorations/pitcher/3_clay_2"
+	}
+}

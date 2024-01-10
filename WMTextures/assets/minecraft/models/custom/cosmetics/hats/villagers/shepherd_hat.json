@@ -1,0 +1,68 @@
+{
+	"textures": {
+		"0": "entity/villager/profession/shepherd",
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [2, 5, 2],
+			"to": [14, 5, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"up": {"uv": [12.5, 12.5, 15.5, 15.5], "texture": "#0"},
+				"down": {"uv": [12.5, 12.5, 15.5, 15.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 5.01, 4],
+			"to": [12, 10.01, 12],
+			"faces": {
+				"north": {"uv": [2, 2, 4, 3.25], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 3.25], "texture": "#0"},
+				"south": {"uv": [6, 2, 8, 3.25], "texture": "#0"},
+				"west": {"uv": [4, 2, 6, 3.25], "texture": "#0"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#0"},
+				"down": {"uv": [2, 0, 4, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.75, 5.01, 3.75],
+			"to": [12.25, 8.01, 12.25],
+			"faces": {
+				"north": {"uv": [10, 2.5, 12, 3.25], "texture": "#0"},
+				"east": {"uv": [8, 2.5, 10, 3.25], "texture": "#0"},
+				"south": {"uv": [14, 2.5, 16, 3.25], "texture": "#0"},
+				"west": {"uv": [12, 2.5, 14, 3.25], "texture": "#0"},
+				"up": {"uv": [4, 0, 6, 2], "texture": "#0"},
+				"down": {"uv": [9, 0, 11, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-6, 2.25, 1.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"translation": [-9.5, 1.5, 0]
+		},
+		"gui": {
+			"rotation": [25, 45, 0]
+		},
+		"head": {
+			"translation": [0, 6.75, 0],
+			"scale": [1.82, 1.82, 1.82]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -3.03]
+		}
+	}
+}

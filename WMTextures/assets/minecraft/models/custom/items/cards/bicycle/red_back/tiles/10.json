@@ -1,0 +1,7 @@
+{
+	"parent": "custom/items/cards/playing_card",
+	"textures": {
+		"0": "custom/items/cards/bicycle/tiles/10",
+		"1": "custom/items/cards/bicycle/red_back"
+	}
+}

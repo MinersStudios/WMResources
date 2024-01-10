@@ -1,0 +1,6 @@
+{
+	"parent": "custom/furniture/chairs/small_armchair/root",
+	"textures": {
+		"1": "custom/furniture/chairs/oak"
+	}
+}

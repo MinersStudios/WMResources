@@ -1,0 +1,7 @@
+{
+	"parent": "custom/furniture/chairs/rocking_chair/root",
+	"textures": {
+		"0": "custom/furniture/chairs/rocking_chair/dark_oak",
+		"1": "custom/none"
+	}
+}

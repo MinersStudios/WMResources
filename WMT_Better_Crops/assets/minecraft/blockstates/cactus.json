@@ -1,0 +1,31 @@
+{
+    "variants": {
+        "": [
+            {"model": "block/cactus/0", "weight": 20},
+            {"model": "block/cactus/1", "weight": 5},
+            {"model": "block/cactus/1", "weight": 5, "y": 90},
+            {"model": "block/cactus/1", "weight": 5, "y": 180},
+            {"model": "block/cactus/1", "weight": 5, "y": 270},
+            {"model": "block/cactus/2", "weight": 3},
+            {"model": "block/cactus/2", "weight": 3, "y": 90},
+            {"model": "block/cactus/2", "weight": 3, "y": 180},
+            {"model": "block/cactus/2", "weight": 3, "y": 270},
+            {"model": "block/cactus/3", "weight": 1},
+            {"model": "block/cactus/3", "weight": 1, "y": 90},
+            {"model": "block/cactus/3", "weight": 1, "y": 180},
+            {"model": "block/cactus/3", "weight": 1, "y": 270},
+            {"model": "block/cactus/4", "weight": 5},
+            {"model": "block/cactus/4", "weight": 5, "y": 90},
+            {"model": "block/cactus/4", "weight": 5, "y": 180},
+            {"model": "block/cactus/4", "weight": 5, "y": 270},
+            {"model": "block/cactus/5", "weight": 3},
+            {"model": "block/cactus/5", "weight": 3, "y": 90},
+            {"model": "block/cactus/5", "weight": 3, "y": 180},
+            {"model": "block/cactus/5", "weight": 3, "y": 270},
+            {"model": "block/cactus/6", "weight": 1},
+            {"model": "block/cactus/6", "weight": 1, "y": 90},
+            {"model": "block/cactus/6", "weight": 1, "y": 180},
+            {"model": "block/cactus/6", "weight": 1, "y": 270}
+        ]
+    }
+}
