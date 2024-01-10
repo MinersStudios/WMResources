@@ -1,3 +1,4 @@
+import concurrent.futures
 import json
 import os
 import time
@@ -10,11 +11,30 @@ json_files_compressed = 0
 png_files_compressed = 0
 
 
-def compress_json(json_path, destination_archive):
+def path_without_pack_name(pack_name, path):
+    return path[len(pack_name) + 1:]
+
+
+def get_pack_names():
+    pack_names = []
+
+    for root, dirs, files in os.walk("."):
+        if root == ".":
+            for dir_name in dirs:
+                if os.path.exists(os.path.join(dir_name, "pack.mcmeta")):
+                    pack_names.append(dir_name)
+
+    return pack_names
+
+
+def compress_json(pack_name, json_path, destination_archive):
     print(f"Compressing JSON: {json_path}")
 
     destination_archive.writestr(
-        json_path,
+        path_without_pack_name(
+            pack_name,
+            json_path
+        ),
         json.dumps(
             json.load(
                 open(json_path, "r", encoding="utf-8")
@@ -25,95 +45,69 @@ def compress_json(json_path, destination_archive):
     )
 
 
-def compress_png(png_path, destination_archive):
-    print(f"Compressing PNG: {png_path}")
+def compress_png(pack_name, path, destination_archive):
+    print(f"Compressing PNG: {path}")
 
-    Image.open(png_path).save("temp.png", optimize=True)
-    destination_archive.write("temp.png", png_path)
+    temp_png_path = f"{pack_name}/temp.png"
+
+    Image.open(path).save(temp_png_path, optimize=True)
+    destination_archive.write(
+        temp_png_path,
+        path_without_pack_name(pack_name, path)
+    )
 
 
-def process_file(path, destination_archive):
+def process_file(pack_name, path, destination_archive):
     global total_files_processed, json_files_compressed, png_files_compressed
 
     total_files_processed += 1
 
     if path.endswith((".json", ".mcmeta")):
         json_files_compressed += 1
-        compress_json(path, destination_archive)
+        compress_json(pack_name, path, destination_archive)
     elif path.endswith(".png"):
         png_files_compressed += 1
-        compress_png(path, destination_archive)
+        compress_png(pack_name, path, destination_archive)
     else:
-        destination_archive.write(path)
+        destination_archive.write(path, path_without_pack_name(pack_name, path))
+
+
+def process_pack(pack_name):
+    with zipfile.ZipFile(f"{pack_name}.zip", "w", zipfile.ZIP_DEFLATED) as zip_file:
+        for root, dirs, files in os.walk(pack_name):
+            for file_path in files:
+                process_file(
+                    pack_name,
+                    os.path.join(root, file_path),
+                    zip_file
+                )
+
+    # Remove temp png file
+
+    temp_png_path = f"{pack_name}/temp.png"
+
+    if os.path.exists(temp_png_path):
+        os.remove(temp_png_path)
+
+
+def process_packs(pack_names):
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = {executor.submit(process_pack, pack_name): pack_name for pack_name in pack_names}
+
+        for future in concurrent.futures.as_completed(futures):
+            pack_name = futures[future]
+
+            try:
+                future.result()
+            except Exception as e:
+                print(f"Error compressing {pack_name}: {e}")
 
 
 def main():
     start_time = time.time()
+    pack_names = get_pack_names()
 
-    pack_mcmeta_filename = "pack.mcmeta"
-    white_list_filename = "white_list.txt"
-    black_list_filename = "lite_black_list.txt"
-    full_archive_name = "FULL_WMTextures-v%s.zip"
-    lite_archive_name = "LITE_WMTextures-v%s.zip"
-
-    # Check if required files exist
-
-    for required_file in [pack_mcmeta_filename, white_list_filename, black_list_filename]:
-        if not os.path.exists(required_file):
-            print(f"Missing file: {required_file}")
-            exit(1)
-
-    # Get pack version
-
-    pack_mcmeta = open(pack_mcmeta_filename, "r").read()
-
-    if '"version": "' not in pack_mcmeta:
-        print(f"Missing \"version\" in {pack_mcmeta_filename}")
-        exit(1)
-
-    pack_version = pack_mcmeta.split('"version": "')[1].split('"')[0]
-    full_archive_name = full_archive_name % pack_version
-    lite_archive_name = lite_archive_name % pack_version
-
-    # Get white and black lists
-
-    white_list = open(white_list_filename, "r").read().splitlines()
-    black_list = open(black_list_filename, "r").read().splitlines()
-
-    # Remove old archives
-
-    if os.path.exists(full_archive_name):
-        os.remove(full_archive_name)
-
-    if os.path.exists(lite_archive_name):
-        os.remove(lite_archive_name)
-
-    # Create full archive with compressed JSON files
-
-    with zipfile.ZipFile(full_archive_name, "w", zipfile.ZIP_DEFLATED) as zip_file_full:
-        for white_path in white_list:
-            if white_path.endswith('/') or white_path.endswith('\\'):
-                for root, dirs, files in os.walk(white_path):
-                    for file_path in files:
-                        dest_path = os.path.join(root, file_path)
-                        process_file(dest_path, zip_file_full)
-            else:
-                process_file(white_path, zip_file_full)
-
-    # Create lite archive with compressed JSON files
-
-    with zipfile.ZipFile(full_archive_name, "r") as zip_file_full:
-        with zipfile.ZipFile(lite_archive_name, "w", zipfile.ZIP_DEFLATED) as zip_file_lite:
-            for file in zip_file_full.infolist():
-                if not any([file.filename.startswith(black_list_path) for black_list_path in black_list]):
-                    zip_file_lite.writestr(file, zip_file_full.read(file))
-
-    # Remove temp png file
-
-    if os.path.exists("temp.png"):
-        os.remove("temp.png")
-
-    # Print summary
+    process_packs(pack_names)
 
     end_time = round(time.time() - start_time, 2)
     console_width = shutil.get_terminal_size().columns
@@ -127,8 +121,11 @@ def main():
     print(f"JSON files compressed : {json_files_compressed}".center(console_width))
     print(f"PNG files compressed : {png_files_compressed}".center(console_width))
     print("Size of the archives :".center(console_width))
-    print(f"- Full : {round(os.path.getsize(full_archive_name) / 1024, 2)} KB".center(console_width))
-    print(f"- Lite : {round(os.path.getsize(lite_archive_name) / 1024, 2)} KB".center(console_width))
+    for pack_name in pack_names:
+        zip_file_name = f"{pack_name}.zip"
+        archive_size = round(os.path.getsize(zip_file_name) / 1024, 2)
+
+        print(f"{zip_file_name} : {archive_size} KB".center(console_width))
     print(decorative_line)
 
 

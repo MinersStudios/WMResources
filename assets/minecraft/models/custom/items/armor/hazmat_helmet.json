@@ -1,6 +1,0 @@
-{
-	"parent": "custom/items/armor/root",
-	"textures": {
-		"layer1": "custom/items/armor/hazmat_helmet"
-	}
-}

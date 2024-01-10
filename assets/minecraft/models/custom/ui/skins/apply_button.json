@@ -1,6 +1,0 @@
-{
-	"parent": "custom/ui/skins/root_button",
-	"textures": {
-		"0": "custom/ui/skins/accept_button"
-	}
-}

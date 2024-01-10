@@ -1,6 +1,0 @@
-{
-	"parent": "custom/decorations/cooking_pot/root_2",
-	"textures": {
-		"1": "block/lava_still"
-	}
-}

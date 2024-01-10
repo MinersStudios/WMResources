@@ -1,7 +1,0 @@
-{
-    "parent": "item/template_shulker_box",
-    "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "custom/items/backpack/gray"},
-        {"predicate": {"custom_model_data": 2}, "model": "custom/items/travel_case/gray"}
-    ]
-}

@@ -1,9 +1,0 @@
-{
-	"parent": "custom/decorations/piggy_bank/piggybank_netherite",
-	"textures": {
-		"0": "custom/decorations/piggy_bank/emerald_pb",
-		"1": "custom/decorations/piggy_bank/emerald_pb_back",
-		"2": "custom/decorations/piggy_bank/emerald_pb_side",
-		"3": "custom/decorations/piggy_bank/emerald_pb_top"
-	}
-}
