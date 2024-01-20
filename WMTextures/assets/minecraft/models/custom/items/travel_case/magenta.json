@@ -1,6 +1,6 @@
 {
-	"parent": "custom/items/travel_case/root",
-	"textures": {
-		"0": "custom/items/travel_case/magenta"
-	}
+    "parent":   "custom/items/travel_case/root",
+    "textures": {
+        "0": "custom/items/travel_case/magenta"
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "parent": "custom/block/wood/root/vertical_planks",
+    "parent":   "custom/block/wood/root/vertical_planks",
     "textures": {
         "all": "block/spruce_planks"
     }

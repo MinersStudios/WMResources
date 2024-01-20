@@ -1,7 +1,7 @@
 {
     "sources": [
         {
-            "type": "directory",
+            "type":   "directory",
             "source": "entity",
             "prefix": "entity/"
         }

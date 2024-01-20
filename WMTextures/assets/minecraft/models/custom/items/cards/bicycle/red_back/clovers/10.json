@@ -1,7 +1,7 @@
 {
-	"parent": "custom/items/cards/playing_card",
-	"textures": {
-		"0": "custom/items/cards/bicycle/clovers/10",
-		"1": "custom/items/cards/bicycle/red_back"
-	}
+    "parent":   "custom/items/cards/playing_card",
+    "textures": {
+        "0": "custom/items/cards/bicycle/clovers/10",
+        "1": "custom/items/cards/bicycle/red_back"
+    }
 }

@@ -1,6 +1,6 @@
 {
-	"parent": "custom/halloween/skeleton_hand/root",
-	"textures": {
-		"1": "block/stone"
-	}
+    "parent":   "custom/halloween/skeleton_hand/root",
+    "textures": {
+        "1": "block/stone"
+    }
 }

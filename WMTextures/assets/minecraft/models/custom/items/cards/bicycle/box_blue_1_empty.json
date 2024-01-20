@@ -1,6 +1,6 @@
 {
-	"parent": "custom/items/cards/card_box_empty",
-	"textures": {
-		"1": "custom/items/cards/bicycle/box_blue_1"
-	}
+    "parent":   "custom/items/cards/card_box_empty",
+    "textures": {
+        "1": "custom/items/cards/bicycle/box_blue_1"
+    }
 }

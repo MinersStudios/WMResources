@@ -1,6 +1,6 @@
 {
-	"parent": "custom/furniture/chairs/big_chair/root",
-	"textures": {
-		"1": "custom/furniture/chairs/spruce"
-	}
+    "parent":   "custom/furniture/chairs/big_chair/root",
+    "textures": {
+        "1": "custom/furniture/chairs/spruce"
+    }
 }

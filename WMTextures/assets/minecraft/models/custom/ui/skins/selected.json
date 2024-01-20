@@ -1,10 +1,10 @@
 {
-	"parent": "item/player_head",
-	"display": {
+    "parent":  "item/player_head",
+    "display": {
         "gui": {
-            "rotation":[0, 0, 0],
-            "scale":[2.25, 2.25, 2.25],
-            "translation":[0, 9.05, 0]
+            "rotation":    [ 0, 0, 0 ],
+            "scale":       [ 2.25, 2.25, 2.25 ],
+            "translation": [ 0, 9.05, 0 ]
         }
     }
 }

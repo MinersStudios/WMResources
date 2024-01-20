@@ -1,7 +1,7 @@
 {
-	"parent": "block/cube_column",
-	"textures": {
-		"side": "custom/block/wood/jungle/carved_side",
-		"end": "custom/block/wood/jungle/carved_top"
-	}
+    "parent":   "block/cube_column",
+    "textures": {
+        "side": "custom/block/wood/jungle/carved_side",
+        "end":  "custom/block/wood/jungle/carved_top"
+    }
 }

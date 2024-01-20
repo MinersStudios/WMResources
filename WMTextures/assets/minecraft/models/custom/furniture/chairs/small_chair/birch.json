@@ -1,6 +1,6 @@
 {
-	"parent": "custom/furniture/chairs/small_chair/root",
-	"textures": {
-		"1": "custom/furniture/chairs/birch"
-	}
+    "parent":   "custom/furniture/chairs/small_chair/root",
+    "textures": {
+        "1": "custom/furniture/chairs/birch"
+    }
 }

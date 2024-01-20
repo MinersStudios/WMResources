@@ -48,7 +48,7 @@ float fog_distance(
         vec3 pos,
         int shape
 ) {
-    return shape==0
+    return shape == 0
             ? length((modelViewMat * vec4(pos, 1)).xyz)
             : max(
                     length((modelViewMat * vec4(pos.x, 0, pos.z, 1)).xyz),

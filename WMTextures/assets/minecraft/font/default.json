@@ -1,58 +1,42 @@
 {
-    "providers" : [
-        {"ascent": 7, "height": 7, "chars": ["\uE001"], "file": "custom/none.png", "type": "bitmap"},
-
-        {"ascent": 13, "height": 35, "chars": ["\uE002", "\uE003"], "file": "custom/ui/logo.png", "type": "bitmap"},
-        {"ascent": 32, "height": 64, "chars": ["\uE004", "\uE005"], "file": "custom/ui/logo.png", "type": "bitmap"},
-
-        {"ascent": 8, "height": 71, "chars":["\uE008"], "file": "custom/ui/help.png", "type": "bitmap"},
-
-        {"ascent": 7, "height": 7, "chars": ["\uE011"], "file": "custom/ui/icons/error.png", "type": "bitmap"},
-        {"ascent": 7, "height": 7, "chars": ["\uE012"], "file": "custom/ui/icons/error_green.png", "type": "bitmap"},
-        {"ascent": 7, "height": 7, "chars": ["\uE013"], "file": "custom/ui/icons/error_yellow.png", "type": "bitmap"},
-
-        {"ascent": 7, "height": 7, "chars": ["\uE014"], "file": "custom/ui/icons/discord.png", "type": "bitmap"},
-        {"ascent": 6, "height": 8, "chars": ["\uE015"], "file": "custom/ui/icons/speech.png", "type": "bitmap"},
-
-        {"ascent": 8, "height": 9, "chars": ["\uE016\uE017"], "file": "custom/ui/icons/armor.png", "type": "bitmap"},
-        {"ascent": 8, "height": 9, "chars": ["\uE018\uE020\uE019\uE021"], "file": "custom/ui/icons/hunger.png", "type": "bitmap"},
-
-        {"ascent": 6, "height": 7, "chars": ["\uE022"], "file": "custom/ui/blanks/paintable.png", "type": "bitmap"},
-        {"ascent": 6, "height": 7, "chars": ["\uE023"], "file": "custom/ui/blanks/detective.png", "type": "bitmap"},
-        {"ascent": 6, "height": 7, "chars": ["\uE024"], "file": "custom/ui/blanks/mer.png", "type": "bitmap"},
-        {"ascent": 6, "height": 7, "chars": ["\uE025"], "file": "custom/ui/blanks/vmer.png", "type": "bitmap"},
-        {"ascent": 6, "height": 7, "chars": ["\uE026"], "file": "custom/ui/blanks/police.png", "type": "bitmap"},
-        {"ascent": 6, "height": 7, "chars": ["\uE033"], "file": "custom/ui/blanks/wrenchable.png", "type": "bitmap"},
-
-        {"ascent": 19, "height": 256, "chars": ["\uE027"], "file": "custom/ui/crafts/crafts.png", "type": "bitmap"},
-        {"ascent": 19, "height": 256, "chars": ["\uE028"], "file": "custom/ui/crafts/craft.png", "type": "bitmap"},
-
-        {"ascent": 9, "height": 11, "chars": ["\uE029"], "file": "custom/ui/shift_button.png", "type": "bitmap"},
-
-        {"ascent": 19, "height": 256, "chars": ["\uE030"], "file": "custom/ui/renames/renames.png", "type": "bitmap"},
-        {"ascent": 19, "height": 256, "chars": ["\uE031"], "file": "custom/ui/renames/rename.png", "type": "bitmap"},
-
-        {"ascent": 19, "height": 256, "chars": ["\uE032"], "file": "custom/ui/crafts/crafts_categories.png", "type": "bitmap"},
-
-        {"ascent": 19, "height": 256, "chars": ["\uE034"], "file": "custom/ui/discord/discord_link.png", "type": "bitmap"},
-        {"ascent": -51, "height":14, "chars": ["\uE036\uE037\uE038\uE039\uE040\uE041\uE042\uE043\uE044\uE045"], "file": "custom/ui/discord/discord_numbers.png", "type": "bitmap"},
-
-        {"ascent": 19, "height": 256, "chars": ["\uE035"], "file": "custom/ui/skins/menu.png", "type": "bitmap"},
-
-        {"ascent": -32768, "height": 28, "chars": ["\uE046"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-        {"ascent": -32768, "height": -10, "chars": ["\uE047"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-        {"ascent": -32768, "height": -20, "chars": ["\uE048"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-
-        {"ascent": -32768, "height": -66, "chars": ["\uE049"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-        {"ascent": -32768, "height": -34, "chars": ["\uE050"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-        {"ascent": -32768, "height": 53, "chars": ["\uE051"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-        {"ascent": -32768, "height": -7, "chars": ["\uE052"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-        {"ascent": -32768, "height": -8, "chars": ["\uE053"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-        {"ascent": -32768, "height": -6, "chars": ["\uE054"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-        {"ascent": -32768, "height": -111, "chars": ["\uE055"], "file": "custom/ui/pixel_split.png", "type": "bitmap"},
-
-        {"advances": {"\uE063": -65}, "type": "space"},
-
-        {"ascent": 8, "height": 8, "chars": ["\uD83E\uDDE2\uD83D\uDC5F\u2020\uD83D\uDEE1"], "file": "custom/ui/icons/extra.png", "type": "bitmap"}
+    "providers": [
+        { "chars": [ "\uE001" ], "file": "custom/none.png", "ascent": 7, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE002", "\uE003" ], "file": "custom/ui/logo.png", "ascent": 13, "height": 35, "type": "bitmap" },
+        { "chars": [ "\uE004", "\uE005" ], "file": "custom/ui/logo.png", "ascent": 32, "height": 64, "type": "bitmap" },
+        { "chars": [ "\uE008" ], "file": "custom/ui/help.png", "ascent": 8, "height": 71, "type": "bitmap" },
+        { "chars": [ "\uE011" ], "file": "custom/ui/icons/error.png", "ascent": 7, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE012" ], "file": "custom/ui/icons/error_green.png", "ascent": 7, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE013" ], "file": "custom/ui/icons/error_yellow.png", "ascent": 7, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE014" ], "file": "custom/ui/icons/discord.png", "ascent": 7, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE015" ], "file": "custom/ui/icons/speech.png", "ascent": 6, "height": 8, "type": "bitmap" },
+        { "chars": [ "\uE016\uE017" ], "file": "custom/ui/icons/armor.png", "ascent": 8, "height": 9, "type": "bitmap" },
+        { "chars": [ "\uE018\uE020\uE019\uE021" ], "file": "custom/ui/icons/hunger.png", "ascent": 8, "height": 9, "type": "bitmap" },
+        { "chars": [ "\uE022" ], "file": "custom/ui/blanks/paintable.png", "ascent": 6, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE023" ], "file": "custom/ui/blanks/detective.png", "ascent": 6, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE024" ], "file": "custom/ui/blanks/mer.png", "ascent": 6, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE025" ], "file": "custom/ui/blanks/vmer.png", "ascent": 6, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE026" ], "file": "custom/ui/blanks/police.png", "ascent": 6, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE033" ], "file": "custom/ui/blanks/wrenchable.png", "ascent": 6, "height": 7, "type": "bitmap" },
+        { "chars": [ "\uE027" ], "file": "custom/ui/crafts/crafts.png", "ascent": 19, "height": 256, "type": "bitmap" },
+        { "chars": [ "\uE028" ], "file": "custom/ui/crafts/craft.png", "ascent": 19, "height": 256, "type": "bitmap" },
+        { "chars": [ "\uE029" ], "file": "custom/ui/shift_button.png", "ascent": 9, "height": 11, "type": "bitmap" },
+        { "chars": [ "\uE030" ], "file": "custom/ui/renames/renames.png", "ascent": 19, "height": 256, "type": "bitmap" },
+        { "chars": [ "\uE031" ], "file": "custom/ui/renames/rename.png", "ascent": 19, "height": 256, "type": "bitmap" },
+        { "chars": [ "\uE032" ], "file": "custom/ui/crafts/crafts_categories.png", "ascent": 19, "height": 256, "type": "bitmap" },
+        { "chars": [ "\uE034" ], "file": "custom/ui/discord/discord_link.png", "ascent": 19, "height": 256, "type": "bitmap" },
+        { "chars": [ "\uE036\uE037\uE038\uE039\uE040\uE041\uE042\uE043\uE044\uE045" ], "file": "custom/ui/discord/discord_numbers.png", "ascent": -51, "height": 14, "type": "bitmap" },
+        { "chars": [ "\uE035" ], "file": "custom/ui/skins/menu.png", "ascent": 19, "height": 256, "type": "bitmap" },
+        { "chars": [ "\uE046" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": 28, "type": "bitmap" },
+        { "chars": [ "\uE047" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": -10, "type": "bitmap" },
+        { "chars": [ "\uE048" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": -20, "type": "bitmap" },
+        { "chars": [ "\uE049" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": -66, "type": "bitmap" },
+        { "chars": [ "\uE050" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": -34, "type": "bitmap" },
+        { "chars": [ "\uE051" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": 53, "type": "bitmap" },
+        { "chars": [ "\uE052" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": -7, "type": "bitmap" },
+        { "chars": [ "\uE053" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": -8, "type": "bitmap" },
+        { "chars": [ "\uE054" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": -6, "type": "bitmap" },
+        { "chars": [ "\uE055" ], "file": "custom/ui/pixel_split.png", "ascent": -32768, "height": -111, "type": "bitmap" },
+        { "chars": [ "\uD83E\uDDE2\uD83D\uDC5F\u2020\uD83D\uDEE1" ], "file": "custom/ui/icons/extra.png", "ascent": 8, "height": 8, "type": "bitmap" },
+        { "advances": { "\uE063": -65 }, "type": "space" }
     ]
 }

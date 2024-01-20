@@ -1,9 +1,9 @@
 {
-    "parent": "item/generated",
-    "textures": {
+    "parent":    "item/generated",
+    "textures":  {
         "layer0": "item/cod"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "custom/items/food/cans/cod"}
+        { "predicate": { "custom_model_data": 1 }, "model": "custom/items/food/cans/cod" }
     ]
 }

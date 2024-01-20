@@ -1,6 +1,6 @@
 {
-	"parent": "custom/furniture/chairs/rocking_chair/root",
-	"textures": {
-		"0": "custom/furniture/chairs/rocking_chair/mangrove"
-	}
+    "parent":   "custom/furniture/chairs/rocking_chair/root",
+    "textures": {
+        "0": "custom/furniture/chairs/rocking_chair/mangrove"
+    }
 }

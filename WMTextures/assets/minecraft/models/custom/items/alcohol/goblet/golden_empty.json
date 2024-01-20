@@ -1,6 +1,6 @@
 {
-	"parent": "custom/items/alcohol/goblet/root",
-	"textures": {
-		"0": "custom/items/alcohol/goblet/golden"
-	}
+    "parent":   "custom/items/alcohol/goblet/root",
+    "textures": {
+        "0": "custom/items/alcohol/goblet/golden"
+    }
 }

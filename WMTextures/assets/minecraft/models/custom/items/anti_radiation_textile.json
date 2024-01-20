@@ -1,6 +1,6 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "custom/items/anti_radiation_textile"
-	}
+    "parent":   "item/generated",
+    "textures": {
+        "layer0": "custom/items/anti_radiation_textile"
+    }
 }

@@ -1,6 +1,6 @@
 {
-	"parent": "custom/decorations/pitcher/2",
-	"textures": {
-		"0": "custom/decorations/pitcher/2_clay_2"
-	}
+    "parent":   "custom/decorations/pitcher/2",
+    "textures": {
+        "0": "custom/decorations/pitcher/2_clay_2"
+    }
 }

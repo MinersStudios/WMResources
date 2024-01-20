@@ -1,6 +1,6 @@
 {
-	"parent": "custom/decorations/cooking_pot/root_1",
-	"textures": {
-		"1": "block/water_still"
-	}
+    "parent":   "custom/decorations/cooking_pot/root_1",
+    "textures": {
+        "1": "block/water_still"
+    }
 }

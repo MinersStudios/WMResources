@@ -1,6 +1,6 @@
 {
-	"parent": "custom/decorations/cooking_pot/root_2",
-	"textures": {
-		"1": "block/nether_portal"
-	}
+    "parent":   "custom/decorations/cooking_pot/root_2",
+    "textures": {
+        "1": "block/nether_portal"
+    }
 }

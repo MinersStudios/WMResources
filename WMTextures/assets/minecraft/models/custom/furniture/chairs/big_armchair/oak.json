@@ -1,6 +1,6 @@
 {
-	"parent": "custom/furniture/chairs/big_armchair/root",
-	"textures": {
-		"1": "custom/furniture/chairs/oak"
-	}
+    "parent":   "custom/furniture/chairs/big_armchair/root",
+    "textures": {
+        "1": "custom/furniture/chairs/oak"
+    }
 }

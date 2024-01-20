@@ -1,5 +1,5 @@
 {
-    "parent": "block/jack_o_lantern",
+    "parent":   "block/jack_o_lantern",
     "textures": {
         "front": "block/jack_o_lantern/2"
     }

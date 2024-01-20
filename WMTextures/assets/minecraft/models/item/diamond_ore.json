@@ -1,6 +1,6 @@
 {
-    "parent": "block/diamond_ore",
+    "parent":    "block/diamond_ore",
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "custom/items/money"}
+        { "predicate": { "custom_model_data": 1 }, "model": "custom/items/money" }
     ]
 }

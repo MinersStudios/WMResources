@@ -1,23 +1,23 @@
 {
-    "texture_size": [64, 12],
-    "textures": {
+    "texture_size": [ 64, 12 ],
+    "textures":     {
         "0": "custom/none"
     },
-    "elements": [
+    "elements":     [
         {
-            "from": [-7.5, 5, 7],
-            "to": [24.5, 11, 7],
+            "from":  [ -7.5, 5, 7 ],
+            "to":    [ 24.5, 11, 7 ],
             "faces": {
-                "north": {"uv": [16, 0, 0, 16], "texture": "#0"},
-                "south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#0" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#0" }
             }
         }
     ],
-    "gui_light": "front",
-    "display": {
+    "gui_light":    "front",
+    "display":      {
         "gui": {
-            "translation": [24, -2, 0],
-            "scale": [2, 2, 2]
+            "translation": [ 24, -2, 0 ],
+            "scale":       [ 2, 2, 2 ]
         }
     }
 }

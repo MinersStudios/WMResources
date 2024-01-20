@@ -1,10 +1,10 @@
 {
-    "parent": "item/generated",
-    "textures": {
+    "parent":    "item/generated",
+    "textures":  {
         "layer0": "item/leather_boots",
         "layer1": "item/leather_boots_overlay"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "custom/items/armor/hazmat_boots"}
+        { "predicate": { "custom_model_data": 1 }, "model": "custom/items/armor/hazmat_boots" }
     ]
 }

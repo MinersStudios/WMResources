@@ -1,37 +1,37 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "custom/items/money"
-	},
-	"display": {
-		"thirdperson_righthand": {
-			"translation": [0, 1, 0.75],
-			"scale": [0.61, 0.61, 0.61]
-		},
-		"thirdperson_lefthand": {
-			"translation": [0, 1, 0.75],
-			"scale": [0.61, 0.61, 0.61]
-		},
-		"firstperson_righthand": {
-			"rotation": [-28, -48, -10],
-			"translation": [2.25, 1.75, 0],
-			"scale": [0.75, 0.75, 0.75]
-		},
-		"firstperson_lefthand": {
-			"rotation": [-28, -48, -10],
-			"translation": [2.25, 1.75, 0],
-			"scale": [0.75, 0.75, 0.75]
-		},
-		"ground": {
-			"rotation": [90, 0, 0],
-			"translation": [0, -2.5, 0]
-		},
-		"gui": {
-			"scale": [1.26, 1.26, 1.26]
-		},
-		"fixed": {
-			"rotation": [0, 180, 0],
-			"scale": [1.31, 1.31, 1.31]
-		}
-	}
+    "parent":   "item/generated",
+    "textures": {
+        "layer0": "custom/items/money"
+    },
+    "display":  {
+        "thirdperson_righthand": {
+            "translation": [ 0, 1, 0.75 ],
+            "scale":       [ 0.61, 0.61, 0.61 ]
+        },
+        "thirdperson_lefthand":  {
+            "translation": [ 0, 1, 0.75 ],
+            "scale":       [ 0.61, 0.61, 0.61 ]
+        },
+        "firstperson_righthand": {
+            "rotation":    [ -28, -48, -10 ],
+            "translation": [ 2.25, 1.75, 0 ],
+            "scale":       [ 0.75, 0.75, 0.75 ]
+        },
+        "firstperson_lefthand":  {
+            "rotation":    [ -28, -48, -10 ],
+            "translation": [ 2.25, 1.75, 0 ],
+            "scale":       [ 0.75, 0.75, 0.75 ]
+        },
+        "ground":                {
+            "rotation":    [ 90, 0, 0 ],
+            "translation": [ 0, -2.5, 0 ]
+        },
+        "gui":                   {
+            "scale": [ 1.26, 1.26, 1.26 ]
+        },
+        "fixed":                 {
+            "rotation": [ 0, 180, 0 ],
+            "scale":    [ 1.31, 1.31, 1.31 ]
+        }
+    }
 }

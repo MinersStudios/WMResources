@@ -1,12 +1,12 @@
 {
-    "parent": "item/generated",
-    "textures": {
+    "parent":    "item/generated",
+    "textures":  {
         "layer0": "item/bread"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "custom/halloween/candys/candy_1"},
-        {"predicate": {"custom_model_data": 2}, "model": "custom/halloween/candys/candy_2"},
-        {"predicate": {"custom_model_data": 3}, "model": "custom/halloween/candys/candy_3"},
-        {"predicate": {"custom_model_data": 4}, "model": "custom/items/food/marshmallow_stick"}
+        { "predicate": { "custom_model_data": 1 }, "model": "custom/halloween/candys/candy_1" },
+        { "predicate": { "custom_model_data": 2 }, "model": "custom/halloween/candys/candy_2" },
+        { "predicate": { "custom_model_data": 3 }, "model": "custom/halloween/candys/candy_3" },
+        { "predicate": { "custom_model_data": 4 }, "model": "custom/items/food/marshmallow_stick" }
     ]
 }

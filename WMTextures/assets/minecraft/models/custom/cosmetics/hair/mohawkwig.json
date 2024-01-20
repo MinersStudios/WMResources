@@ -1,67 +1,67 @@
 {
-	"texture_size": [32, 16],
-	"textures": {
-		"0": "custom/cosmetics/hair/mohawkwig"
-	},
-	"elements": [
-		{
-			"from": [-1, 0, 8],
-			"to": [17, 15, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 15]},
-			"faces": {
-				"north": {"uv": [8.5, 0, 0, 14], "texture": "#0", "tintindex": 0},
-				"south": {"uv": [0, 0, 8.5, 14], "texture": "#0", "tintindex": 0}
-			}
-		},
-		{
-			"from": [5.5, 5.5, 4],
-			"to": [10.5, 5.5, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [2.5, 13.5, 12]},
-			"faces": {
-				"up": {"uv": [13, 0, 16, 5], "rotation": 90, "texture": "#0", "tintindex": 0},
-				"down": {"uv": [13, 0, 16, 5], "rotation": 90, "texture": "#0", "tintindex": 0}
-			}
-		}
-	],
-	"gui_light": "front",
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [11, 45, 0],
-			"translation": [-0.25, 1.75, 0.75],
-			"scale": [0.49, 0.49, 0.49]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [11, 45, 0],
-			"translation": [-0.25, 1.75, 0.75],
-			"scale": [0.49, 0.49, 0.49]
-		},
-		"firstperson_righthand": {
-			"rotation": [-7, -76, 0],
-			"translation": [1.5, 3.5, 0],
-			"scale": [0.49, 0.49, 0.49]
-		},
-		"firstperson_lefthand": {
-			"rotation": [-7, 76, 0],
-			"translation": [2, 3.5, 0],
-			"scale": [0.49, 0.49, 0.49]
-		},
-		"ground": {
-			"translation": [0, 4.5, 0],
-			"scale": [0.3, 0.3, 0.3]
-		},
-		"gui": {
-			"translation": [0, 0.25, 0],
-			"scale": [0.79, 0.79, 0.79]
-		},
-		"head": {
-			"rotation": [0, -90, 0],
-			"translation": [0, 10, 0.25],
-			"scale": [1.8, 1.44, 1.8]
-		},
-		"fixed": {
-			"rotation": [-33, 0, 0],
-			"translation": [0, 0, -3],
-			"scale": [1.12, 1.12, 1.12]
-		}
-	}
+    "texture_size": [ 32, 16 ],
+    "textures":     {
+        "0": "custom/cosmetics/hair/mohawkwig"
+    },
+    "elements":     [
+        {
+            "from":     [ -1, 0, 8 ],
+            "to":       [ 17, 15, 8 ],
+            "rotation": { "angle": 0, "axis": "y", "origin": [ 9, 8, 15 ] },
+            "faces":    {
+                "north": { "uv": [ 8.5, 0, 0, 14 ], "texture": "#0", "tintindex": 0 },
+                "south": { "uv": [ 0, 0, 8.5, 14 ], "texture": "#0", "tintindex": 0 }
+            }
+        },
+        {
+            "from":     [ 5.5, 5.5, 4 ],
+            "to":       [ 10.5, 5.5, 12 ],
+            "rotation": { "angle": 0, "axis": "y", "origin": [ 2.5, 13.5, 12 ] },
+            "faces":    {
+                "up":   { "uv": [ 13, 0, 16, 5 ], "rotation": 90, "texture": "#0", "tintindex": 0 },
+                "down": { "uv": [ 13, 0, 16, 5 ], "rotation": 90, "texture": "#0", "tintindex": 0 }
+            }
+        }
+    ],
+    "gui_light":    "front",
+    "display":      {
+        "thirdperson_righthand": {
+            "rotation":    [ 11, 45, 0 ],
+            "translation": [ -0.25, 1.75, 0.75 ],
+            "scale":       [ 0.49, 0.49, 0.49 ]
+        },
+        "thirdperson_lefthand":  {
+            "rotation":    [ 11, 45, 0 ],
+            "translation": [ -0.25, 1.75, 0.75 ],
+            "scale":       [ 0.49, 0.49, 0.49 ]
+        },
+        "firstperson_righthand": {
+            "rotation":    [ -7, -76, 0 ],
+            "translation": [ 1.5, 3.5, 0 ],
+            "scale":       [ 0.49, 0.49, 0.49 ]
+        },
+        "firstperson_lefthand":  {
+            "rotation":    [ -7, 76, 0 ],
+            "translation": [ 2, 3.5, 0 ],
+            "scale":       [ 0.49, 0.49, 0.49 ]
+        },
+        "ground":                {
+            "translation": [ 0, 4.5, 0 ],
+            "scale":       [ 0.3, 0.3, 0.3 ]
+        },
+        "gui":                   {
+            "translation": [ 0, 0.25, 0 ],
+            "scale":       [ 0.79, 0.79, 0.79 ]
+        },
+        "head":                  {
+            "rotation":    [ 0, -90, 0 ],
+            "translation": [ 0, 10, 0.25 ],
+            "scale":       [ 1.8, 1.44, 1.8 ]
+        },
+        "fixed":                 {
+            "rotation":    [ -33, 0, 0 ],
+            "translation": [ 0, 0, -3 ],
+            "scale":       [ 1.12, 1.12, 1.12 ]
+        }
+    }
 }
