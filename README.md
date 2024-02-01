@@ -26,7 +26,7 @@
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/downloads/MinersStudios/MSTextures/total?style=for-the-badge&color=B0E99E&labelColor=302D41">
           <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/downloads/MinersStudios/MSTextures/total?style=for-the-badge&color=B0E99E&labelColor=E1F9D9">
-          <img alt="GitHub code size" src="https://img.shields.io/github/downloads/MinersStudios/MSTextures/total?style=for-the-badge&color=B0E99E&labelColor=302D41">
+          <img alt="Download Count" src="https://img.shields.io/github/downloads/MinersStudios/MSTextures/total?style=for-the-badge&color=B0E99E&labelColor=302D41">
         </picture>
       </a>
       <br>
