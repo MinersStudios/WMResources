@@ -3,7 +3,7 @@
     "textures":     {
         "0":        "custom/furniture/chairs/cool_armchair",
         "1":        "custom/furniture/chairs/bar",
-        "particle": "custom/furniture/chairs/cool_armchair"
+        "particle": "#0"
     },
     "elements":     [
         {

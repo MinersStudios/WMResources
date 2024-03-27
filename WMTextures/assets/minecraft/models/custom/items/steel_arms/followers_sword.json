@@ -1,6 +1,4 @@
 {
-    "parent":   "item/handheld",
-    "textures": {
-        "layer0": "custom/items/steel_arms/followers_sword"
-    }
+    "parent": "item/handheld",
+    "textures": { "layer0": "custom/items/steel_arms/followers_sword" }
 }

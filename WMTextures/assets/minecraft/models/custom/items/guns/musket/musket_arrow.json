@@ -132,9 +132,9 @@
             "scale": [ 0.2, 0.2, 0.2 ]
         },
         "gui":                   {
-            "rotation":    [ 30, 130, 0 ],
-            "translation": [ -2.25, -0.2, 0 ],
-            "scale":       [ 0.6, 0.6, 0.52 ]
+            "rotation":    [ 30, -135, 0 ],
+            "translation": [ 2.75, -0.2, 0 ],
+            "scale":       [ 0.61, 0.61, 0.61 ]
         },
         "head":                  {
             "translation": [ 0, 10, -5 ]

@@ -1,8 +1,6 @@
 {
-    "parent":    "item/generated",
-    "textures":  {
-        "layer0": "item/bread"
-    },
+    "parent": "item/generated",
+    "textures": { "layer0": "item/bread" },
     "overrides": [
         { "predicate": { "custom_model_data": 1 }, "model": "custom/halloween/candys/candy_1" },
         { "predicate": { "custom_model_data": 2 }, "model": "custom/halloween/candys/candy_2" },

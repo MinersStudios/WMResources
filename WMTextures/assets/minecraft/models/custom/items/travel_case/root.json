@@ -1,6 +1,7 @@
 {
     "textures": {
-        "0": "custom/items/travel_case/white"
+        "0": "custom/items/travel_case/white",
+        "particle": "#0"
     },
     "elements": [
         {
@@ -70,7 +71,7 @@
     "display":  {
         "thirdperson_righthand": {
             "rotation":    [ 92.5, 96, 0 ],
-            "translation": [ 0.25, -1.5, -4 ],
+            "translation": [ 0, -1.5, -4 ],
             "scale":       [ 0.7, 0.7, 0.7 ]
         },
         "thirdperson_lefthand":  {
@@ -83,15 +84,15 @@
             "translation": [ 5.5, -8.25, -2.25 ]
         },
         "firstperson_lefthand":  {
-            "rotation":    [ 0, 83, 0 ],
-            "translation": [ 5.75, -4, 3 ]
+            "rotation":    [ 0, 75, 0 ],
+            "translation": [ 5.75, -1.5, 3 ]
         },
         "ground":                {
             "translation": [ 0, 6.5, 0 ],
             "scale":       [ 0.22, 0.22, 0.22 ]
         },
         "gui":                   {
-            "rotation":    [ 30, -45, 0 ],
+            "rotation":    [ 30, 45, 0 ],
             "translation": [ 0, 1, 0 ],
             "scale":       [ 0.78, 0.78, 0.78 ]
         },
@@ -104,19 +105,5 @@
             "translation": [ 0, 3.75, -4.75 ],
             "scale":       [ 2, 2, 2 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "children": [ 0, 1, 2 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "children": [ 3, 4, 5 ]
-        }
-    ]
+    }
 }

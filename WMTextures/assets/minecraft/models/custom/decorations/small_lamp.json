@@ -2,7 +2,7 @@
     "texture_size": [ 32, 16 ],
     "textures":     {
         "1":        "custom/decorations/small_lamp",
-        "particle": "custom/decorations/small_lamp"
+        "particle": "#0"
     },
     "elements":     [
         {

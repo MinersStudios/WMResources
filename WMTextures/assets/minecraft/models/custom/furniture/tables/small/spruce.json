@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/furniture/tables/spruce",
-        "particle": "custom/furniture/tables/spruce"
+        "particle": "#0"
     },
     "elements": [
         {

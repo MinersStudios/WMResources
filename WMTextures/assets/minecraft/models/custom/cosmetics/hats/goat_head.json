@@ -5,7 +5,6 @@
     },
     "elements": [
         {
-            "name":     "body",
             "from":     [ 2.75, -0.25, 3.75 ],
             "to":       [ 12.25, 9.25, 13.25 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 9, -4, 12 ] },
@@ -19,7 +18,6 @@
             }
         },
         {
-            "name":     "body",
             "from":     [ 3, 0, 4 ],
             "to":       [ 12, 9, 13 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 9, -4, 12 ] },
@@ -33,7 +31,6 @@
             }
         },
         {
-            "name":     "head_rotation",
             "from":     [ 5, 6, 2 ],
             "to":       [ 10, 13, 12 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, -9, 18 ] },
@@ -47,7 +44,6 @@
             }
         },
         {
-            "name":     "head",
             "from":     [ 7.99, 11, 12 ],
             "to":       [ 9.99, 13, 19 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 1, 0, 12 ] },
@@ -61,7 +57,6 @@
             }
         },
         {
-            "name":     "head",
             "from":     [ 5.01, 11, 12 ],
             "to":       [ 7.01, 13, 19 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 1, 0, 12 ] },
@@ -75,7 +70,6 @@
             }
         },
         {
-            "name":     "left_ear",
             "from":     [ 2, 7.86241, 2.22628 ],
             "to":       [ 5, 9.86241, 3.22628 ],
             "shade":    false,
@@ -90,7 +84,6 @@
             }
         },
         {
-            "name":     "head",
             "from":     [ 10, 7.86241, 2.22628 ],
             "to":       [ 13, 9.86241, 3.22628 ],
             "rotation": { "angle": 22.5, "axis": "x", "origin": [ 1, -9, 12 ] },
@@ -116,21 +109,23 @@
             "scale":       [ 0.76, 0.76, 0.76 ]
         },
         "firstperson_righthand": {
-            "rotation": [ -21, 0, 0 ],
-            "scale":    [ 0.45, 0.45, 0.45 ]
+            "rotation":    [ 0, 107, 0 ],
+            "translation": [ 0, 3.25, 0 ],
+            "scale":       [ 0.51, 0.51, 0.51 ]
         },
         "firstperson_lefthand":  {
-            "rotation": [ -21, 0, 0 ],
-            "scale":    [ 0.45, 0.45, 0.45 ]
+            "rotation":    [ 0, 107, 0 ],
+            "translation": [ 0, 3.25, 0 ],
+            "scale":       [ 0.51, 0.51, 0.51 ]
         },
         "ground":                {
             "translation": [ 0, 3, 0 ],
-            "scale":       [ 0.37, 0.37, 0.37 ]
+            "scale":       [ 0.4, 0.4, 0.4 ]
         },
         "gui":                   {
-            "rotation":    [ 30, 225, 0 ],
-            "translation": [ 1, -0.5, 0 ],
-            "scale":       [ 0.82, 0.82, 0.82 ]
+            "rotation":    [ 30, -135, 0 ],
+            "translation": [ 1, -0.25, 0 ],
+            "scale":       [ 0.86, 0.86, 0.86 ]
         },
         "head":                  {
             "translation": [ 0.75, 6, -1.25 ],
@@ -141,42 +136,5 @@
             "translation": [ 0, -2.25, -2.5 ],
             "scale":       [ 1.69, 1.69, 1.69 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "bone2",
-            "origin":   [ 0, 0, 0 ],
-            "color":    0,
-            "children": [
-                {
-                    "name":     "body",
-                    "origin":   [ 1, 19, 2 ],
-                    "color":    0,
-                    "children": [ 0, 1 ]
-                },
-                {
-                    "name":     "bone",
-                    "origin":   [ 1, -7, 8 ],
-                    "color":    0,
-                    "children": [
-                        2,
-                        {
-                            "name":     "head",
-                            "origin":   [ 0, 11, 4 ],
-                            "rotation": [ 90, 0, 0 ],
-                            "color":    0,
-                            "children": [ 3, 4 ]
-                        },
-                        {
-                            "name":     "head2",
-                            "origin":   [ 0, 11, 4 ],
-                            "rotation": [ 35, 0, 0 ],
-                            "color":    0,
-                            "children": [ 5, 6 ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    }
 }

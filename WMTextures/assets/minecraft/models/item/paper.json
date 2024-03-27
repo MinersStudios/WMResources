@@ -1,15 +1,13 @@
 {
-    "parent":    "item/generated",
-    "textures":  {
-        "layer0": "item/paper"
-    },
+    "parent": "item/generated",
+    "textures": { "layer0": "item/paper" },
     "overrides": [
-        { "predicate": { "custom_model_data": 1 }, "model": "custom/none" },
-        { "predicate": { "custom_model_data": 5001 }, "model": "custom/ui/crafts/crafts_next_button" },
-        { "predicate": { "custom_model_data": 5002 }, "model": "custom/ui/crafts/crafts_previous_button" },
-        { "predicate": { "custom_model_data": 5003 }, "model": "custom/ui/red_cross" },
-        { "predicate": { "custom_model_data": 5004 }, "model": "custom/ui/skins/apply_button" },
-        { "predicate": { "custom_model_data": 5005 }, "model": "custom/ui/skins/delete_button" },
+        { "predicate": { "custom_model_data": 1 },     "model": "custom/none" },
+        { "predicate": { "custom_model_data": 5001 },  "model": "custom/ui/crafts/crafts_next_button" },
+        { "predicate": { "custom_model_data": 5002 },  "model": "custom/ui/crafts/crafts_previous_button" },
+        { "predicate": { "custom_model_data": 5003 },  "model": "custom/ui/red_cross" },
+        { "predicate": { "custom_model_data": 5004 },  "model": "custom/ui/skins/apply_button" },
+        { "predicate": { "custom_model_data": 5005 },  "model": "custom/ui/skins/delete_button" },
         { "predicate": { "custom_model_data": 12000 }, "model": "custom/items/plumbum_ingot" },
         { "predicate": { "custom_model_data": 12001 }, "model": "custom/items/raw_plumbum" },
         { "predicate": { "custom_model_data": 12002 }, "model": "custom/items/anti_radiation_textile" },

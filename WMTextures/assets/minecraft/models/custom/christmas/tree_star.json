@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/christmas/tree_star",
-        "particle": "custom/christmas/tree_star"
+        "particle": "#0"
     },
     "elements": [
         {

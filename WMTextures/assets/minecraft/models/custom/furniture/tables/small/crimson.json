@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/furniture/tables/crimson",
-        "particle": "custom/furniture/tables/crimson"
+        "particle": "#0"
     },
     "elements": [
         {

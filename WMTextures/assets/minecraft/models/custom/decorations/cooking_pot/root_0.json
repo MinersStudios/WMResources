@@ -2,7 +2,7 @@
     "textures": {
         "0":        "custom/decorations/cooking_pot",
         "1":        "custom/none",
-        "particle": "custom/decorations/cooking_pot"
+        "particle": "#0"
     },
     "elements": [
         {

@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/christmas/snowman_ball",
-        "particle": "custom/christmas/snowman_ball"
+        "particle": "#0"
     },
     "elements": [
         {

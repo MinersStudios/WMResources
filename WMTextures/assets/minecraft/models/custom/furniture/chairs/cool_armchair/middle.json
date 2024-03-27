@@ -2,7 +2,7 @@
     "texture_size": [ 64, 32 ],
     "textures":     {
         "0":        "custom/furniture/chairs/cool_armchair",
-        "particle": "custom/furniture/chairs/cool_armchair"
+        "particle": "#0"
     },
     "elements":     [
         {

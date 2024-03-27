@@ -268,8 +268,8 @@
             "scale":       [ 1, 1, 0.98 ]
         },
         "gui":                   {
-            "rotation":    [ 30, 139, 0 ],
-            "translation": [ 0, 3.5, 0 ],
+            "rotation":    [ 30, -139, 0 ],
+            "translation": [ -0.25, 3.5, 0 ],
             "scale":       [ 0.625, 0.625, 0.625 ]
         }
     },
@@ -278,35 +278,41 @@
             "name":     "clamps",
             "origin":   [ 8, 4, -1 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 0, 1 ]
         },
         {
             "name":     "biglaser",
             "origin":   [ 8, 2.5, -10.5 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 2, 3 ]
         },
         {
             "name":     "charger",
             "origin":   [ 9.5, 2, 7.5 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 4, 5 ]
         },
         {
             "name":     "biggun",
             "origin":   [ 8, 8, 8 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [
                 {
                     "name":     "slidinghandle",
                     "origin":   [ 8, 8, 7 ],
                     "color":    0,
+                    "nbt":      "{}",
                     "children": [ 6, 7, 8, 9, 10 ]
                 },
                 {
                     "name":     "scope",
                     "origin":   [ 8, 8, 8 ],
                     "color":    0,
+                    "nbt":      "{}",
                     "children": [ 11, 12, 13, 14 ]
                 },
                 15,

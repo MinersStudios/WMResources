@@ -44,21 +44,21 @@
             "scale":       [ 0.89, 0.89, 0.89 ]
         },
         "firstperson_righthand": {
-            "rotation":    [ 90, -34, -9 ],
-            "translation": [ 7.75, -5.25, 0 ],
-            "scale":       [ 0.89, 0.89, 0.89 ]
+            "rotation":    [ 0, 107, 0 ],
+            "translation": [ 0.25, 6.75, 0 ],
+            "scale":       [ 0.62, 0.62, 0.62 ]
         },
         "firstperson_lefthand":  {
-            "rotation":    [ 90, -34, -9 ],
-            "translation": [ 7.75, -5.25, 0 ],
-            "scale":       [ 0.89, 0.89, 0.89 ]
+            "rotation":    [ 0, 107, 0 ],
+            "translation": [ 0.25, 6.75, 0 ],
+            "scale":       [ 0.62, 0.62, 0.62 ]
         },
         "ground":                {
-            "translation": [ 0, 5, 0 ],
-            "scale":       [ 0.52, 0.52, 0.52 ]
+            "translation": [ 0, 3, 0 ],
+            "scale":       [ 0.4, 0.4, 0.4 ]
         },
         "gui":                   {
-            "rotation":    [ 25, -134, 0 ],
+            "rotation":    [ 30, -135, 0 ],
             "translation": [ -1, 8, 0 ],
             "scale":       [ 1.5, 1.5, 1.5 ]
         },

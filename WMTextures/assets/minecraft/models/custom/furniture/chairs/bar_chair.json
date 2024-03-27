@@ -3,7 +3,7 @@
     "textures":     {
         "0":        "custom/furniture/chairs/bar",
         "1":        "custom/furniture/chairs/padding",
-        "particle": "custom/furniture/chairs/bar"
+        "particle": "#0"
     },
     "elements":     [
         {

@@ -2,7 +2,7 @@
     "textures": {
         "0":        "custom/furniture/tables/mangrove",
         "1":        "custom/furniture/chairs/mangrove",
-        "particle": "custom/furniture/tables/mangrove"
+        "particle": "#0"
     },
     "elements": [
         {

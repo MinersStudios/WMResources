@@ -1,8 +1,6 @@
 {
-    "parent":    "item/handheld",
-    "textures":  {
-        "layer0": "item/stone_axe"
-    },
+    "parent": "item/handheld",
+    "textures": { "layer0": "item/stone_axe" },
     "overrides": [
         { "predicate": { "custom_model_data": 1 }, "model": "custom/items/steel_arms/firebrand" },
         { "predicate": { "custom_model_data": 2 }, "model": "custom/items/steel_arms/golem_gauntlet" },

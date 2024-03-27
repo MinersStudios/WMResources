@@ -1,8 +1,6 @@
 {
-    "parent":   "item/generated",
-    "textures": {
-        "layer0": "custom/items/wrench"
-    },
+    "parent": "item/generated",
+    "textures": { "layer0": "custom/items/wrench" },
     "display":  {
         "thirdperson_righthand": {
             "rotation":    [ 57, -90, 96 ],
@@ -29,7 +27,11 @@
             "scale":       [ 0.64, 0.64, 0.64 ]
         },
         "gui":                   {
-            "translation": [ -0.5, -0.25, 0 ]
+            "translation": [ -0.5, 0, 0 ]
+        },
+        "head":                  {
+            "rotation":    [ 20, -32, 174 ],
+            "translation": [ -2.25, 8, 2 ]
         }
     }
 }

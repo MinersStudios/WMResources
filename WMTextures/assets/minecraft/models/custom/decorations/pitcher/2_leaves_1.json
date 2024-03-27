@@ -3,7 +3,7 @@
     "textures":     {
         "1":        "custom/decorations/pitcher/2",
         "2":        "custom/decorations/pitcher/leaves_1",
-        "particle": "custom/decorations/pitcher/2"
+        "particle": "#0"
     },
     "elements":     [
         {

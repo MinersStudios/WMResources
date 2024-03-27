@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/furniture/tables/dark_oak",
-        "particle": "custom/furniture/tables/dark_oak"
+        "particle": "#0"
     },
     "elements": [
         {

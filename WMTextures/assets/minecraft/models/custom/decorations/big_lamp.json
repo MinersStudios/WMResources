@@ -2,7 +2,7 @@
     "ambientocclusion": false,
     "textures":         {
         "0":        "custom/decorations/big_lamp",
-        "particle": "custom/decorations/big_lamp"
+        "particle": "#0"
     },
     "elements":         [
         {

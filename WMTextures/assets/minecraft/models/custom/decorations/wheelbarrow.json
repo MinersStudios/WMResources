@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/decorations/wheelbarrow",
-        "particle": "custom/decorations/wheelbarrow"
+        "particle": "#0"
     },
     "elements": [
         {

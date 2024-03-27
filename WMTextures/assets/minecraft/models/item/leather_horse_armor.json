@@ -1,10 +1,8 @@
 {
-    "parent":    "item/generated",
-    "textures":  {
-        "layer0": "item/leather_horse_armor"
-    },
+    "parent": "item/generated",
+    "textures": { "layer0": "item/leather_horse_armor" },
     "overrides": [
-        { "predicate": { "custom_model_data": 999 }, "model": "custom/cosmetics/hats/leather_hat" },
+        { "predicate": { "custom_model_data": 999 },  "model": "custom/cosmetics/hats/leather_hat" },
         { "predicate": { "custom_model_data": 1000 }, "model": "custom/furniture/chairs/small_chair/acacia" },
         { "predicate": { "custom_model_data": 1001 }, "model": "custom/furniture/chairs/small_chair/birch" },
         { "predicate": { "custom_model_data": 1002 }, "model": "custom/furniture/chairs/small_chair/crimson" },

@@ -2,7 +2,7 @@
     "textures": {
         "0":        "custom/decorations/cell",
         "1":        "entity/slime/slime",
-        "particle": "custom/decorations/cell"
+        "particle": "#0"
     },
     "elements": [
         {

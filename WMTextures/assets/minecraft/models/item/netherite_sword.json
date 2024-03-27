@@ -1,8 +1,6 @@
 {
-    "parent":    "item/handheld",
-    "textures":  {
-        "layer0": "item/netherite_sword"
-    },
+    "parent": "item/handheld",
+    "textures": { "layer0": "item/netherite_sword" },
     "overrides": [
         { "predicate": { "custom_model_data": 1 }, "model": "custom/items/steel_arms/breche_katana" },
         { "predicate": { "custom_model_data": 2 }, "model": "custom/items/steel_arms/broadsword" },

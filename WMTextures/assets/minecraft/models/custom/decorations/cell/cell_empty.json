@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/decorations/cell",
-        "particle": "custom/decorations/cell"
+        "particle": "#0"
     },
     "elements": [
         {

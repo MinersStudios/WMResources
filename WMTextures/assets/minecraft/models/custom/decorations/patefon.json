@@ -2,7 +2,7 @@
     "texture_size": [ 16, 32 ],
     "textures":     {
         "0":        "custom/decorations/patefon",
-        "particle": "custom/decorations/patefon"
+        "particle": "#0"
     },
     "elements":     [
         {

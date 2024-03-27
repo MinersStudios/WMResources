@@ -2,7 +2,7 @@
     "textures": {
         "0":        "custom/items/guns/musket",
         "1":        "custom/items/guns/firework",
-        "particle": "#1"
+        "particle": "#0"
     },
     "elements": [
         {
@@ -195,9 +195,9 @@
             "scale": [ 0.2, 0.2, 0.2 ]
         },
         "gui":                   {
-            "rotation":    [ 30, 130, 0 ],
-            "translation": [ -2.25, -0.2, 0 ],
-            "scale":       [ 0.6, 0.6, 0.52 ]
+            "rotation":    [ 30, -135, 0 ],
+            "translation": [ 2.75, -0.2, 0 ],
+            "scale":       [ 0.61, 0.61, 0.61 ]
         },
         "head":                  {
             "translation": [ 0, 10, -5 ]
@@ -213,12 +213,14 @@
             "name":     "rocket",
             "origin":   [ 15, 14, 6 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 0, 1, 2, 3, 4 ]
         },
         {
             "name":     "musket_primed",
             "origin":   [ 8, 8, 8 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 5, 6, 7, 8, 9, 10, 11, 12, 13 ]
         }
     ]

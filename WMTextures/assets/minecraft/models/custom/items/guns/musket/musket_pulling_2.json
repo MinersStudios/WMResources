@@ -144,9 +144,9 @@
             "scale":       [ 0.6, 0.6, 0.6 ]
         },
         "gui":                   {
-            "rotation":    [ 30, 130, 0 ],
-            "translation": [ -2.25, -0.2, 0 ],
-            "scale":       [ 0.6, 0.6, 0.52 ]
+            "rotation":    [ 30, -135, 0 ],
+            "translation": [ 2.75, -0.2, 0 ],
+            "scale":       [ 0.61, 0.61, 0.61 ]
         },
         "fixed":                 {
             "rotation":    [ 0, -90, 0 ],
@@ -168,6 +168,7 @@
             "name":     "musket_loading_1",
             "origin":   [ 8, 8, 8 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 9 ]
         }
     ]

@@ -1,7 +1,8 @@
 {
     "textures": {
         "0": "custom/items/cigarettes/smoke",
-        "1": "custom/items/cigarettes/cigarette"
+        "1": "custom/items/cigarettes/cigarette",
+        "particle": "#1"
     },
     "elements": [
         {
@@ -43,11 +44,11 @@
             "translation": [ 0.75, 8.5, -1.5 ]
         },
         "ground":                {
-            "translation": [ 0, 6.5, 0 ],
-            "scale":       [ 0.89, 0.89, 0.89 ]
+            "translation": [ 0, 5.5, 0 ],
+            "scale":       [ 0.7, 0.7, 0.7 ]
         },
         "gui":                   {
-            "rotation":    [ 33, 128, 0 ],
+            "rotation":    [ 30, -128, 0 ],
             "translation": [ 0, 7, 0 ],
             "scale":       [ 1.73, 1.73, 1.73 ]
         },
@@ -58,7 +59,7 @@
         },
         "fixed":                 {
             "rotation":    [ -90, 13, 0 ],
-            "translation": [ 0, 0, -14.75 ],
+            "translation": [ 0, 0, -14.5 ],
             "scale":       [ 1.83, 1.83, 1.83 ]
         }
     }

@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/decorations/plush/whocintosh_mini",
-        "particle": "custom/decorations/plush/whocintosh_mini"
+        "particle": "#0"
     },
     "elements": [
         {

@@ -2,7 +2,7 @@
     "textures": {
         "0":        "custom/decorations/cell",
         "1":        "entity/bee/bee_angry",
-        "particle": "custom/decorations/cell"
+        "particle": "#0"
     },
     "elements": [
         {

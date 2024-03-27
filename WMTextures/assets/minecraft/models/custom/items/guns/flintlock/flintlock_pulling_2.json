@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/items/guns/flintlock",
-        "particle": "custom/items/guns/flintlock"
+        "particle": "#0"
     },
     "elements": [
         {
@@ -130,8 +130,8 @@
             "scale":       [ 0.6, 0.6, 0.6 ]
         },
         "gui":                   {
-            "rotation":    [ 30, 130, 0 ],
-            "translation": [ -0.25, 1, 0 ],
+            "rotation":    [ 30, -135, 0 ],
+            "translation": [ 0.25, 1, 0 ],
             "scale":       [ 0.95, 0.95, 0.95 ]
         },
         "fixed":                 {
@@ -145,17 +145,20 @@
             "name":     "flintlock_loading_3",
             "origin":   [ 8, 8, 8 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 0 ]
         },
         {
             "name":     "flintlock_loading_2",
             "origin":   [ 8, 8, 8 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [
                 {
                     "name":     "flintlock_loading_0",
                     "origin":   [ 8, 8, 8 ],
                     "color":    0,
+                    "nbt":      "{}",
                     "children": [ 1, 2, 3, 4, 5, 6, 7, 8 ]
                 }
             ]

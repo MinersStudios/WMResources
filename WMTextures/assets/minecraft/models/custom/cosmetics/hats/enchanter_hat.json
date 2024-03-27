@@ -19,9 +19,9 @@
     ],
     "display":  {
         "thirdperson_righthand": {
-            "rotation":    [ 32, 0, 0 ],
-            "translation": [ 0, 0.75, -1.5 ],
-            "scale":       [ 0.66, 0.66, 0.66 ]
+            "rotation":    [ 44, 135, 0 ],
+            "translation": [ 0, 5.5, 2.25 ],
+            "scale":       [ 0.7, 0.7, 0.7 ]
         },
         "thirdperson_lefthand":  {
             "rotation":    [ 32, 0, 0 ],
@@ -29,23 +29,23 @@
             "scale":       [ 0.66, 0.66, 0.66 ]
         },
         "firstperson_righthand": {
-            "rotation":    [ -19, 130, 0 ],
-            "translation": [ 4.25, 1.75, -3.25 ],
-            "scale":       [ 0.65, 0.65, 0.65 ]
+            "rotation":    [ 0, 107, 0 ],
+            "translation": [ 0.25, 5.5, 0 ],
+            "scale":       [ 0.52, 0.52, 0.52 ]
         },
         "firstperson_lefthand":  {
-            "rotation":    [ -19, 130, 0 ],
-            "translation": [ 4.25, 1.75, -3.25 ],
-            "scale":       [ 0.65, 0.65, 0.65 ]
+            "rotation":    [ 0, 107, 0 ],
+            "translation": [ 0.25, 5.5, 0 ],
+            "scale":       [ 0.52, 0.52, 0.52 ]
         },
         "ground":                {
-            "translation": [ 0, 4.5, 0 ],
-            "scale":       [ 0.37, 0.37, 0.37 ]
+            "translation": [ 0, 3, 0 ],
+            "scale":       [ 0.4, 0.4, 0.4 ]
         },
         "gui":                   {
-            "rotation":    [ 40, -134, 0 ],
-            "translation": [ 0, 3, 0 ],
-            "scale":       [ 0.92, 0.92, 0.92 ]
+            "rotation":    [ 30, -135, 0 ],
+            "translation": [ 0, 3.25, 0 ],
+            "scale":       [ 0.91, 0.91, 0.91 ]
         },
         "head":                  {
             "translation": [ 0, 14, 0 ],
@@ -53,7 +53,7 @@
         },
         "fixed":                 {
             "rotation":    [ -90, 0, 0 ],
-            "translation": [ 0, 0, -12.75 ],
+            "translation": [ 0, 0, -13.25 ],
             "scale":       [ 1.65, 1.65, 1.65 ]
         }
     }

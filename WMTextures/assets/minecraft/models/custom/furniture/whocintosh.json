@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/furniture/whocintosh",
-        "particle": "custom/furniture/whocintosh"
+        "particle": "#0"
     },
     "elements": [
         {

@@ -1,9 +1,9 @@
 {
-    "textures": {
+    "textures":  {
         "0":        "custom/items/food/marshmallow_stick",
         "particle": "#0"
     },
-    "elements": [
+    "elements":  [
         {
             "from":  [ 7, 17, 6 ],
             "to":    [ 7, 18, 7 ],
@@ -37,29 +37,31 @@
             }
         }
     ],
-    "display":  {
+    "gui_light": "front",
+    "display":   {
         "thirdperson_righthand": {
             "rotation":    [ 0, -22, 0 ],
             "translation": [ -0.25, 7, 1.5 ]
         },
         "thirdperson_lefthand":  {
-            "rotation":    [ -27, -23, 23 ],
-            "translation": [ -2.5, 4.5, -2.5 ]
+            "rotation":    [ -19, -26, 32 ],
+            "translation": [ -3.25, 3.5, -1.75 ]
         },
         "firstperson_righthand": {
-            "rotation":    [ -78, -73, -49 ],
-            "translation": [ 4.25, 2, 2.5 ]
+            "rotation":    [ -27, 20, -2 ],
+            "translation": [ 0.5, -0.75, 2.5 ]
         },
         "firstperson_lefthand":  {
-            "rotation":    [ -123, 76, 30 ],
-            "translation": [ 4.25, 2, 2.5 ]
+            "rotation":    [ -84.86, 12.63, 14.58 ],
+            "translation": [ 2, 1.5, -2.75 ]
         },
         "ground":                {
-            "scale": [ 0.26, 0.26, 0.26 ]
+            "translation": [ 0, 2, 0 ],
+            "scale":       [ 0.4, 0.4, 0.4 ]
         },
         "gui":                   {
-            "rotation":    [ -17.75, 55.25, 66.25 ],
-            "translation": [ 1, -1.25, 0 ]
+            "rotation":    [ -90, -45, -90 ],
+            "translation": [ -1.5, -1.5, 0 ]
         },
         "head":                  {
             "rotation":    [ -3, 4, 64 ],
@@ -68,16 +70,8 @@
         },
         "fixed":                 {
             "rotation":    [ 0, -180, 0 ],
-            "translation": [ 0, -1, 0.75 ],
+            "translation": [ 0, -1, -1 ],
             "scale":       [ 2, 2, 2 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "children": [ 0, 1, 2 ]
-        }
-    ]
+    }
 }

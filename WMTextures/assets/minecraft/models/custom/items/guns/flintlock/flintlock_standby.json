@@ -1,7 +1,7 @@
 {
     "textures": {
         "0":        "custom/items/guns/flintlock",
-        "particle": "custom/items/guns/flintlock"
+        "particle": "#0"
     },
     "elements": [
         {
@@ -122,8 +122,8 @@
             "scale": [ 0.2, 0.2, 0.2 ]
         },
         "gui":                   {
-            "rotation":    [ 30, 130, 0 ],
-            "translation": [ -0.25, 1, 0 ],
+            "rotation":    [ 30, -135, 0 ],
+            "translation": [ 0.25, 1, 0 ],
             "scale":       [ 0.95, 0.95, 0.95 ]
         },
         "head":                  {

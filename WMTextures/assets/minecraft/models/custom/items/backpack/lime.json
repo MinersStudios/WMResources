@@ -1,7 +1,4 @@
 {
-    "parent":   "custom/items/backpack/root",
-    "textures": {
-        "0":        "custom/items/backpack/lime",
-        "particle": "custom/items/backpack/lime"
-    }
+    "parent": "custom/items/backpack/root",
+    "textures": { "0": "custom/items/backpack/lime" }
 }

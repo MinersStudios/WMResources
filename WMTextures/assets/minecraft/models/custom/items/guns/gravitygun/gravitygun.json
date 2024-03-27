@@ -215,9 +215,9 @@
             "scale":       [ 0.36, 0.36, 0.36 ]
         },
         "gui":                   {
-            "rotation":    [ 29, 136, 0 ],
-            "translation": [ 0.5, 2.5, 0 ],
-            "scale":       [ 0.625, 0.625, 0.625 ]
+            "rotation":    [ 30, -136, 0 ],
+            "translation": [ -1, 2.5, 0 ],
+            "scale":       [ 0.65, 0.65, 0.65 ]
         },
         "head":                  {
             "translation": [ 0, 14.75, 1 ],
@@ -233,36 +233,42 @@
             "name":     "group",
             "origin":   [ 8, 4, 0.5 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 0, 1 ]
         },
         {
             "name":     "group",
             "origin":   [ 8, 4, 0.5 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 2, 3 ]
         },
         {
             "name":     "group",
             "origin":   [ 8, 4, 0.5 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 4, 5 ]
         },
         {
             "name":     "group",
             "origin":   [ 8, 4, 5.5 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 6, 7 ]
         },
         {
             "name":     "group",
             "origin":   [ 6.5, 3, 12.25 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 8, 9, 10, 11 ]
         },
         {
             "name":     "group",
             "origin":   [ 8.5, 3.5, 13 ],
             "color":    0,
+            "nbt":      "{}",
             "children": [ 12, 13, 14 ]
         }
     ]

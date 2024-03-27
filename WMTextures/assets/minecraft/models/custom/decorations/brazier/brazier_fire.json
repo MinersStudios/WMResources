@@ -2,7 +2,7 @@
     "textures": {
         "0":        "custom/decorations/brazier",
         "1":        "block/campfire_fire",
-        "particle": "custom/decorations/brazier"
+        "particle": "#0"
     },
     "elements": [
         {

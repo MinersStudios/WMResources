@@ -1,6 +1,4 @@
 {
-    "parent":   "custom/items/food/cans/root",
-    "textures": {
-        "0": "custom/items/food/cans/salmon"
-    }
+    "parent": "custom/items/food/cans/cod",
+    "textures": { "0": "custom/items/food/cans/salmon" }
 }

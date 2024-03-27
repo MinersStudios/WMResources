@@ -5,8 +5,8 @@
     },
     "elements": [
         {
-            "from":  [ 2, 5, 2 ],
-            "to":    [ 14, 5, 14 ],
+            "from":  [ 2, 0, 2 ],
+            "to":    [ 14, 0, 14 ],
             "faces": {
                 "north": { "uv": [ 0, 0, 16, 0 ], "texture": "#missing" },
                 "east":  { "uv": [ 0, 0, 16, 0 ], "texture": "#missing" },
@@ -17,8 +17,8 @@
             }
         },
         {
-            "from":  [ 4, 5.01, 4 ],
-            "to":    [ 12, 10.01, 12 ],
+            "from":  [ 4, 0.01, 4 ],
+            "to":    [ 12, 5.01, 12 ],
             "faces": {
                 "north": { "uv": [ 2, 2, 4, 3.25 ], "texture": "#0" },
                 "east":  { "uv": [ 0, 2, 2, 3.25 ], "texture": "#0" },
@@ -29,8 +29,8 @@
             }
         },
         {
-            "from":  [ 3.75, 5.01, 3.75 ],
-            "to":    [ 12.25, 8.01, 12.25 ],
+            "from":  [ 3.75, 0.01, 3.75 ],
+            "to":    [ 12.25, 3.01, 12.25 ],
             "faces": {
                 "north": { "uv": [ 10, 2.5, 12, 3.25 ], "texture": "#0" },
                 "east":  { "uv": [ 8, 2.5, 10, 3.25 ], "texture": "#0" },
@@ -43,26 +43,38 @@
     ],
     "display":  {
         "thirdperson_righthand": {
-            "translation": [ 0, 2.25, 0 ],
+            "rotation":    [ 44, 135, 0 ],
+            "translation": [ 0, 4.5, 2 ],
             "scale":       [ 0.7, 0.7, 0.7 ]
         },
         "thirdperson_lefthand":  {
             "translation": [ -6, 2.25, 1.25 ],
             "scale":       [ 0.7, 0.7, 0.7 ]
         },
+        "firstperson_righthand": {
+            "rotation":    [ 0, 107, 0 ],
+            "translation": [ 0.25, 5.5, 0 ],
+            "scale":       [ 0.62, 0.62, 0.62 ]
+        },
         "firstperson_lefthand":  {
-            "translation": [ -9.5, 1.5, 0 ]
+            "translation": [ -9.5, 3, 0 ]
+        },
+        "ground":                {
+            "translation": [ 0, 3, 0 ],
+            "scale":       [ 0.4, 0.4, 0.4 ]
         },
         "gui":                   {
-            "rotation": [ 25, 45, 0 ]
+            "rotation":    [ 30, -135, 0 ],
+            "translation": [ 0, 5, 0 ]
         },
         "head":                  {
-            "translation": [ 0, 6.75, 0 ],
+            "translation": [ 0, 14.5, 0 ],
             "scale":       [ 1.82, 1.82, 1.82 ]
         },
         "fixed":                 {
             "rotation":    [ -90, 0, 0 ],
-            "translation": [ 0, 0, -3.03 ]
+            "translation": [ 0, 0, -10.03 ],
+            "scale":       [ 1.2, 1.2, 1.2 ]
         }
     }
 }

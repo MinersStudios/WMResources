@@ -1,6 +1,4 @@
 {
-    "parent":   "item/generated",
-    "textures": {
-        "layer0": "custom/items/totem_of_undying/roostyk_indust"
-    }
+    "parent": "item/generated",
+    "textures": { "layer0": "custom/items/totem_of_undying/roostyk_indust" }
 }

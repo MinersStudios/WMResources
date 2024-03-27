@@ -3,21 +3,17 @@
         "0":        "entity/villager/profession/cartographer",
         "particle": "#0"
     },
-    "gui_light": "front",
     "elements":  [
         {
             "from":  [ 6, 9, 9 ],
             "to":    [ 10, 14, 9 ],
             "faces": {
-                "north": { "uv": [ 11, 4.75, 12, 6 ], "texture": "#0" },
-                "east":  { "uv": [ 0, 0, 0, 5 ], "texture": "#missing" },
-                "south": { "uv": [ 11, 3.25, 12, 4.5 ], "texture": "#0" },
-                "west":  { "uv": [ 0, 0, 0, 5 ], "texture": "#missing" },
-                "up":    { "uv": [ 0, 0, 4, 0 ], "texture": "#missing" },
-                "down":  { "uv": [ 0, 0, 4, 0 ], "texture": "#missing" }
+                "north": { "uv": [ 12, 3.25, 11, 4.5 ], "texture": "#0" },
+                "south": { "uv": [ 11, 3.25, 12, 4.5 ], "texture": "#0" }
             }
         }
     ],
+    "gui_light": "front",
     "display":   {
         "thirdperson_righthand": {
             "translation": [ -1.5, -1.75, 0 ]

@@ -1,7 +1,6 @@
 {
     "textures": {
-        "0":        "./kolchan",
-        "2":        "entity/projectiles/spectral_arrow",
+        "0":        "./quiver",
         "particle": "#0"
     },
     "elements": [
@@ -28,32 +27,6 @@
                 "up":    { "uv": [ 4, 0, 8, 4 ], "texture": "#missing" },
                 "down":  { "uv": [ 0, 12, 4, 16 ], "texture": "#missing" }
             }
-        },
-        {
-            "from":     [ 8, 7.61522, 4.5 ],
-            "to":       [ 8, 21.61522, 9.5 ],
-            "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, 13, 13 ] },
-            "faces":    {
-                "north": { "uv": [ 0, 0, 14, 0 ], "texture": "#missing" },
-                "east":  { "uv": [ 6.5, 0, 0, 2.5 ], "rotation": 270, "texture": "#2" },
-                "south": { "uv": [ 0, 0, 14, 0 ], "rotation": 180, "texture": "#missing" },
-                "west":  { "uv": [ 0, 0, 6.5, 2.5 ], "rotation": 90, "texture": "#2" },
-                "up":    { "uv": [ 11, 5, 2, 15 ], "rotation": 180, "texture": "#missing" },
-                "down":  { "uv": [ 11, 15, 2, 5 ], "rotation": 180, "texture": "#missing" }
-            }
-        },
-        {
-            "from":     [ 5.5, 5.61522, 6.65 ],
-            "to":       [ 10.5, 19.61522, 6.65 ],
-            "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, 13, 8 ] },
-            "faces":    {
-                "north": { "uv": [ 0, 0, 6.5, 2.5 ], "rotation": 90, "texture": "#2" },
-                "east":  { "uv": [ 0, 0, 14, 0 ], "rotation": 180, "texture": "#missing" },
-                "south": { "uv": [ 0, 0, 6.5, 2.5 ], "rotation": 90, "texture": "#2" },
-                "west":  { "uv": [ 0, 0, 14, 0 ], "texture": "#missing" },
-                "up":    { "uv": [ 11, 5, 2, 15 ], "rotation": 90, "texture": "#missing" },
-                "down":  { "uv": [ 11, 15, 2, 5 ], "rotation": 270, "texture": "#missing" }
-            }
         }
     ],
     "display":  {
@@ -76,7 +49,7 @@
         },
         "ground":                {
             "rotation":    [ 91, 0, 0 ],
-            "translation": [ 0, -0.5, 0 ]
+            "translation": [ 0, -0.5, 1.75 ]
         },
         "gui":                   {
             "rotation":    [ 31, 35, 27 ],
