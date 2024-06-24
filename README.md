@@ -48,6 +48,13 @@
     (Project is in development, so there is shit)
   </p>
   <br>
+  <h1>Disclaimer</h1>
+  <p>
+     Please be aware that our server's primary resource pack contains a large amount of furniture and decorative elements.<br> 
+     This may cause discomfort for individuals with <b>epiplaphobia</b> <i>(fear of furniture)</i>. Please take this into consideration when joining the server.<br>
+     <h4>If you experience any discomfort or anxiety, we recommend stopping the game and seeking support.</h4>
+  </p>
+  <br>
   <h1>Zipper Script</h1>
   <p>This script is designed to compress JSON and PNG files and place them in the appropriate resourcepack archives</p>
   <div align="left">
