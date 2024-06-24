@@ -48,7 +48,7 @@
     (Project is in development, so there is shit)
   </p>
   <br>
-  <h1>Disclaimer</h1>
+  <h1>Trigger warning</h1>
   <p>
      Please be aware that our server's primary resource pack contains a large amount of furniture and decorative elements.
      This may cause discomfort for individuals with <b>epiplaphobia</b> <i>(fear of furniture)</i>. Please take this into consideration when joining the server.<br>
