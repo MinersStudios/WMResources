@@ -50,7 +50,7 @@
   <br>
   <h1>Disclaimer</h1>
   <p>
-     Please be aware that our server's primary resource pack contains a large amount of furniture and decorative elements.<br> 
+     Please be aware that our server's primary resource pack contains a large amount of furniture and decorative elements.
      This may cause discomfort for individuals with <b>epiplaphobia</b> <i>(fear of furniture)</i>. Please take this into consideration when joining the server.<br>
      <h4>If you experience any discomfort or anxiety, we recommend stopping the game and seeking support.</h4>
   </p>
