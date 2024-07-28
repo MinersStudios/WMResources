@@ -24,6 +24,7 @@ body:
     description: "Type of the issue you want to describe."
     options:
       - Feature not working as intended
+      - Texture and/or model contains an error
       - Resource pack conflicts
       - Other
   validations:
