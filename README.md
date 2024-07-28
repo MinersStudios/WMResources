@@ -8,22 +8,22 @@
     Miners Studios
     <br><br>
     <div>
-      <a href="https://github.com/MinersStudios/MSTextures/stargazers">
+      <a href="https://git.minersstudios.com/WMResources/stargazers">
         <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/stars/MinersStudios/MSTextures?style=for-the-badge&color=f9ebbf&labelColor=fcf6e4">
-          <img alt="Stars" src="https://img.shields.io/github/stars/MinersStudios/MSTextures?style=for-the-badge&color=f9ebbf&labelColor=302d41">
+          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/stars/MinersStudios/WMResources?style=for-the-badge&color=f9ebbf&labelColor=fcf6e4">
+          <img alt="Stars" src="https://img.shields.io/github/stars/MinersStudios/WMResources?style=for-the-badge&color=f9ebbf&labelColor=302d41">
         </picture>
       </a>
-      <a href="https://github.com/MinersStudios/MSTextures/contributors">
+      <a href="https://github.com/MinersStudios/WMResources/contributors">
         <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/contributors/MinersStudios/MSTextures?style=for-the-badge&color=d5c3f0&labelColor=ECE3F9">
-          <img alt="Contributors" src="https://img.shields.io/github/contributors/MinersStudios/MSTextures?style=for-the-badge&color=d5c3f0&labelColor=302d41">
+          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/contributors/MinersStudios/WMResources?style=for-the-badge&color=d5c3f0&labelColor=ECE3F9">
+          <img alt="Contributors" src="https://img.shields.io/github/contributors/MinersStudios/WMResources?style=for-the-badge&color=d5c3f0&labelColor=302d41">
         </picture>
       </a>
       <a href="#">
         <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/downloads/MinersStudios/MSTextures/total?style=for-the-badge&color=b0e99e&labelColor=e1f9d9">
-          <img alt="Download Count" src="https://img.shields.io/github/downloads/MinersStudios/MSTextures/total?style=for-the-badge&color=b0e99e&labelColor=302d41">
+          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/downloads/MinersStudios/WMResources/total?style=for-the-badge&color=b0e99e&labelColor=e1f9d9">
+          <img alt="Download Count" src="https://img.shields.io/github/downloads/MinersStudios/WMResources/total?style=for-the-badge&color=b0e99e&labelColor=302d41">
         </picture>
       </a>
       <br>
@@ -44,7 +44,7 @@
   </h1>
   <br>
   <p>
-    A Minecraft texture pack for server WhoMine<br>
+    A Minecraft resource packs for server WhoMine<br>
     (Project is in development, so there is shit)
   </p>
   <br>
