@@ -29,6 +29,28 @@ body:
       - Other
   validations:
     required: true
+
+- type: dropdown
+  attributes: 
+    label: "Resource pack type"
+    description: |
+      Select one of the available resource pack types that contains the error.
+
+      If you don't know the type of resource pack, leave `Unknown`.
+    options:
+      - WMResources (Main)
+      - WMR Better Armor Stand
+      - WMR Better Blocks
+      - WMR Better Crops
+      - WMR Better Items
+      - WMR Better Particles
+      - WMR Better UI
+      - WMR Christmas UI
+      - WMR Halloween UI
+      - WMR Halloween Moon
+      - Unknown
+  validations:
+    required: true
       
 - type: textarea
   attributes:
