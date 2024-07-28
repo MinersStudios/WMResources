@@ -36,8 +36,9 @@ body:
     description: |
       Select one of the available resource pack types that contains the error.
 
-      If you don't know the type of resource pack, select `Unknown`.
+      If you don't know the type of resource pack, leave `Unknown`.
     options:
+      - Unknown
       - WMResources (Main)
       - WMR Better Armor Stand
       - WMR Better Blocks
@@ -48,7 +49,6 @@ body:
       - WMR Christmas UI
       - WMR Halloween UI
       - WMR Halloween Moon
-      - Unknown
   validations:
     required: true
       
