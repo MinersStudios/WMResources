@@ -1,0 +1,62 @@
+name: "💡 Feature request"
+description: "Suggest an idea for this collection of resource packs"
+title: "[Suggestion]: "
+labels: [ "suggestion" ]
+body:
+- type: markdown
+  attributes:
+    value: "Please search [here](https://github.com/MinersStudios/WMResources/issues/labels/suggestion) to see if there is already an issue related to the feature you're requesting."
+
+- type: dropdown
+  attributes: 
+    label: "Resource pack type"
+    description: |
+      Select one of the available resource pack types to which you would like to submit your suggestion.
+
+      If you don't know what type to best categorize your suggestion as, leave `Unknown`. The developers will take care of it themselves. 
+      If you want to suggest creating a new resource pack type, select `Create New Type`.
+    options:
+      - Unknown
+      - Create New Type
+      - WMResources (Main)
+      - WMR Better Armor Stand
+      - WMR Better Blocks
+      - WMR Better Crops
+      - WMR Better Items
+      - WMR Better Particles
+      - WMR Better UI
+      - WMR Christmas UI
+      - WMR Halloween UI
+      - WMR Halloween Moon
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: "Describe your suggestion"
+    description: |
+      A clear and concise description of your idea.
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: "Additional context"
+    description: |
+      Add any other context or screenshots about the feature request here.
+
+      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
+
+- type: checkboxes
+  attributes:
+    label: "Acknowledgements"
+    description: "Your issue will be closed if you haven't done these steps."
+    options: 
+      - label: "I have searched the existing issues and this is a new issue and not a duplicate of any another open issue."
+        required: true
+      - label: "I have written a short but informative title."
+        required: true
+      - label: "I have filled out all of the requested information in this issue properly."
+        required: true
