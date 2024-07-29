@@ -62,32 +62,30 @@
     <h2>Usage</h2>
     <ol>
         <li>Make sure that the <code>pack.mcmeta</code> file is present in each resourcepack directory</li>
-        <li>
-            Make sure you have <i>Pillow</i> installed on your system
-            <pre><code>pip install Pillow</code></pre>
-        </li>
         <li>Open a terminal or command prompt</li>
+        <li>
+            Make sure you have <i>Pillow</i> installed on your system<br><br>
+            <pre><code>pip3 install Pillow</code></pre>
+        </li>
         <li>Navigate to the script's directory using the <code>cd</code> command</li>
         <li>
-          Run the script by executing the following command:
-          <pre><code>python zipper.py</code></pre>
+          Run the script by executing the following command:<br><br>
+          <pre><code>python3 zipper.py</code></pre>
         </li>
     </ol>
-    <br>
     <h2>Output</h2>
     <p>
        After running the script, you will find several archive files in the same directory as the script — these are resourcepacks whose files have been compressed and placed in the archive.<br>
        Each of the archives has a folder name where the pack.mcmeta file is located, as well as other resourcepack files.
     </p>
-    <br>
   </div>
   <p><i>For any questions or issues related to the script, feel free to open an issue on the repository.</i></p> 
   <h1></h1>
-  <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0">
     <img alt="Лицензия Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
   </a>
   <h6>
-    This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+    This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
     <br><br>
     <li>Feel free to include this resource pack in your server, mod pack, etc.</li>
     <li>If you wish to use this pack in any form of content, please credit with a link to the original GitHub page where you can</li>
