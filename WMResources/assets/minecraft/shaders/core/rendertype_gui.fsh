@@ -48,15 +48,14 @@
 #define _USCORE 31u
 #define _HASH   368389098u
 
-#define ORIGIN ivec2(25, 25)
-
+#define ORIGIN       ivec2(24)
 #define SCALE        2
 #define WIDTH        (SCALE * 5)
 #define HEIGHT       (SCALE * 6)
 #define SPACING      (SCALE * 1)
 #define SPACED_WIDTH (WIDTH + SPACING)
 
-#define STRING uint[] (_W, _H, _O, _M, _I, _N, _E, _SPACE, _1, _DOT, _0, _DOT, _0)
+#define STRING        uint[] (_W, _H, _O, _M, _I, _N, _E, _SPACE, _1, _DOT, _0, _DOT, _0)
 #define STRING_LENGTH 13
 
 uniform vec4 ColorModulator;
@@ -67,9 +66,9 @@ out vec4 fragColor;
 
 bool isInBounds(ivec2 coord) {
     return coord.y >= 0
-           && coord.x >= 0
-           && coord.y < HEIGHT
-           && coord.x < (SPACED_WIDTH) * STRING_LENGTH - SPACING;
+        && coord.x >= 0
+        && coord.y < HEIGHT
+        && coord.x < (SPACED_WIDTH) * STRING_LENGTH - SPACING;
 }
 
 bool checkBit(
@@ -86,10 +85,7 @@ void main() {
 
     color *= ColorModulator;
 
-    if (
-            length(color.rgb - vec3(16 / 255.0)) < 0.001
-            || length(color.rgb - vec3(239.0 / 255.0, 50.0 / 255.0, 61.0 / 255.0)) < 0.001
-    ) {
+    if (length(color.rgb - vec3(16 / 255.)) < .001) {
         ivec2 offset = ivec2(gl_FragCoord.xy) - ORIGIN;
 
         if (isInBounds(offset)) {
@@ -98,7 +94,7 @@ void main() {
 
             if (offset.x < WIDTH) {
                 color = checkBit(STRING[index], 4 - offset.x / SCALE + offset.y / SCALE * 5)
-                        ? vec4(1.0, 1.0, 1.0, color.a)
+                        ? vec4(1., 1., 1., color.a)
                         : color;
             }
         }

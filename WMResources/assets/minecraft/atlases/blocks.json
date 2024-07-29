@@ -4,6 +4,43 @@
             "type":   "directory",
             "source": "custom",
             "prefix": "custom/"
+        },
+        {
+            "type":   "directory",
+            "source": "entity/bee",
+            "prefix": "entity/bee/"
+        },
+        {
+            "type":   "directory",
+            "source": "entity/hoglin",
+            "prefix": "entity/hoglin/"
+        },
+        {
+            "type":   "directory",
+            "source": "entity/parrot",
+            "prefix": "entity/parrot/"
+        },
+        {
+            "type":   "directory",
+            "source": "entity/slime",
+            "prefix": "entity/slime/"
+        },
+        {
+            "type":   "directory",
+            "source": "entity/villager",
+            "prefix": "entity/villager/"
+        },
+        {
+            "type": "single",
+            "resource": "entity/chicken"
+        },
+        {
+            "type": "single",
+            "resource": "entity/phantom"
+        },
+        {
+            "type": "single",
+            "resource": "entity/witch"
         }
     ]
 }
