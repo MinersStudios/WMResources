@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Issue with in-game localization
+    url: https://github.com/MinersStudios/WMConfig/issues/new/choose
+    about: Please open issues relating to localization in MinersStudios/WMConfig
+  - name: Issue with plugin
+    url: https://github.com/MinersStudios/WhoMine/issues/new/choose
+    about: Please open issues relating to plugin in MinersStudios/WhoMine
   - name: 🌐 Website
     url: https://whomine.net/
     about: Check out our website
