@@ -72,7 +72,7 @@ void main() {
     }
 
     vertexColor = calculateLight(Light0_Direction, Normal, finalColor, Sampler2);
-    diffuseColor = diffuseColor0 == -1
+    diffuseColor = diffuseColor0 == vec4(-1)
                     ? calculateLight(Light0_Direction, Normal, vec4(1), Sampler2)
                     : diffuseColor0;
     normal = ProjMat * ModelViewMat * vec4(Normal, 0);
