@@ -80,7 +80,6 @@
     </p>
   </div>
   <p><i>For any questions or issues related to the script, feel free to open an issue on the repository.</i></p> 
-  <br>
   <h1></h1>
   <br>
   <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0">
