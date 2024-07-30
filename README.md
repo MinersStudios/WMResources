@@ -80,9 +80,11 @@
     </p>
   </div>
   <p><i>For any questions or issues related to the script, feel free to open an issue on the repository.</i></p> 
+  <br>
   <h1></h1>
+  <br>
   <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0">
-    <img alt="Лицензия Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+    <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
   </a>
   <h6>
     This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
