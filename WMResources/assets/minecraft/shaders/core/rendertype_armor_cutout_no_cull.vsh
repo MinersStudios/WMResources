@@ -12,8 +12,9 @@ struct Armor {
 #define BLANK        Armor(vec3(0),                  true,  true)
 #define HAZMAT_COLOR Armor(vec3(239, 193, 66) / 255, false, false)
 
-#define COLORS Armor[] (BLANK, HAZMAT_COLOR)
-#define N              (1. / COLORS.length())
+#define ARMOR_TYPES Armor[] (BLANK, HAZMAT_COLOR)
+#define TYPE_COUNT  ARMOR_TYPES.length()
+#define N           (1. / TYPE_COUNT)
 
 uniform sampler2D Sampler0;
 uniform sampler2D Sampler2;
@@ -63,8 +64,8 @@ void main() {
         texCoordR.x *= .5;
         texCoordR.y = texCoordR.y * N;
 
-        for (int i = 0; i < COLORS.length(); i++) {
-            Armor armor = COLORS[i];
+        for (int i = 0; i < TYPE_COUNT; i++) {
+            Armor armor = ARMOR_TYPES[i];
 
             if (Color.xyz == armor.color) {
                 texCoordR.y += i * N;
