@@ -8,6 +8,6 @@
 
 struct Armor {
     vec3 color;
-    bool tintVertex;
-    bool tintDiffuse;
+    bool tintBase;
+    bool tintOverlay;
 };

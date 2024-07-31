@@ -24,10 +24,11 @@ in vec3 Normal;
 
 out float vertexDistance;
 out float overlayValue;
-out vec4 vertexColor;
-out vec4 diffuseColor;
-out vec4 normal;
-out vec2 texCoord0;
+
+out vec4 baseColor;
+out vec4 overlayColor;
+
+out vec2 baseCoord;
 out vec2 overlayCoord;
 
 vec4 calculateLight(
@@ -42,44 +43,44 @@ vec4 calculateLight(
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
-    vertexDistance = cylindrical_distance(ModelViewMat, Position);
 
-    vec4 finalVertex = Color;
-    vec4 finalDiffuse = vec4(1.0);
-    vec2 texCoordR = UV0;
+    vec4 baseColor0 = Color;
+    vec4 overlayColor0 = vec4(1.0);
+
+    vec2 baseCoord0 = UV0;
     vec2 overlayCoordO = UV0;
 
-    if (Color.x < 1.0) {
+    if (Color.r < 1.0) {
         overlayValue = 1.0;
-        texCoordR.x *= 0.5;
-        texCoordR.y = texCoordR.y * N;
+        baseCoord0.x *= 0.5;
+        baseCoord0.y = baseCoord0.y * N;
 
         for (int i = 0; i < ARMOR_TYPE_COUNT; ++i) {
             Armor armor = ARMOR_TYPES[i];
 
-            if (Color.xyz == armor.color) {
-                texCoordR.y += i * N;
+            if (Color.rgb == armor.color) {
+                baseCoord0.y += i * N;
 
-                if (!armor.tintVertex) {
-                    finalVertex = vec4(1.0);
+                if (!armor.tintBase) {
+                    baseColor0 = vec4(1.0);
                 }
 
-                if (armor.tintDiffuse) {
-                    finalDiffuse = Color;
+                if (armor.tintOverlay) {
+                    overlayColor0 = Color;
                 }
 
                 break;
             }
         }
 
-        overlayCoordO = texCoordR + vec2(0.5, 0.0);
+        overlayCoordO = baseCoord0 + vec2(0.5, 0.0);
     } else {
         overlayValue = 0.0;
     }
 
-    vertexColor = calculateLight(Light0_Direction, Normal, finalVertex, Sampler2);
-    diffuseColor = calculateLight(Light0_Direction, Normal, finalDiffuse, Sampler2);
-    normal = ProjMat * ModelViewMat * vec4(Normal, 0.0);
-    texCoord0 = texCoordR;
+    vertexDistance = cylindrical_distance(ModelViewMat, Position);
+    baseColor = calculateLight(Light0_Direction, Normal, baseColor0, Sampler2);
+    overlayColor = calculateLight(Light0_Direction, Normal, overlayColor0, Sampler2);
+    baseCoord = baseCoord0;
     overlayCoord = overlayCoordO;
 }
