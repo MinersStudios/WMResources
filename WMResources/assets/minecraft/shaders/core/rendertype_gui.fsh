@@ -2,7 +2,7 @@
 
 #moj_import <symbols.glsl>
 
-#define BG_COLOR      vec3(16 / 255.)
+#define BG_COLOR      vec3(16 / 255.0)
 
 #define ORIGIN        ivec2(24)
 #define SCALE         2
@@ -39,13 +39,13 @@ bool checkBit(
 void main() {
     vec4 color = vertexColor;
 
-    if (color.a == 0.) {
+    if (color.a == 0.0) {
         discard;
     }
 
     color *= ColorModulator;
 
-    if (length(color.rgb - BG_COLOR) < .001) {
+    if (length(color.rgb - BG_COLOR) < 0.001) {
         ivec2 offset = ivec2(gl_FragCoord.xy) - ORIGIN;
 
         if (isInBounds(offset)) {
@@ -54,7 +54,7 @@ void main() {
 
             if (offset.x < WIDTH) {
                 color = checkBit(STRING[index], 4 - offset.x / SCALE + offset.y / SCALE * 5)
-                        ? vec4(1., 1., 1., color.a)
+                        ? vec4(1.0, 1.0, 1.0, color.a)
                         : color;
             }
         }

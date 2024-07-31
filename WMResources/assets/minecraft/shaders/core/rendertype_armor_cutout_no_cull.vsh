@@ -4,6 +4,8 @@
 #moj_import <fog.glsl>
 #moj_import <armor.glsl>
 
+#define N (1.0 / ARMOR_TYPE_COUNT)
+
 uniform sampler2D Sampler0;
 uniform sampler2D Sampler2;
 
@@ -39,27 +41,27 @@ vec4 calculateLight(
 }
 
 void main() {
-    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1);
+    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     vertexDistance = cylindrical_distance(ModelViewMat, Position);
 
     vec4 finalVertex = Color;
-    vec4 finalDiffuse = vec4(1);
+    vec4 finalDiffuse = vec4(1.0);
     vec2 texCoordR = UV0;
     vec2 overlayCoordO = UV0;
 
-    if (Color.x < 1) {
-        overlayValue = 1;
-        texCoordR.x *= .5;
+    if (Color.x < 1.0) {
+        overlayValue = 1.0;
+        texCoordR.x *= 0.5;
         texCoordR.y = texCoordR.y * N;
 
-        for (int i = 0; i < TYPE_COUNT; i++) {
+        for (int i = 0; i < ARMOR_TYPE_COUNT; ++i) {
             Armor armor = ARMOR_TYPES[i];
 
             if (Color.xyz == armor.color) {
                 texCoordR.y += i * N;
 
                 if (!armor.tintVertex) {
-                    finalVertex = vec4(1);
+                    finalVertex = vec4(1.0);
                 }
 
                 if (armor.tintDiffuse) {
@@ -70,14 +72,14 @@ void main() {
             }
         }
 
-        overlayCoordO = texCoordR + vec2(.5, 0);
+        overlayCoordO = texCoordR + vec2(0.5, 0.0);
     } else {
-        overlayValue = 0;
+        overlayValue = 0.0;
     }
 
     vertexColor = calculateLight(Light0_Direction, Normal, finalVertex, Sampler2);
     diffuseColor = calculateLight(Light0_Direction, Normal, finalDiffuse, Sampler2);
-    normal = ProjMat * ModelViewMat * vec4(Normal, 0);
+    normal = ProjMat * ModelViewMat * vec4(Normal, 0.0);
     texCoord0 = texCoordR;
     overlayCoord = overlayCoordO;
 }

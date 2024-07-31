@@ -16,7 +16,7 @@ vec4 linear_fog(
                    (
                        vertexDistance < fogEnd
                        ? smoothstep(fogStart, fogEnd, vertexDistance)
-                       : 1
+                       : 1.0
                    ) * fogColor.a
                ),
                inColor.a
@@ -28,8 +28,8 @@ float linear_fog_fade(
         float fogStart,
         float fogEnd
 ) {
-    return vertexDistance <= fogStart ? 1
-           : vertexDistance >= fogEnd ? 0
+    return vertexDistance <= fogStart ? 1.0
+           : vertexDistance >= fogEnd ? 0.0
            : smoothstep(fogEnd, fogStart, vertexDistance);
 }
 
@@ -50,7 +50,7 @@ float cylindrical_distance(
         vec3 pos
 ) {
     return max(
-            length((modelViewMat * vec4(pos.x, 0, pos.z, 1)).xyz),
-            length((modelViewMat * vec4(0, pos.y, 0, 1)).xyz)
+            length((modelViewMat * vec4(pos.x, 0.0,   pos.z, 1.0)).xyz),
+            length((modelViewMat * vec4(0.0,   pos.y, 0.0,   1.0)).xyz)
     );
 }
