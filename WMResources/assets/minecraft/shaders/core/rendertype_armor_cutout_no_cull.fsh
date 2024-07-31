@@ -24,7 +24,9 @@ void main() {
     vec4 baseTexture = texture(Sampler0, texCoord0);
     vec4 blendedColor = mix(baseTexture * vertexColor, color * diffuseColor, color.w * overlayValue) * ColorModulator;
 
-    if (blendedColor.w < .1) discard;
+    if (blendedColor.w < .1) {
+        discard;
+    }
 
     fragColor = linear_fog(blendedColor, vertexDistance, FogStart, FogEnd, FogColor);
 }

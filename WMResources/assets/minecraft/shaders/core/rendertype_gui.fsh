@@ -6,8 +6,10 @@
 
 #define ORIGIN        ivec2(24)
 #define SCALE         2
+
 #define WIDTH         (SCALE * 5)
 #define HEIGHT        (SCALE * 6)
+
 #define SPACING       (SCALE * 1)
 #define SPACED_WIDTH  (WIDTH + SPACING)
 
@@ -37,7 +39,9 @@ bool checkBit(
 void main() {
     vec4 color = vertexColor;
 
-    if (color.a == 0.0) discard;
+    if (color.a == 0.) {
+        discard;
+    }
 
     color *= ColorModulator;
 
