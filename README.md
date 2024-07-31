@@ -1,4 +1,4 @@
-<!--suppress HtmlDeprecatedAttribute -->
+<!--suppress HtmlDeprecatedAttribute, HtmlUnknownTarget-->
 <div align="center">
   <h1>
     <a href="https://minersstudios.com">
@@ -77,8 +77,8 @@
   <p>
      Please be aware that our server's primary resource pack contains a large amount of furniture and decorative elements.
      This may cause discomfort for individuals with <b>epiplaphobia</b> <i>(fear of furniture)</i>. Please take this into consideration when joining the server.<br>
-     <h4>If you experience any discomfort or anxiety, we recommend stopping the game and seeking support.</h4>
   </p>
+  <h4>If you experience any discomfort or anxiety, we recommend stopping the game and seeking support.</h4>
   <br>
   <h1>Zipper Script</h1>
   <p>This script is designed to compress JSON and PNG files and place them in the appropriate resourcepack archives</p>
@@ -86,25 +86,26 @@
     <br>
     <h2>Usage</h2>
     <ol>
-        <li>Make sure that the <code>pack.mcmeta</code> file is present in each resourcepack directory</li>
-        <li>Open a terminal or command prompt</li>
-        <li>
-            Make sure you have <i>Pillow</i> installed on your system<br><br>
-            <pre><code>pip3 install Pillow</code></pre>
-        </li>
-        <li>Navigate to the script's directory using the <code>cd</code> command</li>
-        <li>
-          Run the script by executing the following command:<br><br>
-          <pre><code>python3 zipper.py</code></pre>
-        </li>
+      <li>Make sure that the <code>pack.mcmeta</code> file is present in each resourcepack directory</li>
+      <li>Open a terminal or command prompt</li>
+      <li>
+        Make sure you have <i>Pillow</i> installed on your system<br><br>
+        <pre><code>pip3 install Pillow</code></pre>
+      </li>
+      <li>Navigate to the script's directory using the <code>cd</code> command</li>
+      <li>
+        Run the script by executing the following command:<br><br>
+        <pre><code>python3 zipper.py</code></pre>
+      </li>
     </ol>
     <h2>Output</h2>
     <p>
-       After running the script, you will find several archive files in the same directory as the script — these are resourcepacks whose files have been compressed and placed in the archive.<br>
-       Each of the archives has a folder name where the pack.mcmeta file is located, as well as other resourcepack files.
+      After running the script, you will find several archive files in the same directory as the script —<br>
+      these are resource packs whose files have been compressed and placed in the archive.<br>
+      Each of the archives has a folder name where the pack.mcmeta file is located, as well as other resourcepack files.
     </p>
   </div>
-  <p><i>For any questions or issues related to the script, feel free to open an issue on the repository.</i></p> 
+  <p><i>For any questions or issues related to the script, feel free to open an issue in the repository.</i></p> 
   <h1></h1>
   <br>
   <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0">

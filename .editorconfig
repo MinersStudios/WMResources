@@ -20,3 +20,6 @@ ij_json_space_after_comma = true
 ij_json_space_before_colon = false
 ij_json_space_before_comma = false
 ij_json_wrap_long_lines = false
+
+[*.md]
+indent_size = 2
