@@ -3,9 +3,17 @@
 #moj_import <light.glsl>
 #moj_import <fog.glsl>
 
-#define N (1.0 / 2.0)
-#define HAZMAT_COLOR vec3(239, 193, 66) / 255
-#define ABSOLUTE_BLACK_COLOR vec3(0)
+struct Armor {
+    vec3 color;
+    bool tintVertex;
+    bool tintDiffuse;
+};
+
+#define BLANK        Armor(vec3(0),                  true,  true)
+#define HAZMAT_COLOR Armor(vec3(239, 193, 66) / 255, false, false)
+
+#define COLORS Armor[] (BLANK, HAZMAT_COLOR)
+#define N              (1. / COLORS.length())
 
 uniform sampler2D Sampler0;
 uniform sampler2D Sampler2;
@@ -38,43 +46,48 @@ vec4 calculateLight(
         sampler2D lightMap
 ) {
     return minecraft_mix_light(Light0_Direction, Light1_Direction, normal, color)
-            * texelFetch(lightMap, UV2 / 16, 0);
+           * texelFetch(lightMap, UV2 / 16, 0);
 }
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1);
     vertexDistance = cylindrical_distance(ModelViewMat, Position);
 
-    vec4 finalColor = Color;
+    vec4 finalVertex = Color;
+    vec4 finalDiffuse = vec4(1);
     vec2 texCoordR = UV0;
     vec2 overlayCoordO = UV0;
-    vec4 diffuseColor0 = vec4(-1);
-
-    overlayValue = 0;
 
     if (Color.x < 1) {
         overlayValue = 1;
         texCoordR.x *= .5;
-        finalColor = vec4(1);
+        texCoordR.y = texCoordR.y * N;
 
-        if (Color.xyz == HAZMAT_COLOR) {
-            texCoordR.y = texCoordR.y * N + 1 * N;
-        } else if (Color.xyz == ABSOLUTE_BLACK_COLOR) {
-            finalColor = Color;
-            texCoordR.y = texCoordR.y * N;
-            diffuseColor0 = Color;
-        } else {
-            finalColor = Color;
-            texCoordR.y = texCoordR.y * N;
+        for (int i = 0; i < COLORS.length(); i++) {
+            Armor armor = COLORS[i];
+
+            if (Color.xyz == armor.color) {
+                texCoordR.y += i * N;
+
+                if (!armor.tintVertex) {
+                    finalVertex = vec4(1);
+                }
+
+                if (armor.tintDiffuse) {
+                    finalDiffuse = Color;
+                }
+
+                break;
+            }
         }
 
         overlayCoordO = texCoordR + vec2(.5, 0);
+    } else {
+        overlayValue = 0;
     }
 
-    vertexColor = calculateLight(Light0_Direction, Normal, finalColor, Sampler2);
-    diffuseColor = diffuseColor0 == vec4(-1)
-                    ? calculateLight(Light0_Direction, Normal, vec4(1), Sampler2)
-                    : diffuseColor0;
+    vertexColor = calculateLight(Light0_Direction, Normal, finalVertex, Sampler2);
+    diffuseColor = calculateLight(Light0_Direction, Normal, finalDiffuse, Sampler2);
     normal = ProjMat * ModelViewMat * vec4(Normal, 0);
     texCoord0 = texCoordR;
     overlayCoord = overlayCoordO;

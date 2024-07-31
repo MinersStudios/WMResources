@@ -48,15 +48,17 @@
 #define _USCORE 31u
 #define _HASH   368389098u
 
-#define ORIGIN       ivec2(24)
-#define SCALE        2
-#define WIDTH        (SCALE * 5)
-#define HEIGHT       (SCALE * 6)
-#define SPACING      (SCALE * 1)
-#define SPACED_WIDTH (WIDTH + SPACING)
+#define BG_COLOR      vec3(16 / 255.)
+
+#define ORIGIN        ivec2(24)
+#define SCALE         2
+#define WIDTH         (SCALE * 5)
+#define HEIGHT        (SCALE * 6)
+#define SPACING       (SCALE * 1)
+#define SPACED_WIDTH  (WIDTH + SPACING)
 
 #define STRING        uint[] (_W, _H, _O, _M, _I, _N, _E, _SPACE, _1, _DOT, _0, _DOT, _0)
-#define STRING_LENGTH 13
+#define STRING_LENGTH STRING.length()
 
 uniform vec4 ColorModulator;
 
@@ -85,7 +87,7 @@ void main() {
 
     color *= ColorModulator;
 
-    if (length(color.rgb - vec3(16 / 255.)) < .001) {
+    if (length(color.rgb - BG_COLOR) < .001) {
         ivec2 offset = ivec2(gl_FragCoord.xy) - ORIGIN;
 
         if (isInBounds(offset)) {
