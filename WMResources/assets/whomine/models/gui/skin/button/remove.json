@@ -1,0 +1,10 @@
+{
+    "parent": "whomine:gui/skin/button/root",
+    "textures": { "0": "whomine:gui/skin/button/remove" },
+    "display": {
+        "gui": {
+            "translation": [ 28, -2, 0 ],
+            "scale":       [ 2, 2, 2 ]
+        }
+    }
+}

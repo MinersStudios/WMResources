@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/pitcher",
+    "textures": {
+        "0": "whomine:decor/pitcher_stage_0"
+    }
+}

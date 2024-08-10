@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/hydria",
+    "textures": {
+        "0": "whomine:decor/hydria_clay"
+    }
+}

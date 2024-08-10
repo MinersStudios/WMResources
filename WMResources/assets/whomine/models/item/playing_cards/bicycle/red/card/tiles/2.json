@@ -1,0 +1,7 @@
+{
+    "parent":   "whomine:item/template/playing_card",
+    "textures": {
+        "0": "whomine:item/playing_cards/bicycle/card/tiles/2",
+        "1": "whomine:item/playing_cards/bicycle/card/red_back"
+    }
+}

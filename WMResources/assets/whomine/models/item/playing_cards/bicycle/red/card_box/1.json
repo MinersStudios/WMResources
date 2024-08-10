@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:item/template/card_box",
+    "textures": {
+        "1": "whomine:item/playing_cards/bicycle/card_box/red_1"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "parent": "item/generated",
+    "textures": { "layer0": "whomine:gui/red_cross" },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation":    [ 57, -90, 96 ],
+            "translation": [ -0.25, 2.5, 1.25 ],
+            "scale":       [ 0.79, 0.79, 0.79 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation":    [ 57, 90, -96 ],
+            "translation": [ 0.25, 2.5, 1.25 ],
+            "scale":       [ 0.79, 0.79, 0.79 ]
+        },
+        "firstperson_righthand": {
+            "rotation":    [ -43, -78, -11 ],
+            "translation": [ 1.25, 1.75, 0 ],
+            "scale":       [ 0.62, 0.62, 0.62 ]
+        },
+        "firstperson_lefthand": {
+            "rotation":    [ -43, 95, 11 ],
+            "translation": [ 2, 1.75, 0 ],
+            "scale":       [ 0.62, 0.62, 0.62 ]
+        },
+        "ground": {
+            "translation": [ 0, 3.25, 0 ],
+            "scale":       [ 0.64, 0.64, 0.64 ]
+        }
+    }
+}

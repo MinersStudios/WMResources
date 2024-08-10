@@ -1,4 +1,0 @@
-{
-    "parent":   "custom/cosmetics/hats/bee/bee",
-    "textures": { "0": "entity/bee/bee_angry" }
-}

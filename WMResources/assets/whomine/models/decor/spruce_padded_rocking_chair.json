@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/template/padded_rocking_chair",
+    "textures": {
+        "0": "whomine:decor/spruce_rocking_chair"
+    }
+}

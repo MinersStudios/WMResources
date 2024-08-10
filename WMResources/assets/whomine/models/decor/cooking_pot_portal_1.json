@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/template/cooking_pot_1",
+    "textures": {
+        "1": "block/nether_portal"
+    }
+}

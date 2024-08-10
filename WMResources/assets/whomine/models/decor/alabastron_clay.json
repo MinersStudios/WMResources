@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/alabastron",
+    "textures": {
+        "0": "whomine:decor/alabastron_clay"
+    }
+}

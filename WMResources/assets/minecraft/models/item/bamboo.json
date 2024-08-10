@@ -2,6 +2,6 @@
     "parent": "item/generated",
     "textures": { "layer0": "item/bamboo" },
     "overrides": [
-        { "predicate": { "custom_model_data": 1 }, "model": "custom/items/bamboo" }
+        { "predicate": { "custom_model_data": 1 }, "model": "whomine:rename/bamboo" }
     ]
 }

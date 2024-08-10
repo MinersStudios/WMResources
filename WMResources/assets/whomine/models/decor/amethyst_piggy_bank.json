@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/template/piggy_bank",
+    "textures": {
+        "0": "whomine:decor/amethyst_piggy_bank"
+    }
+}

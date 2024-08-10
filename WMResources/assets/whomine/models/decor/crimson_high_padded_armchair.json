@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/template/high_padded_armchair",
+    "textures": {
+        "0": "whomine:decor/crimson_stool"
+    }
+}

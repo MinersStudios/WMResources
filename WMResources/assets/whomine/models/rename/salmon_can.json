@@ -1,0 +1,4 @@
+{
+    "parent": "whomine:rename/cod_can",
+    "textures": { "0": "whomine:rename/salmon_can" }
+}

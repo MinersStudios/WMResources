@@ -1,0 +1,4 @@
+{
+    "parent":   "whomine:rename/bee",
+    "textures": { "0": "entity/bee/bee_angry_nectar" }
+}

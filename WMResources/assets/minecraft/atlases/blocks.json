@@ -2,8 +2,22 @@
     "sources": [
         {
             "type":   "directory",
-            "source": "custom",
-            "prefix": "custom/"
+            "source": "decor",
+            "prefix": "decor/"
+        },
+        {
+            "type":   "directory",
+            "source": "gui",
+            "prefix": "gui/"
+        },
+        {
+            "type":   "directory",
+            "source": "rename",
+            "prefix": "rename/"
+        },
+        {
+            "type": "single",
+            "resource": "whomine:none"
         },
         {
             "type":   "directory",

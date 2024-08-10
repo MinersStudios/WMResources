@@ -1,0 +1,60 @@
+{
+    "textures": {
+        "0":        "whomine:rename/enchanter_hat",
+        "particle": "#0"
+    },
+    "elements": [
+        {
+            "from":  [ 3, 0, 3 ],
+            "to":    [ 13, 8, 13 ],
+            "faces": {
+                "north": { "uv": [ 0, 5, 5, 9 ], "texture": "#0" },
+                "east":  { "uv": [ 10, 5, 5, 9 ], "texture": "#0" },
+                "south": { "uv": [ 10, 5, 15, 9 ], "texture": "#0" },
+                "west":  { "uv": [ 5, 5, 10, 9 ], "texture": "#0" },
+                "up":    { "uv": [ 0, 0, 5, 5 ], "texture": "#0" },
+                "down":  { "uv": [ 0, 0, 5, 5 ], "texture": "#0" }
+            }
+        }
+    ],
+    "display":  {
+        "thirdperson_righthand": {
+            "rotation":    [ 44, 135, 0 ],
+            "translation": [ 0, 5.5, 2.25 ],
+            "scale":       [ 0.7, 0.7, 0.7 ]
+        },
+        "thirdperson_lefthand":  {
+            "rotation":    [ 32, 0, 0 ],
+            "translation": [ 0, 0.75, -1.5 ],
+            "scale":       [ 0.66, 0.66, 0.66 ]
+        },
+        "firstperson_righthand": {
+            "rotation":    [ 0, 107, 0 ],
+            "translation": [ 0.25, 5.5, 0 ],
+            "scale":       [ 0.52, 0.52, 0.52 ]
+        },
+        "firstperson_lefthand":  {
+            "rotation":    [ 0, 107, 0 ],
+            "translation": [ 0.25, 5.5, 0 ],
+            "scale":       [ 0.52, 0.52, 0.52 ]
+        },
+        "ground":                {
+            "translation": [ 0, 3, 0 ],
+            "scale":       [ 0.4, 0.4, 0.4 ]
+        },
+        "gui":                   {
+            "rotation":    [ 30, -135, 0 ],
+            "translation": [ 0, 3.25, 0 ],
+            "scale":       [ 0.91, 0.91, 0.91 ]
+        },
+        "head":                  {
+            "translation": [ 0, 14, 0 ],
+            "scale":       [ 1.57, 1.57, 1.57 ]
+        },
+        "fixed":                 {
+            "rotation":    [ -90, 0, 0 ],
+            "translation": [ 0, 0, -13.25 ],
+            "scale":       [ 1.65, 1.65, 1.65 ]
+        }
+    }
+}

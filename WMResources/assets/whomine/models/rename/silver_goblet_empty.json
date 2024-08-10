@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:rename/template/goblet",
+    "textures": {
+        "0": "whomine:rename/silver_goblet"
+    }
+}

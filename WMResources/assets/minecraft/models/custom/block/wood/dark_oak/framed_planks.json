@@ -1,6 +1,0 @@
-{
-    "parent":   "block/cube_all",
-    "textures": {
-        "all": "custom/block/wood/dark_oak/framed_planks"
-    }
-}

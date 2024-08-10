@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/template/large_table",
+    "textures": {
+        "0": "whomine:decor/oak_large_table"
+    }
+}

@@ -24,28 +24,28 @@
         }
     },
     "overrides": [
-        { "predicate": { "pulling": 1 },               "model": "item/bow_pulling_0" },
+        { "predicate": { "pulling": 1               }, "model": "item/bow_pulling_0" },
         { "predicate": { "pulling": 1, "pull": 0.65 }, "model": "item/bow_pulling_1" },
-        { "predicate": { "pulling": 1, "pull": 0.9 },  "model": "item/bow_pulling_2" },
+        { "predicate": { "pulling": 1, "pull": 0.9  }, "model": "item/bow_pulling_2" },
 
-        { "predicate": { "custom_model_data": 1 },                             "model": "custom/items/guns/ppsh/ppsh" },
-        { "predicate": { "custom_model_data": 1, "pulling": 1 },               "model": "custom/items/guns/ppsh/ppsh_pulling_0" },
-        { "predicate": { "custom_model_data": 1, "pulling": 1, "pull": 0.65 }, "model": "custom/items/guns/ppsh/ppsh_pulling_1" },
-        { "predicate": { "custom_model_data": 1, "pulling": 1, "pull": 0.9 },  "model": "custom/items/guns/ppsh/ppsh_pulling_2" },
+        { "predicate": { "custom_model_data": 1                             }, "model": "whomine:rename/ppsh" },
+        { "predicate": { "custom_model_data": 1, "pulling": 1               }, "model": "whomine:rename/ppsh_pulling_0" },
+        { "predicate": { "custom_model_data": 1, "pulling": 1, "pull": 0.65 }, "model": "whomine:rename/ppsh_pulling_1" },
+        { "predicate": { "custom_model_data": 1, "pulling": 1, "pull": 0.9  }, "model": "whomine:rename/ppsh_pulling_2" },
 
-        { "predicate": { "custom_model_data": 2 },                             "model": "custom/items/guns/gravitygun/gravitygun" },
-        { "predicate": { "custom_model_data": 2, "pulling": 1 },               "model": "custom/items/guns/gravitygun/gravitygun_pulling_0" },
-        { "predicate": { "custom_model_data": 2, "pulling": 1, "pull": 0.65 }, "model": "custom/items/guns/gravitygun/gravitygun_pulling_1" },
-        { "predicate": { "custom_model_data": 2, "pulling": 1, "pull": 0.9 },  "model": "custom/items/guns/gravitygun/gravitygun_pulling_2" },
+        { "predicate": { "custom_model_data": 2                             }, "model": "whomine:rename/gravitygun" },
+        { "predicate": { "custom_model_data": 2, "pulling": 1               }, "model": "whomine:rename/gravitygun_pulling_0" },
+        { "predicate": { "custom_model_data": 2, "pulling": 1, "pull": 0.65 }, "model": "whomine:rename/gravitygun_pulling_1" },
+        { "predicate": { "custom_model_data": 2, "pulling": 1, "pull": 0.9  }, "model": "whomine:rename/gravitygun_pulling_2" },
 
-        { "predicate": { "custom_model_data": 3 },                             "model": "custom/items/guns/uzi/uzi" },
-        { "predicate": { "custom_model_data": 3, "pulling": 1 },               "model": "custom/items/guns/uzi/uzi_pulling_0" },
-        { "predicate": { "custom_model_data": 3, "pulling": 1, "pull": 0.65 }, "model": "custom/items/guns/uzi/uzi_pulling_1" },
-        { "predicate": { "custom_model_data": 3, "pulling": 1, "pull": 0.9 },  "model": "custom/items/guns/uzi/uzi_pulling_2" },
+        { "predicate": { "custom_model_data": 3                             }, "model": "whomine:rename/uzi" },
+        { "predicate": { "custom_model_data": 3, "pulling": 1               }, "model": "whomine:rename/uzi_pulling_0" },
+        { "predicate": { "custom_model_data": 3, "pulling": 1, "pull": 0.65 }, "model": "whomine:rename/uzi_pulling_1" },
+        { "predicate": { "custom_model_data": 3, "pulling": 1, "pull": 0.9  }, "model": "whomine:rename/uzi_pulling_2" },
 
-        { "predicate": { "custom_model_data": 4 },                             "model": "custom/items/guns/strenzhlavker_mr45/strenzhlavker_mr45" },
-        { "predicate": { "custom_model_data": 4, "pulling": 1 },               "model": "custom/items/guns/strenzhlavker_mr45/strenzhlavker_mr45_pulling_0" },
-        { "predicate": { "custom_model_data": 4, "pulling": 1, "pull": 0.65 }, "model": "custom/items/guns/strenzhlavker_mr45/strenzhlavker_mr45_pulling_1" },
-        { "predicate": { "custom_model_data": 4, "pulling": 1, "pull": 0.9 },  "model": "custom/items/guns/strenzhlavker_mr45/strenzhlavker_mr45_pulling_2" }
+        { "predicate": { "custom_model_data": 4                             }, "model": "whomine:rename/strenzhlavker_mr45" },
+        { "predicate": { "custom_model_data": 4, "pulling": 1               }, "model": "whomine:rename/strenzhlavker_mr45_pulling_0" },
+        { "predicate": { "custom_model_data": 4, "pulling": 1, "pull": 0.65 }, "model": "whomine:rename/strenzhlavker_mr45_pulling_1" },
+        { "predicate": { "custom_model_data": 4, "pulling": 1, "pull": 0.9  }, "model": "whomine:rename/strenzhlavker_mr45_pulling_2" }
     ]
 }

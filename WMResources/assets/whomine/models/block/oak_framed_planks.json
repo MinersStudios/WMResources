@@ -1,0 +1,6 @@
+{
+    "parent":   "block/cube_all",
+    "textures": {
+        "all": "whomine:block/oak_framed_planks"
+    }
+}

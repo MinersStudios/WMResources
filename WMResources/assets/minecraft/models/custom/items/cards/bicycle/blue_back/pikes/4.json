@@ -1,7 +1,0 @@
-{
-    "parent":   "custom/items/cards/playing_card",
-    "textures": {
-        "0": "custom/items/cards/bicycle/pikes/4",
-        "1": "custom/items/cards/bicycle/blue_back"
-    }
-}

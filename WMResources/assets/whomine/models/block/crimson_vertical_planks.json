@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:block/template/vertical_planks",
+    "textures": {
+        "all": "block/crimson_planks"
+    }
+}

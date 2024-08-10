@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/lebes",
+    "textures": {
+        "0": "whomine:decor/lebes_stage_0"
+    }
+}

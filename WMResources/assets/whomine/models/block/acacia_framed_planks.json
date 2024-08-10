@@ -1,0 +1,6 @@
+{
+    "parent":   "block/cube_all",
+    "textures": {
+        "all": "whomine:block/acacia_framed_planks"
+    }
+}

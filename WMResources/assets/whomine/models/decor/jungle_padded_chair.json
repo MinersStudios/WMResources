@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/template/padded_chair",
+    "textures": {
+        "0": "whomine:decor/jungle_stool"
+    }
+}

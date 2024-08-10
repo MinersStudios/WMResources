@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/template/nightstand",
+    "textures": {
+        "0": "whomine:decor/bamboo_nightstand"
+    }
+}

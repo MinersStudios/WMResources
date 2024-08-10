@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:item/template/armor",
+    "textures": {
+        "layer1": "whomine:item/hazmat_leggings"
+    }
+}

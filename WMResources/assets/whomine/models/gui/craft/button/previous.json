@@ -1,0 +1,9 @@
+{
+    "parent":  "whomine:gui/craft/button/next",
+    "display": {
+        "gui": {
+            "translation": [ 27, -1, 0 ],
+            "scale":       [ -2, 2, -2 ]
+        }
+    }
+}

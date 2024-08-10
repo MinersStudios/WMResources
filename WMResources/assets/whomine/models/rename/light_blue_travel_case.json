@@ -1,0 +1,4 @@
+{
+    "parent": "whomine:rename/template/travel_case",
+    "textures": { "0": "whomine:rename/light_blue_travel_case" }
+}

@@ -20,12 +20,10 @@ body:
       - Create New Type
       - WMResources (Main)
       - WMR Better Blocks
-      - WMR Better Crops
       - WMR Better Items
-      - WMR Better Particles
-      - WMR Better UI
-      - WMR Christmas UI
-      - WMR Halloween UI
+      - WMR Better GUI
+      - WMR Christmas GUI
+      - WMR Halloween GUI
       - WMR Halloween Moon
   validations:
     required: true

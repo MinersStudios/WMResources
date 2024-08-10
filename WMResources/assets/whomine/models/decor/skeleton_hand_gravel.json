@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/skeleton_hand",
+    "textures": {
+        "1": "block/gravel"
+    }
+}

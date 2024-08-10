@@ -1,0 +1,7 @@
+{
+    "parent":   "whomine:rename/template/goblet",
+    "textures": {
+        "0": "whomine:rename/netherite_goblet",
+        "1": "whomine:rename/goblet_potion"
+    }
+}

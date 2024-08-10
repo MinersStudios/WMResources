@@ -1,6 +1,0 @@
-{
-    "parent":   "custom/block/wood/root/vertical_planks",
-    "textures": {
-        "all": "block/acacia_planks"
-    }
-}

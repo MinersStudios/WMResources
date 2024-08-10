@@ -2,19 +2,19 @@
     "parent": "item/generated",
     "textures": { "layer0": "item/bundle" },
     "overrides": [
-        { "predicate": { "custom_model_data": 0 },                      "model": "item/bundle" },
+        { "predicate": { "custom_model_data": 0                      }, "model": "item/bundle" },
         { "predicate": { "custom_model_data": 0, "filled": 0.0000001 }, "model": "item/bundle_filled" },
 
-        { "predicate": { "custom_model_data": 1 },                      "model": "custom/items/cards/bicycle/box_blue_1_empty" },
-        { "predicate": { "custom_model_data": 1, "filled": 0.0000001 }, "model": "custom/items/cards/bicycle/box_blue_1" },
+        { "predicate": { "custom_model_data": 1                      }, "model": "whomine:item/playing_cards/bicycle/blue/card_box/1_empty" },
+        { "predicate": { "custom_model_data": 1, "filled": 0.0000001 }, "model": "whomine:item/playing_cards/bicycle/blue/card_box/1" },
 
-        { "predicate": { "custom_model_data": 2 },                      "model": "custom/items/cards/bicycle/box_blue_2_empty" },
-        { "predicate": { "custom_model_data": 2, "filled": 0.0000001 }, "model": "custom/items/cards/bicycle/box_blue_2" },
+        { "predicate": { "custom_model_data": 2                      }, "model": "whomine:item/playing_cards/bicycle/blue/card_box/2_empty" },
+        { "predicate": { "custom_model_data": 2, "filled": 0.0000001 }, "model": "whomine:item/playing_cards/bicycle/blue/card_box/2" },
 
-        { "predicate": { "custom_model_data": 3 },                      "model": "custom/items/cards/bicycle/box_red_1_empty" },
-        { "predicate": { "custom_model_data": 3, "filled": 0.0000001 }, "model": "custom/items/cards/bicycle/box_red_1" },
+        { "predicate": { "custom_model_data": 3                      }, "model": "whomine:item/playing_cards/bicycle/red/card_box/1_empty" },
+        { "predicate": { "custom_model_data": 3, "filled": 0.0000001 }, "model": "whomine:item/playing_cards/bicycle/red/card_box/1" },
 
-        { "predicate": { "custom_model_data": 4 },                      "model": "custom/items/cards/bicycle/box_red_2_empty" },
-        { "predicate": { "custom_model_data": 4, "filled": 0.0000001 }, "model": "custom/items/cards/bicycle/box_red_2" }
+        { "predicate": { "custom_model_data": 4                      }, "model": "whomine:item/playing_cards/bicycle/red/card_box/2_empty" },
+        { "predicate": { "custom_model_data": 4, "filled": 0.0000001 }, "model": "whomine:item/playing_cards/bicycle/red/card_box/2" }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/template/low_padded_armchair",
+    "textures": {
+        "0": "whomine:decor/warped_stool"
+    }
+}

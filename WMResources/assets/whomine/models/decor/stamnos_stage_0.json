@@ -1,0 +1,6 @@
+{
+    "parent":   "whomine:decor/stamnos",
+    "textures": {
+        "0": "whomine:decor/stamnos_stage_0"
+    }
+}
