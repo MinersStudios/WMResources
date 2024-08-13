@@ -1,6 +1,8 @@
 {
-    "parent": "item/generated",
-    "textures": { "layer0": "item/paper" },
+    "parent":    "item/generated",
+    "textures":  {
+        "layer0": "item/paper"
+    },
     "overrides": [
         { "predicate": { "custom_model_data": 1 },  "model": "whomine:none" },
         { "predicate": { "custom_model_data": 2 },  "model": "whomine:gui/red_cross" },

@@ -1,14 +1,10 @@
 {
-    "ambientocclusion": false,
-    "textures":         {
-        "0":        "block/cactus/cactus_side",
-        "1":        "block/cactus/cactus_top",
-        "2":        "block/cactus/cactus_bottom",
-        "3":        "block/cactus/cactus_arm_side",
-        "4":        "block/cactus/cactus_arm",
-        "particle": "#0"
+    "parent":   "block/cactus/0",
+    "textures": {
+        "3": "block/cactus/cactus_arm_side",
+        "4": "block/cactus/cactus_arm"
     },
-    "elements":         [
+    "elements": [
         {
             "from":  [ 1, 0, 1 ],
             "to":    [ 15, 16, 15 ],
@@ -64,7 +60,7 @@
             }
         }
     ],
-    "display":          {
+    "display":  {
         "thirdperson_righthand": {
             "rotation":    [ 40, 45, 0 ],
             "translation": [ 0, 2, 0.5 ],
@@ -88,16 +84,5 @@
             "translation": [ 0.5, 0, 0 ],
             "scale":       [ 0.62, 0.62, 0.62 ]
         }
-    },
-    "groups":           [
-        0,
-        1,
-        2,
-        {
-            "name":     "group",
-            "origin":   [ 14, 12, 2 ],
-            "color":    0,
-            "children": [ 3, 4, 5 ]
-        }
-    ]
+    }
 }

@@ -1,13 +1,5 @@
 {
-    "textures": {
-        "0":        "whomine:rename/gravitygun/gravitygun_crystal",
-        "1":        "whomine:rename/gravitygun/charging_gravitygun_muzzle",
-        "2":        "whomine:rename/gravitygun/gravitygun_body",
-        "3":        "whomine:rename/gravitygun/gravitygun_support",
-        "4":        "whomine:rename/gravitygun/gravitygun_handles",
-        "5":        "whomine:rename/gravitygun/gravitygun_claws",
-        "particle": "#0"
-    },
+    "parent":   "whomine:rename/gravitygun",
     "elements": [
         {
             "from":     [ 8.5, 8.75, 1 ],
@@ -192,14 +184,6 @@
         }
     ],
     "display":  {
-        "thirdperson_righthand": {
-            "translation": [ -0.25, 4, -6 ],
-            "scale":       [ 0.82, 0.82, 0.82 ]
-        },
-        "thirdperson_lefthand":  {
-            "translation": [ -0.25, 4, -6 ],
-            "scale":       [ 0.82, 0.82, 0.82 ]
-        },
         "firstperson_righthand": {
             "rotation":    [ 29, 18, 1 ],
             "translation": [ 4.25, 3.75, -6.25 ],
@@ -210,61 +194,9 @@
             "translation": [ 4.25, 3.75, -6.25 ],
             "scale":       [ 0.82, 0.82, 0.82 ]
         },
-        "ground":                {
-            "translation": [ 0, 7, 0 ]
-        },
-        "gui":                   {
-            "rotation":    [ 30, -136, 0 ],
-            "translation": [ -1, 2.5, 0 ],
-            "scale":       [ 0.65, 0.65, 0.65 ]
-        },
         "fixed":                 {
             "rotation":    [ 0, 90, 0 ],
             "translation": [ 0.5, 2.75, -2 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "group",
-            "origin":   [ 8, 4, 0.5 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 0, 1 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 8, 4, 0.5 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 2, 3 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 8, 4, 0.5 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 4, 5 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 8, 4, 5.5 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 6, 7 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 6.5, 3, 12.25 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 8, 9, 10, 11 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 8.5, 3.5, 13 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 12, 13, 14 ]
-        }
-    ]
+    }
 }

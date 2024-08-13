@@ -1,10 +1,6 @@
 {
-    "ambientocclusion": false,
-    "textures":         {
-        "0":        "whomine:rename/pumpkin_bundle",
-        "particle": "#0"
-    },
-    "elements":         [
+    "parent":   "whomine:rename/pumpkin_bundle_0",
+    "elements": [
         {
             "from":  [ 3.5, 0, 3.5 ],
             "to":    [ 12.5, 7, 12.5 ],
@@ -51,46 +47,5 @@
                 "west": { "uv": [ 5, 0, 6.5, 3 ], "texture": "#0" }
             }
         }
-    ],
-    "display":          {
-        "thirdperson_righthand": {
-            "rotation":    [ 64, -107, 4 ],
-            "translation": [ 0, -4, -3.5 ],
-            "scale":       [ 0.89, 0.89, 0.89 ]
-        },
-        "thirdperson_lefthand":  {
-            "rotation":    [ 40, 90, 4 ],
-            "translation": [ -5.25, -1.75, -0.5 ],
-            "scale":       [ 0.96, 0.96, 0.96 ]
-        },
-        "firstperson_righthand": {
-            "rotation":    [ -4, -89, -20 ],
-            "translation": [ 3.5, 0.25, 0 ],
-            "scale":       [ 0.44, 0.44, 0.44 ]
-        },
-        "firstperson_lefthand":  {
-            "rotation":    [ -16, 91, 0 ],
-            "translation": [ -9.25, -0.25, 0 ],
-            "scale":       [ 0.74, 0.74, 0.8 ]
-        },
-        "ground":                {
-            "translation": [ 0, 3.75, 0 ],
-            "scale":       [ 0.44, 0.44, 0.44 ]
-        },
-        "gui":                   {
-            "rotation":    [ 29, 45, 0 ],
-            "translation": [ 0, 1.5, 0 ],
-            "scale":       [ 0.89, 0.89, 0.89 ]
-        },
-        "head":                  {
-            "rotation":    [ 0, -90, 0 ],
-            "translation": [ 0, 16, 0 ],
-            "scale":       [ 1.22, 1.22, 1.22 ]
-        },
-        "fixed":                 {
-            "rotation":    [ -90, -90, 0 ],
-            "translation": [ 0, 0, -15.75 ],
-            "scale":       [ 2, 2, 2 ]
-        }
-    }
+    ]
 }

@@ -1,13 +1,13 @@
 {
-	"parent": "whomine:rename/ppsh",
-	"display": {
-		"firstperson_righthand": {
-			"rotation": [21, 11, 2],
-			"translation": [5.25, 0.5, -2.75]
-		},
-		"firstperson_lefthand": {
-			"rotation": [21, 11, 2],
-			"translation": [5.25, 0.5, -2.75]
-		}
-	}
+    "parent":  "whomine:rename/ppsh",
+    "display": {
+        "firstperson_righthand": {
+            "rotation":    [ 21, 11, 2 ],
+            "translation": [ 5.25, 0.5, -2.75 ]
+        },
+        "firstperson_lefthand":  {
+            "rotation":    [ 21, 11, 2 ],
+            "translation": [ 5.25, 0.5, -2.75 ]
+        }
+    }
 }

@@ -1,0 +1,37 @@
+{
+    "parent":  "whomine:rename/template/lightsaber",
+    "display": {
+        "thirdperson_righthand": {
+            "translation": [ 0, -2, 2.25 ]
+        },
+        "thirdperson_lefthand":  {
+            "translation": [ 0, -2, 2.25 ]
+        },
+        "firstperson_righthand": {
+            "rotation":    [ 8, 0, 0 ],
+            "translation": [ 9.25, 1.25, -5.75 ]
+        },
+        "firstperson_lefthand":  {
+            "rotation":    [ 8, 0, 0 ],
+            "translation": [ 9.25, 1.25, -5.75 ]
+        },
+        "ground":                {
+            "translation": [ 0, 7.25, 0 ],
+            "scale":       [ 0.4, 0.4, 0.4 ]
+        },
+        "gui":                   {
+            "rotation": [ 45.32, 36.57, -57.67 ],
+            "scale":    [ 0.73, 0.73, 0.73 ]
+        },
+        "head":                  {
+            "rotation":    [ -90, 0, 90 ],
+            "translation": [ 0, -4.5, -7.75 ],
+            "scale":       [ 1.22, 1.22, 1.22 ]
+        },
+        "fixed":                 {
+            "rotation":    [ 0, 0, 45 ],
+            "translation": [ 0, 0, -2 ],
+            "scale":       [ 1.97, 1.97, 1.97 ]
+        }
+    }
+}

@@ -1,17 +1,7 @@
 {
-    "textures": {
-        "0":        "whomine:rename/rifle/rifle_muzzle",
-        "1":        "whomine:rename/rifle/rifle_muzzle_clamps",
-        "2":        "whomine:rename/rifle/rifle",
-        "3":        "whomine:rename/rifle/rifle_scope",
-        "4":        "whomine:rename/rifle/rifle_stock",
-        "5":        "whomine:rename/rifle/rifle_charger",
-        "6":        "whomine:rename/rifle/rifle_trigger",
-        "particle": "#0"
-    },
+    "parent":   "whomine:rename/rifle_standby",
     "elements": [
         {
-            "name":     "topclamp",
             "from":     [ 6.5, 3, -5 ],
             "to":       [ 9.5, 5, 1 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 8, 3, 1 ] },
@@ -25,7 +15,6 @@
             }
         },
         {
-            "name":     "bottomclamp",
             "from":     [ 6.5, 0, -5 ],
             "to":       [ 9.5, 2, 1 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 8, 2, 1 ] },
@@ -39,7 +28,6 @@
             }
         },
         {
-            "name":     "barrel",
             "from":     [ 7, 1.5, -7 ],
             "to":       [ 9, 3.5, 1 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, 8, 9 ] },
@@ -52,7 +40,6 @@
             }
         },
         {
-            "name":     "muzzle",
             "from":     [ 7.5, 2, -6 ],
             "to":       [ 8.5, 3, -3 ],
             "rotation": { "angle": 45, "axis": "z", "origin": [ 8, 2.5, -3 ] },
@@ -61,7 +48,6 @@
             }
         },
         {
-            "name":     "battery",
             "from":     [ 6.25, 1.25, 10 ],
             "to":       [ 9.75, 4.75, 21 ],
             "rotation": { "angle": 45, "axis": "z", "origin": [ 8, 3, 16.5 ] },
@@ -75,7 +61,6 @@
             }
         },
         {
-            "name":     "storage",
             "from":     [ 6.5, -1, 7 ],
             "to":       [ 9.5, 1, 11 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, 8, 7 ] },
@@ -88,7 +73,6 @@
             }
         },
         {
-            "name":     "handle",
             "from":     [ 7, -4.15746, 17.72208 ],
             "to":       [ 9, 1.84254, 19.72208 ],
             "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, -4.15746, 19.72208 ] },
@@ -100,7 +84,6 @@
             }
         },
         {
-            "name":     "grip",
             "from":     [ 6.75, -4.40746, 18.47208 ],
             "to":       [ 9.25, 0.09254, 19.97208 ],
             "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, -4.15746, 19.72208 ] },
@@ -111,7 +94,6 @@
             }
         },
         {
-            "name":     "handleslider",
             "from":     [ 6, 0.5, 11 ],
             "to":       [ 10, 2.5, 18 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, 8, 9 ] },
@@ -124,7 +106,6 @@
             }
         },
         {
-            "name":     "handlesupport",
             "from":     [ 7, -5.5, 11 ],
             "to":       [ 9, 0.5, 12 ],
             "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, -1, 11 ] },
@@ -136,7 +117,6 @@
             }
         },
         {
-            "name":     "handlesupport",
             "from":     [ 7, -5.15746, 12.72208 ],
             "to":       [ 9, -4.15746, 19.72208 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, 8, 5 ] },
@@ -149,7 +129,6 @@
             }
         },
         {
-            "name":     "lens",
             "from":     [ 7, 6.5, -1 ],
             "to":       [ 9, 8.5, 10 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, 9, 8 ] },
@@ -162,7 +141,6 @@
             }
         },
         {
-            "name":     "lens",
             "from":     [ 6, 6.5, 10 ],
             "to":       [ 10, 8.5, 15 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, 9, 8 ] },
@@ -174,7 +152,6 @@
             }
         },
         {
-            "name":     "thing",
             "from":     [ 9, 6.25, 7.75 ],
             "to":       [ 10.5, 8.75, 16.25 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8.25, 9, 9 ] },
@@ -187,7 +164,6 @@
             }
         },
         {
-            "name":     "thing",
             "from":     [ 5.25, 6.25, 7.75 ],
             "to":       [ 6.75, 8.75, 16.25 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 7.5, 9, 9 ] },
@@ -200,7 +176,6 @@
             }
         },
         {
-            "name":  "scopesupport",
             "from":  [ 7.5, 4.5, 4 ],
             "to":    [ 8.5, 6.5, 10 ],
             "faces": {
@@ -211,7 +186,6 @@
             }
         },
         {
-            "name":  "gun",
             "from":  [ 5.5, 0.5, 1 ],
             "to":    [ 10.5, 4.5, 10 ],
             "faces": {
@@ -224,7 +198,6 @@
             }
         },
         {
-            "name":     "stock",
             "from":     [ 7, -6.5, 2 ],
             "to":       [ 9, 0.5, 6 ],
             "rotation": { "angle": 22.5, "axis": "x", "origin": [ 8, 0.5, 6 ] },
@@ -237,7 +210,6 @@
             }
         },
         {
-            "name":     "stockgrip",
             "from":     [ 6.75, -5.25, 3.75 ],
             "to":       [ 9.25, 1.25, 6.25 ],
             "rotation": { "angle": 22.5, "axis": "x", "origin": [ 8, 0.5, 6 ] },
@@ -266,60 +238,6 @@
             "rotation":    [ 25, 43, 7 ],
             "translation": [ 11.25, 9.5, 0.25 ],
             "scale":       [ 1, 1, 0.98 ]
-        },
-        "gui":                   {
-            "rotation":    [ 30, -139, 0 ],
-            "translation": [ -0.25, 3.5, 0 ],
-            "scale":       [ 0.625, 0.625, 0.625 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "clamps",
-            "origin":   [ 8, 4, -1 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 0, 1 ]
-        },
-        {
-            "name":     "biglaser",
-            "origin":   [ 8, 2.5, -10.5 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 2, 3 ]
-        },
-        {
-            "name":     "charger",
-            "origin":   [ 9.5, 2, 7.5 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 4, 5 ]
-        },
-        {
-            "name":     "biggun",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [
-                {
-                    "name":     "slidinghandle",
-                    "origin":   [ 8, 8, 7 ],
-                    "color":    0,
-                    "nbt":      "{}",
-                    "children": [ 6, 7, 8, 9, 10 ]
-                },
-                {
-                    "name":     "scope",
-                    "origin":   [ 8, 8, 8 ],
-                    "color":    0,
-                    "nbt":      "{}",
-                    "children": [ 11, 12, 13, 14 ]
-                },
-                15,
-                16,
-                17,
-                18
-            ]
-        }
-    ]
+    }
 }

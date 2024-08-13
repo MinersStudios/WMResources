@@ -1,23 +1,23 @@
 {
-	"parent": "whomine:rename/awp_standby",
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [5, -17, 3],
-			"translation": [0.5, 2.75, -6.75],
-			"scale": [0.8, 0.8, 0.8]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [5, -17, 3],
-			"translation": [0.5, 2.75, -6.75],
-			"scale": [0.8, 0.8, 0.8]
-		},
-		"firstperson_righthand": {
-			"rotation": [0, -8, 0],
-			"translation": [15.25, 3.25, -13]
-		},
-		"firstperson_lefthand": {
-			"translation": [-8.957, 5.817, 11.85],
-			"scale": [1.13, 1.13, 1.13]
-		}
-	}
+    "parent":  "whomine:rename/awp_standby",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation":    [ 5, -17, 3 ],
+            "translation": [ 0.5, 2.75, -6.75 ],
+            "scale":       [ 0.8, 0.8, 0.8 ]
+        },
+        "thirdperson_lefthand":  {
+            "rotation":    [ 5, -17, 3 ],
+            "translation": [ 0.5, 2.75, -6.75 ],
+            "scale":       [ 0.8, 0.8, 0.8 ]
+        },
+        "firstperson_righthand": {
+            "rotation":    [ 0, -8, 0 ],
+            "translation": [ 15.25, 3.25, -13 ]
+        },
+        "firstperson_lefthand":  {
+            "translation": [ -8.957, 5.817, 11.85 ],
+            "scale":       [ 1.13, 1.13, 1.13 ]
+        }
+    }
 }

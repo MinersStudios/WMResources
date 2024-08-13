@@ -102,13 +102,5 @@
         "fixed":                 {
             "translation": [ 0, -2, 0 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "children": [ 0, 1, 2, 3, 4, 5 ]
-        }
-    ]
+    }
 }

@@ -1,6 +1,6 @@
 {
     "textures": {
-        "0": "whomine:none",
+        "0":        "whomine:none",
         "particle": "#0"
     },
     "elements": [

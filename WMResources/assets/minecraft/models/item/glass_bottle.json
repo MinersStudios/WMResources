@@ -1,6 +1,8 @@
 {
-    "parent": "item/generated",
-    "textures": { "layer0": "item/glass_bottle" },
+    "parent":    "item/generated",
+    "textures":  {
+        "layer0": "item/glass_bottle"
+    },
     "overrides": [
         { "predicate": { "custom_model_data": 1 }, "model": "whomine:rename/beer_brown_bottle_empty" },
         { "predicate": { "custom_model_data": 2 }, "model": "whomine:rename/beer_green_bottle_empty" },

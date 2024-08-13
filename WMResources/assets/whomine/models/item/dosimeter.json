@@ -1,6 +1,7 @@
 {
     "textures": {
-        "0": "whomine:item/dosimeter"
+        "0":        "whomine:item/dosimeter",
+        "particle": "#0"
     },
     "elements": [
         {

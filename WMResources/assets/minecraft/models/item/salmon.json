@@ -1,6 +1,8 @@
 {
-    "parent": "item/generated",
-    "textures": { "layer0": "item/salmon" },
+    "parent":    "item/generated",
+    "textures":  {
+        "layer0": "item/salmon"
+    },
     "overrides": [
         { "predicate": { "custom_model_data": 1 }, "model": "whomine:rename/salmon_can" }
     ]

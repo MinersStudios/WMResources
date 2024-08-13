@@ -1,6 +1,7 @@
 {
     "textures": {
-        "0": "whomine:rename/curly_ponytails_wig"
+        "0":        "whomine:rename/curly_ponytails_wig",
+        "particle": "#0"
     },
     "elements": [
         {
@@ -173,26 +174,5 @@
             "translation": [ 0, 9.25, 0.75 ],
             "scale":       [ 2, 2, 2 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "children": [
-                {
-                    "name":     "group",
-                    "origin":   [ 8, 16, 17 ],
-                    "color":    0,
-                    "children": [ 0, 1, 2, 3, 4, 5, 6 ]
-                },
-                {
-                    "name":     "group",
-                    "origin":   [ 8, 16, 17 ],
-                    "color":    0,
-                    "children": [ 7, 8, 9, 10, 11, 12, 13 ]
-                }
-            ]
-        }
-    ]
+    }
 }

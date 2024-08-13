@@ -104,13 +104,5 @@
             "translation": [ 0, 0, -15.75 ],
             "scale":       [ 2, 2, 2 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "pitcher",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "children": [ 0, 1, 2, 3, 4, 5 ]
-        }
-    ]
+    }
 }

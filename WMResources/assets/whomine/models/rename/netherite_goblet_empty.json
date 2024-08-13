@@ -1,5 +1,5 @@
 {
-    "parent":   "whomine:rename/template/goblet",
+    "parent":   "whomine:rename/template/goblet_empty",
     "textures": {
         "0": "whomine:rename/netherite_goblet"
     }

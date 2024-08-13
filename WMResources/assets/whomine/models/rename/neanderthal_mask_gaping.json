@@ -1,8 +1,5 @@
 {
-    "textures": {
-        "0":        "whomine:rename/neanderthal_mask",
-        "particle": "#0"
-    },
+    "parent":   "whomine:rename/neanderthal_mask",
     "elements": [
         {
             "from":     [ 0, 3, 3 ],
@@ -78,58 +75,6 @@
                 "east":  { "uv": [ 4, 7, 0.5, 8 ], "rotation": 180, "texture": "#0" },
                 "west":  { "uv": [ 0.5, 7, 4, 8 ], "rotation": 180, "texture": "#0" }
             }
-        }
-    ],
-    "display":  {
-        "thirdperson_righthand": {
-            "rotation":    [ 43, 0, 0 ],
-            "translation": [ 0, 0, 1.5 ],
-            "scale":       [ 0.6, 0.6, 0.6 ]
-        },
-        "thirdperson_lefthand":  {
-            "rotation":    [ 43, 0, 0 ],
-            "translation": [ 0, 0, 1.5 ],
-            "scale":       [ 0.6, 0.6, 0.6 ]
-        },
-        "firstperson_righthand": {
-            "translation": [ 10.25, -2, -9.25 ]
-        },
-        "firstperson_lefthand":  {
-            "translation": [ 10.25, -2, -9.25 ]
-        },
-        "ground":                {
-            "translation": [ 0, 4.75, 0 ],
-            "scale":       [ 0.34, 0.34, 0.34 ]
-        },
-        "gui":                   {
-            "rotation":    [ 30, -136, 0 ],
-            "translation": [ 0.25, 3.75, 0 ],
-            "scale":       [ 1.01, 1.01, 1.01 ]
-        },
-        "head":                  {
-            "translation": [ 0, 6.25, 0 ],
-            "scale":       [ 1.85, 1.85, 1.85 ]
-        },
-        "fixed":                 {
-            "rotation":    [ -54, 0, 0 ],
-            "translation": [ 0, 4.25, -6.5 ],
-            "scale":       [ 2, 2, 2 ]
-        }
-    },
-    "groups":   [
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 0, 1, 2, 3, 4 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 5, 6, 7 ]
         }
     ]
 }

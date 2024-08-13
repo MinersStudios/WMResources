@@ -1,6 +1,7 @@
 {
     "textures":  {
-        "0": "whomine:rename/stick"
+        "0":        "whomine:rename/stick",
+        "particle": "#0"
     },
     "elements":  [
         {

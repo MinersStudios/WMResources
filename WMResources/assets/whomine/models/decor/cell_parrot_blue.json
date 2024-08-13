@@ -48,7 +48,6 @@
             }
         },
         {
-            "name":     "tail",
             "from":     [ 6.5, 2.44373, 8.85419 ],
             "to":       [ 9.5, 3.44373, 12.85419 ],
             "rotation": { "angle": 22.5, "axis": "x", "origin": [ 8, 3.25, 11 ] },
@@ -62,7 +61,6 @@
             }
         },
         {
-            "name":     "right_leg",
             "from":     [ 6.5, 0.25, 7.5 ],
             "to":       [ 7.5, 0.25, 8.5 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 0, 0.25, 0 ] },
@@ -76,7 +74,6 @@
             }
         },
         {
-            "name":     "left_leg",
             "from":     [ 6.5, 0.25, 8.5 ],
             "to":       [ 7.5, 2.25, 8.5 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 0, 0.25, 0 ] },
@@ -90,7 +87,6 @@
             }
         },
         {
-            "name":     "right_leg",
             "from":     [ 8.5, 0.25, 7.5 ],
             "to":       [ 9.5, 0.25, 8.5 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 0, 0.25, 0 ] },
@@ -104,7 +100,6 @@
             }
         },
         {
-            "name":     "left_leg",
             "from":     [ 8.5, 0.25, 8.5 ],
             "to":       [ 9.5, 2.25, 8.5 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 0, 0.25, 0 ] },
@@ -118,7 +113,6 @@
             }
         },
         {
-            "name":     "left_wing_rotation",
             "from":     [ 6, 2.1, 7.2 ],
             "to":       [ 7, 7.1, 10.2 ],
             "rotation": { "angle": -45, "axis": "x", "origin": [ 8, 5.25, 8 ] },
@@ -132,7 +126,6 @@
             }
         },
         {
-            "name":     "left_wing_rotation",
             "from":     [ 9, 2.1, 7.2 ],
             "to":       [ 10, 7.1, 10.2 ],
             "rotation": { "angle": -45, "axis": "x", "origin": [ 8, 5.25, 8 ] },
@@ -146,7 +139,6 @@
             }
         },
         {
-            "name":     "body",
             "from":     [ 6.5, 1.75, 6.5 ],
             "to":       [ 9.5, 7.75, 9.5 ],
             "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, 5.25, 8 ] },
@@ -160,7 +152,6 @@
             }
         },
         {
-            "name":     "feather",
             "from":     [ 8, 9.31913, 3.77238 ],
             "to":       [ 8, 14.31913, 7.77238 ],
             "rotation": { "angle": 22.5, "axis": "x", "origin": [ 8, 5.5, 6.75 ] },
@@ -174,7 +165,6 @@
             }
         },
         {
-            "name":     "head",
             "from":     [ 7.51, 8.26, 4.31 ],
             "to":       [ 8.49, 10.24, 5.29 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 8, 5.5, 6.75 ] },
@@ -188,7 +178,6 @@
             }
         },
         {
-            "name":     "head",
             "from":     [ 7.5, 8, 5.25 ],
             "to":       [ 8.5, 10, 6.25 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 8, 5.5, 6.75 ] },
@@ -202,7 +191,6 @@
             }
         },
         {
-            "name":     "head",
             "from":     [ 7, 10, 4.25 ],
             "to":       [ 9, 11, 8.25 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 8, 5.5, 6.75 ] },
@@ -216,7 +204,6 @@
             }
         },
         {
-            "name":     "head",
             "from":     [ 7, 7, 6.25 ],
             "to":       [ 9, 10, 8.25 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 8, 5.5, 6.75 ] },
@@ -264,19 +251,5 @@
             "translation": [ 0, 14.65, 0 ],
             "scale":       [ 1.01, 1.01, 1.01 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "children": [ 0, 1, 2, 3 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "children": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ]
-        }
-    ]
+    }
 }

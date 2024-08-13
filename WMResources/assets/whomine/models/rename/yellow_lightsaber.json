@@ -1,9 +1,8 @@
 {
+    "parent":   "whomine:rename/template/lightsaber_dual",
     "textures": {
-        "0":        "whomine:rename/lightsaber/lightsaber",
-        "1":        "whomine:rename/lightsaber/lightsaber_yellow",
-        "2":        "whomine:rename/lightsaber/red",
-        "particle": "#0"
+        "1": "whomine:rename/lightsaber/lightsaber_yellow",
+        "2": "whomine:rename/lightsaber/red"
     },
     "elements": [
         {
@@ -209,82 +208,5 @@
                 "down":  { "uv": [ 8, 15, 9, 16 ], "texture": "#0" }
             }
         }
-    ],
-    "display":  {
-        "thirdperson_righthand": {
-            "rotation":    [ 8, 0, 0 ],
-            "translation": [ 0, 4, 2.25 ]
-        },
-        "thirdperson_lefthand":  {
-            "rotation":    [ 8, 0, 0 ],
-            "translation": [ 0, 4, 2.25 ]
-        },
-        "firstperson_righthand": {
-            "rotation":    [ 8, 0, 0 ],
-            "translation": [ 9.25, 1.25, -5.75 ]
-        },
-        "firstperson_lefthand":  {
-            "rotation":    [ 8, 0, 0 ],
-            "translation": [ 9.25, 1.25, -5.75 ]
-        },
-        "ground":                {
-            "translation": [ 0, 3.25, 0 ],
-            "scale":       [ 0.4, 0.4, 0.4 ]
-        },
-        "gui":                   {
-            "rotation":    [ 45.32, 36.57, -57.67 ],
-            "translation": [ -3.25, -3, 0 ],
-            "scale":       [ 0.73, 0.73, 0.73 ]
-        },
-        "head":                  {
-            "rotation":    [ -90, 0, 90 ],
-            "translation": [ -6.75, -4.5, -7.75 ],
-            "scale":       [ 1.22, 1.22, 1.22 ]
-        },
-        "fixed":                 {
-            "rotation":    [ 0, 0, 45 ],
-            "translation": [ 10, -10, -1.75 ],
-            "scale":       [ 1.97, 1.97, 1.97 ]
-        }
-    },
-    "groups":   [
-        {
-            "name":     "group",
-            "origin":   [ 0, 0, 0 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 0, 1 ]
-        },
-        2,
-        {
-            "name":     "group",
-            "origin":   [ 0, 0, 0 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 3, 4, 5, 6 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 7, 8, 9, 10 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 0, 0, 0 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 11, 12, 13, 14 ]
-        },
-        {
-            "name":     "group",
-            "origin":   [ 0, 0, 0 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 15, 16, 17, 18 ]
-        },
-        19,
-        20
     ]
 }

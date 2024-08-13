@@ -1,8 +1,5 @@
 {
-    "textures": {
-        "0":        "whomine:rename/flintlock",
-        "particle": "#0"
-    },
+    "parent":   "whomine:rename/flintlock_pulling_0",
     "elements": [
         {
             "from":     [ 3.68421, 5.5, -5.78579 ],
@@ -124,59 +121,6 @@
                 "east": { "uv": [ 1.5, 3, 2, 4.5 ], "texture": "#0" },
                 "west": { "uv": [ 6, 8.5, 6.5, 10 ], "texture": "#0" }
             }
-        }
-    ],
-    "display":  {
-        "thirdperson_righthand": {
-            "rotation":    [ 130, 0, 0 ],
-            "translation": [ 0, -3.5, -1 ],
-            "scale":       [ 0.73, 0.73, 0.73 ]
-        },
-        "thirdperson_lefthand":  {
-            "rotation":    [ 130, 0, -180 ],
-            "translation": [ 0, 1.5, -0.25 ],
-            "scale":       [ 0.73, 0.73, 0.73 ]
-        },
-        "firstperson_righthand": {
-            "rotation":    [ 80, 2, 2 ],
-            "translation": [ 0.5, 2.5, -1 ],
-            "scale":       [ 0.8, 0.8, 0.8 ]
-        },
-        "firstperson_lefthand":  {
-            "rotation":    [ 87, 2, -180 ],
-            "translation": [ 0.5, 2.5, -4 ],
-            "scale":       [ 0.8, 0.8, 0.8 ]
-        },
-        "ground":                {
-            "rotation":    [ 0, 0, 90 ],
-            "translation": [ -2, -3, 0 ],
-            "scale":       [ 0.6, 0.6, 0.6 ]
-        },
-        "gui":                   {
-            "rotation":    [ 30, -135, 0 ],
-            "translation": [ 0.25, 1, 0 ],
-            "scale":       [ 0.95, 0.95, 0.95 ]
-        },
-        "fixed":                 {
-            "rotation":    [ 0, -90, 0 ],
-            "translation": [ 0, 2, -2 ],
-            "scale":       [ 1.2, 1.2, 1.2 ]
-        }
-    },
-    "groups":   [
-        {
-            "name":     "flintlock_loading_1",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 0, 1, 2 ]
-        },
-        {
-            "name":     "flintlock_loading_0",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 3, 4, 5, 6, 7, 8, 9, 10 ]
         }
     ]
 }

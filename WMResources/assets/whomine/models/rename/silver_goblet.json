@@ -1,7 +1,6 @@
 {
     "parent":   "whomine:rename/template/goblet",
     "textures": {
-        "0": "whomine:rename/silver_goblet",
-        "1": "whomine:rename/goblet_potion"
+        "0": "whomine:rename/silver_goblet"
     }
 }

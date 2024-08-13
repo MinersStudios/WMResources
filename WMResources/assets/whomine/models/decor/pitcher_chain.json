@@ -118,19 +118,5 @@
             "translation": [ 0, 0, -24 ],
             "scale":       [ 2, 2, 2 ]
         }
-    },
-    "groups":       [
-        {
-            "name":     "chain",
-            "origin":   [ 8, 0, 8 ],
-            "color":    0,
-            "children": [ 0, 1 ]
-        },
-        {
-            "name":     "pitcher",
-            "origin":   [ 8, 0, 8 ],
-            "color":    0,
-            "children": [ 2, 3, 4, 5, 6 ]
-        }
-    ]
+    }
 }

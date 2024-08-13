@@ -1,8 +1,5 @@
 {
-    "textures": {
-        "0":        "whomine:rename/flintlock",
-        "particle": "#0"
-    },
+    "parent":   "whomine:rename/flintlock_standby",
     "elements": [
         {
             "from":     [ 7, 1.25, 11 ],
@@ -146,38 +143,6 @@
             "rotation":    [ 87, 2, -180 ],
             "translation": [ 0.5, 2.5, -4 ],
             "scale":       [ 0.8, 0.8, 0.8 ]
-        },
-        "ground":                {
-            "rotation":    [ 0, 0, 90 ],
-            "translation": [ -2, -3, 0 ],
-            "scale":       [ 0.6, 0.6, 0.6 ]
-        },
-        "gui":                   {
-            "rotation":    [ 30, -135, 0 ],
-            "translation": [ 0.25, 1, 0 ],
-            "scale":       [ 0.95, 0.95, 0.95 ]
-        },
-        "fixed":                 {
-            "rotation":    [ 0, -90, 0 ],
-            "translation": [ 0, 2, -2 ],
-            "scale":       [ 1.2, 1.2, 1.2 ]
         }
-    },
-    "groups":   [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        {
-            "name":     "flintlock_loading_0",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 8, 9, 10 ]
-        }
-    ]
+    }
 }

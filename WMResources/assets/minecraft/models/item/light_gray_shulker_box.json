@@ -1,5 +1,5 @@
 {
-    "parent": "item/template_shulker_box",
+    "parent":    "item/template_shulker_box",
     "overrides": [
         { "predicate": { "custom_model_data": 1 }, "model": "whomine:rename/light_gray_backpack" },
         { "predicate": { "custom_model_data": 2 }, "model": "whomine:rename/light_gray_travel_case" }

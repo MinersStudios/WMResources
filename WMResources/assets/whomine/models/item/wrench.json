@@ -1,6 +1,8 @@
 {
-    "parent": "item/generated",
-    "textures": { "layer0": "whomine:item/wrench" },
+    "parent":   "item/generated",
+    "textures": {
+        "layer0": "whomine:item/wrench"
+    },
     "display":  {
         "thirdperson_righthand": {
             "rotation":    [ 57, -90, 96 ],

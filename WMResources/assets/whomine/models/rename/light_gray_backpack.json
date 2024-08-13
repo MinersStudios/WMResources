@@ -1,4 +1,6 @@
 {
-    "parent": "whomine:rename/template/backpack",
-    "textures": { "0": "whomine:rename/light_gray_backpack" }
+    "parent":   "whomine:rename/template/backpack",
+    "textures": {
+        "0": "whomine:rename/light_gray_backpack"
+    }
 }

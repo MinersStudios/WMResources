@@ -94,16 +94,5 @@
             "translation": [ 0.5, 0, 0 ],
             "scale":       [ 0.62, 0.62, 0.62 ]
         }
-    },
-    "groups":           [
-        0,
-        1,
-        2,
-        {
-            "name":     "group",
-            "origin":   [ 14, 12, 2 ],
-            "color":    0,
-            "children": [ 3, 4, 5 ]
-        }
-    ]
+    }
 }

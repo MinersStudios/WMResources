@@ -1,8 +1,7 @@
 {
+    "parent":   "whomine:rename/musket_standby",
     "textures": {
-        "0":        "whomine:rename/musket",
-        "1":        "whomine:rename/flintlock",
-        "particle": "#1"
+        "1": "whomine:rename/flintlock"
     },
     "elements": [
         {
@@ -160,39 +159,6 @@
             "rotation":    [ 107, 0, -20 ],
             "translation": [ 4, -2, -2 ],
             "scale":       [ 0.8, 0.8, 0.8 ]
-        },
-        "ground":                {
-            "rotation":    [ 0, 0, -90 ],
-            "translation": [ 2, -1, -5 ],
-            "scale":       [ 0.6, 0.6, 0.6 ]
-        },
-        "gui":                   {
-            "rotation":    [ 30, -135, 0 ],
-            "translation": [ 2.75, -0.2, 0 ],
-            "scale":       [ 0.61, 0.61, 0.61 ]
-        },
-        "fixed":                 {
-            "rotation":    [ 0, -90, 0 ],
-            "translation": [ 0, 2, -2 ],
-            "scale":       [ 1.2, 1.2, 1.2 ]
         }
-    },
-    "groups":   [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        {
-            "name":     "musket_loading_0",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 9, 10, 11 ]
-        }
-    ]
+    }
 }

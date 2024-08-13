@@ -1,4 +1,6 @@
 {
-    "parent": "whomine:rename/masters_katana",
-    "textures": { "0": "whomine:rename/breche_katana" }
+    "parent":   "whomine:rename/masters_katana",
+    "textures": {
+        "0": "whomine:rename/breche_katana"
+    }
 }

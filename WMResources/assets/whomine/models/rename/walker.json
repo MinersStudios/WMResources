@@ -1,6 +1,7 @@
 {
     "textures": {
-        "0": "whomine:rename/walker"
+        "0":        "whomine:rename/walker",
+        "particle": "#0"
     },
     "elements": [
         {

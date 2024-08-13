@@ -1,7 +1,8 @@
 {
     "texture_size": [ 38, 56 ],
     "textures":     {
-        "1": "whomine:none"
+        "1":        "whomine:none",
+        "particle": "#1"
     },
     "elements":     [
         {

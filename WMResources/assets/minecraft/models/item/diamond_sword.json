@@ -1,6 +1,8 @@
 {
-    "parent": "item/handheld",
-    "textures": { "layer0": "item/diamond_sword" },
+    "parent":    "item/handheld",
+    "textures":  {
+        "layer0": "item/diamond_sword"
+    },
     "overrides": [
         { "predicate": { "custom_model_data": 1  }, "model": "whomine:rename/breche_katana" },
         { "predicate": { "custom_model_data": 2  }, "model": "whomine:rename/broadsword" },

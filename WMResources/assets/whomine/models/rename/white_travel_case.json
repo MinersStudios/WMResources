@@ -1,4 +1,6 @@
 {
-    "parent": "whomine:rename/template/travel_case",
-    "textures": { "0": "whomine:rename/white_travel_case" }
+    "parent":   "whomine:rename/template/travel_case",
+    "textures": {
+        "0": "whomine:rename/white_travel_case"
+    }
 }

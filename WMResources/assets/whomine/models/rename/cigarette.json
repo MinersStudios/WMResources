@@ -1,7 +1,7 @@
 {
     "textures": {
-        "0": "whomine:rename/smoke",
-        "1": "whomine:rename/cigarette",
+        "0":        "whomine:rename/smoke",
+        "1":        "whomine:rename/cigarette",
         "particle": "#1"
     },
     "elements": [

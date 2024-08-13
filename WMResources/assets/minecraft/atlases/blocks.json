@@ -16,7 +16,7 @@
             "prefix": "rename/"
         },
         {
-            "type": "single",
+            "type":     "single",
             "resource": "whomine:none"
         },
         {
@@ -45,15 +45,15 @@
             "prefix": "entity/villager/"
         },
         {
-            "type": "single",
+            "type":     "single",
             "resource": "entity/chicken"
         },
         {
-            "type": "single",
+            "type":     "single",
             "resource": "entity/phantom"
         },
         {
-            "type": "single",
+            "type":     "single",
             "resource": "entity/witch"
         }
     ]

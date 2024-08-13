@@ -1,4 +1,6 @@
 {
-    "parent": "item/generated",
-    "textures": { "layer0": "whomine:item/anti_radiation_textile" }
+    "parent":   "item/generated",
+    "textures": {
+        "layer0": "whomine:item/anti_radiation_textile"
+    }
 }

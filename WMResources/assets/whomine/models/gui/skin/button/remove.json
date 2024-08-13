@@ -1,7 +1,7 @@
 {
-    "parent": "whomine:gui/skin/button/root",
+    "parent":   "whomine:gui/skin/button/root",
     "textures": { "0": "whomine:gui/skin/button/remove" },
-    "display": {
+    "display":  {
         "gui": {
             "translation": [ 28, -2, 0 ],
             "scale":       [ 2, 2, 2 ]

@@ -1,4 +1,4 @@
 {
-    "parent": "item/lantern",
+    "parent":   "item/lantern",
     "textures": { "lantern": "block/soul_lantern" }
 }

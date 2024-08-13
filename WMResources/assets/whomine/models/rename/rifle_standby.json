@@ -11,7 +11,6 @@
     },
     "elements": [
         {
-            "name":     "topclamp",
             "from":     [ 6.5, 3, -5 ],
             "to":       [ 9.5, 5, 1 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 8, 3, 1 ] },
@@ -25,7 +24,6 @@
             }
         },
         {
-            "name":     "bottomclamp",
             "from":     [ 6.5, 0, -5 ],
             "to":       [ 9.5, 2, 1 ],
             "rotation": { "angle": 0, "axis": "x", "origin": [ 8, 2, 1 ] },
@@ -39,7 +37,6 @@
             }
         },
         {
-            "name":     "barrel",
             "from":     [ 7, 1.5, -7 ],
             "to":       [ 9, 3.5, 1 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, 8, 9 ] },
@@ -52,7 +49,6 @@
             }
         },
         {
-            "name":     "muzzle",
             "from":     [ 7.5, 2, -6 ],
             "to":       [ 8.5, 3, -3 ],
             "rotation": { "angle": 45, "axis": "z", "origin": [ 8, 2.5, -3 ] },
@@ -61,7 +57,6 @@
             }
         },
         {
-            "name":     "battery",
             "from":     [ 6.25, 1.25, 10 ],
             "to":       [ 9.75, 4.75, 21 ],
             "rotation": { "angle": 45, "axis": "z", "origin": [ 8, 3, 16.5 ] },
@@ -75,7 +70,6 @@
             }
         },
         {
-            "name":     "storage",
             "from":     [ 6.5, -1, 6 ],
             "to":       [ 9.5, 1, 10 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, 8, 6 ] },
@@ -88,7 +82,6 @@
             }
         },
         {
-            "name":     "handle",
             "from":     [ 7, -4.15746, 16.72208 ],
             "to":       [ 9, 1.84254, 18.72208 ],
             "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, -4.15746, 18.72208 ] },
@@ -100,7 +93,6 @@
             }
         },
         {
-            "name":     "grip",
             "from":     [ 6.75, -4.40746, 17.47208 ],
             "to":       [ 9.25, 0.09254, 18.97208 ],
             "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, -4.15746, 18.72208 ] },
@@ -111,7 +103,6 @@
             }
         },
         {
-            "name":  "handleslider",
             "from":  [ 6, 0.5, 10 ],
             "to":    [ 10, 2.5, 17 ],
             "faces": {
@@ -122,7 +113,6 @@
             }
         },
         {
-            "name":     "handlesupport",
             "from":     [ 7, -5.5, 10 ],
             "to":       [ 9, 0.5, 11 ],
             "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, -1, 10 ] },
@@ -134,7 +124,6 @@
             }
         },
         {
-            "name":     "handlesupport",
             "from":     [ 7, -5.15746, 11.72208 ],
             "to":       [ 9, -4.15746, 18.72208 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8, 8, 4 ] },
@@ -147,7 +136,6 @@
             }
         },
         {
-            "name":  "lens",
             "from":  [ 7, 5.5, -1 ],
             "to":    [ 9, 7.5, 10 ],
             "faces": {
@@ -159,7 +147,6 @@
             }
         },
         {
-            "name":  "lens",
             "from":  [ 6, 5.5, 10 ],
             "to":    [ 10, 7.5, 15 ],
             "faces": {
@@ -169,7 +156,6 @@
             }
         },
         {
-            "name":     "thing",
             "from":     [ 9, 5.25, 7.75 ],
             "to":       [ 10.5, 7.75, 16.25 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 8.25, 8, 9 ] },
@@ -182,7 +168,6 @@
             }
         },
         {
-            "name":     "thing",
             "from":     [ 5.5, 5.25, 7.75 ],
             "to":       [ 7, 7.75, 16.25 ],
             "rotation": { "angle": 0, "axis": "y", "origin": [ 7.75, 8, 9 ] },
@@ -195,7 +180,6 @@
             }
         },
         {
-            "name":  "scopesupport",
             "from":  [ 7.5, 4.5, 4 ],
             "to":    [ 8.5, 6.5, 10 ],
             "faces": {
@@ -206,7 +190,6 @@
             }
         },
         {
-            "name":  "gun",
             "from":  [ 5.5, 0.5, 1 ],
             "to":    [ 10.5, 4.5, 10 ],
             "faces": {
@@ -219,7 +202,6 @@
             }
         },
         {
-            "name":     "stock",
             "from":     [ 7, -6.5, 2 ],
             "to":       [ 9, 0.5, 6 ],
             "rotation": { "angle": 22.5, "axis": "x", "origin": [ 8, 0.5, 6 ] },
@@ -232,7 +214,6 @@
             }
         },
         {
-            "name":     "stockgrip",
             "from":     [ 6.75, -5.25, 3.75 ],
             "to":       [ 9.25, 1.25, 6.25 ],
             "rotation": { "angle": 22.5, "axis": "x", "origin": [ 8, 0.5, 6 ] },
@@ -280,54 +261,5 @@
             "rotation":    [ 0, -90, 0 ],
             "translation": [ 0, 6.25, 0 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "clamps",
-            "origin":   [ 8, 4, -1 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 0, 1 ]
-        },
-        {
-            "name":     "biglaser",
-            "origin":   [ 8, 2.5, -10.5 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 2, 3 ]
-        },
-        {
-            "name":     "charger",
-            "origin":   [ 9.5, 2, 7.5 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 4, 5 ]
-        },
-        {
-            "name":     "biggun",
-            "origin":   [ 8, 8, 8 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [
-                {
-                    "name":     "slidinghandle",
-                    "origin":   [ 8, 8, 7 ],
-                    "color":    0,
-                    "nbt":      "{}",
-                    "children": [ 6, 7, 8, 9, 10 ]
-                },
-                {
-                    "name":     "scope",
-                    "origin":   [ 8, 8, 8 ],
-                    "color":    0,
-                    "nbt":      "{}",
-                    "children": [ 11, 12, 13, 14 ]
-                },
-                15,
-                16,
-                17,
-                18
-            ]
-        }
-    ]
+    }
 }

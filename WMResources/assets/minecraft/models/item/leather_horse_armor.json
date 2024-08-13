@@ -1,6 +1,8 @@
 {
-    "parent": "item/generated",
-    "textures": { "layer0": "item/leather_horse_armor" },
+    "parent":    "item/generated",
+    "textures":  {
+        "layer0": "item/leather_horse_armor"
+    },
     "overrides": [
         { "predicate": { "custom_model_data": 1  }, "model": "whomine:rename/3d_glasses" },
         { "predicate": { "custom_model_data": 2  }, "model": "whomine:rename/bee" },
@@ -47,7 +49,7 @@
         { "predicate": { "custom_model_data": 43 }, "model": "whomine:rename/witch_hat" },
         { "predicate": { "custom_model_data": 44 }, "model": "whomine:rename/santa_hat" },
         { "predicate": { "custom_model_data": 45 }, "model": "whomine:rename/gas_mask" },
-        
+
         { "predicate": { "custom_model_data": 10000 }, "model": "whomine:decor/acacia_high_padded_armchair" },
         { "predicate": { "custom_model_data": 10001 }, "model": "whomine:decor/acacia_large_table" },
         { "predicate": { "custom_model_data": 10002 }, "model": "whomine:decor/acacia_low_padded_armchair" },

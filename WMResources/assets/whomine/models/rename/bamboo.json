@@ -1,7 +1,8 @@
 {
     "textures": {
-        "0": "block/bamboo_stalk",
-        "1": "block/bamboo_singleleaf"
+        "0":        "block/bamboo_stalk",
+        "1":        "block/bamboo_singleleaf",
+        "particle": "#0"
     },
     "elements": [
         {

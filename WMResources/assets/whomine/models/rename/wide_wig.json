@@ -1,6 +1,7 @@
 {
     "textures": {
-        "0": "whomine:rename/wide_wig"
+        "0":        "whomine:rename/wide_wig",
+        "particle": "#0"
     },
     "elements": [
         {
@@ -113,13 +114,5 @@
             "rotation":    [ -90, 0, 0 ],
             "translation": [ 0.25, 0, -7.5 ]
         }
-    },
-    "groups":   [
-        {
-            "name":     "group",
-            "origin":   [ 4, 2, 4 ],
-            "color":    0,
-            "children": [ 0, 1, 2, 3, 4, 5, 6, 7 ]
-        }
-    ]
+    }
 }

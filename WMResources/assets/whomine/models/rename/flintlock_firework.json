@@ -1,8 +1,7 @@
 {
+    "parent":   "whomine:rename/flintlock_standby",
     "textures": {
-        "0":        "whomine:rename/flintlock",
-        "1":        "whomine:rename/firework",
-        "particle": "#0"
+        "1": "whomine:rename/firework"
     },
     "elements": [
         {
@@ -161,16 +160,6 @@
         }
     ],
     "display":  {
-        "thirdperson_righthand": {
-            "rotation":    [ 15, 0, 0 ],
-            "translation": [ 0, 3.25, -1.4 ],
-            "scale":       [ 0.73, 0.73, 0.73 ]
-        },
-        "thirdperson_lefthand":  {
-            "rotation":    [ 15, 0, 0 ],
-            "translation": [ 0, 3.25, -1.4 ],
-            "scale":       [ 0.73, 0.73, 0.73 ]
-        },
         "firstperson_righthand": {
             "rotation":    [ 2, 0, 0 ],
             "translation": [ 7, 4.5, -2 ],
@@ -180,39 +169,6 @@
             "rotation":    [ 5, -10.2, 0 ],
             "translation": [ 1.6, 4, 1.5 ],
             "scale":       [ 0.8, 0.8, 0.75 ]
-        },
-        "ground":                {
-            "scale": [ 0.2, 0.2, 0.2 ]
-        },
-        "gui":                   {
-            "rotation":    [ 30, -135, 0 ],
-            "translation": [ 0.25, 1, 0 ],
-            "scale":       [ 0.95, 0.95, 0.95 ]
-        },
-        "head":                  {
-            "translation": [ 7.5, 2.75, -1.5 ]
-        },
-        "fixed":                 {
-            "rotation":    [ 0, -90, 0 ],
-            "translation": [ 0, 2, -2 ],
-            "scale":       [ 1.2, 1.2, 1.2 ]
         }
-    },
-    "groups":   [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        {
-            "name":     "rocket",
-            "origin":   [ 15, 14, 6 ],
-            "color":    0,
-            "nbt":      "{}",
-            "children": [ 8, 9, 10, 11, 12 ]
-        }
-    ]
+    }
 }

@@ -1,6 +1,7 @@
 {
     "textures": {
-        "0": "whomine:rename/cocaine"
+        "0":        "whomine:rename/cocaine",
+        "particle": "#0"
     },
     "elements": [
         {
