@@ -445,6 +445,7 @@
         { "predicate": { "custom_model_data": 15110 }, "model": "whomine:item/dosimeter_fine" },
         { "predicate": { "custom_model_data": 15111 }, "model": "whomine:item/dosimeter_warning" },
         { "predicate": { "custom_model_data": 15112 }, "model": "whomine:item/dosimeter_severe" },
-        { "predicate": { "custom_model_data": 15113 }, "model": "whomine:item/leather_hat" }
+        { "predicate": { "custom_model_data": 15113 }, "model": "whomine:item/leather_hat" },
+        { "predicate": { "custom_model_data": 15114 }, "model": "whomine:item/magnifier" }
     ]
 }
