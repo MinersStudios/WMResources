@@ -28,10 +28,10 @@ void main() {
             mix(
                     base * baseColor,
                     overlay * overlayColor,
-                    overlay.w * overlayValue
+                    overlay.a * overlayValue
             ) * ColorModulator;
 
-    if (blendedColor.w < 0.1) {
+    if (blendedColor.a < 0.1) {
         discard;
     }
 
