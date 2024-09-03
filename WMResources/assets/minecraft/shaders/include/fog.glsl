@@ -8,19 +8,19 @@ vec4 linear_fog(
         vec4 fogColor
 ) {
     return vertexDistance <= fogStart
-           ? inColor
-           : vec4(
-               mix(
-                   inColor.rgb,
-                   fogColor.rgb,
-                   (
-                       vertexDistance < fogEnd
-                       ? smoothstep(fogStart, fogEnd, vertexDistance)
-                       : 1.0
-                   ) * fogColor.a
-               ),
-               inColor.a
-           );
+         ? inColor
+         : vec4(
+             mix(
+                 inColor.rgb,
+                 fogColor.rgb,
+                 (
+                     vertexDistance < fogEnd
+                     ? smoothstep(fogStart, fogEnd, vertexDistance)
+                     : 1.0
+                 ) * fogColor.a
+             ),
+             inColor.a
+         );
 }
 
 float linear_fog_fade(
@@ -28,9 +28,19 @@ float linear_fog_fade(
         float fogStart,
         float fogEnd
 ) {
-    return vertexDistance <= fogStart ? 1.0
-           : vertexDistance >= fogEnd ? 0.0
-           : smoothstep(fogEnd, fogStart, vertexDistance);
+    return vertexDistance > fogStart ? 0.0
+         : vertexDistance < fogEnd   ? smoothstep(fogEnd, fogStart, vertexDistance)
+         : 1.0;
+}
+
+float linear_fog_grow(
+        float vertexDistance,
+        float fogStart,
+        float fogEnd
+) {
+    return vertexDistance <= fogStart ? 0
+         : vertexDistance >= fogEnd ? 1
+         : smoothstep(fogStart, fogEnd, vertexDistance);
 }
 
 float fog_distance(
@@ -38,11 +48,11 @@ float fog_distance(
         int shape
 ) {
     return shape == 0
-           ? length(pos)
-           : max(
-               length(pos.xz),
-               abs(pos.y)
-           );
+         ? length(pos)
+         : max(
+             length(pos.xz),
+             abs(pos.y)
+         );
 }
 
 float cylindrical_distance(
