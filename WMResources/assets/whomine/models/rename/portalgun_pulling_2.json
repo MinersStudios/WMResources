@@ -1,0 +1,6 @@
+{
+    "parent": "whomine:rename/portalgun_pulling_0",
+    "textures": {
+        "1": "whomine:rename/portalgun_body_2"
+    }
+}
