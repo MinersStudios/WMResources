@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-    "layer0": "whomine:item/wrench"
+        "layer0": "whomine:item/wrench"
     }
 }
